@@ -1,41 +1,55 @@
-Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+<h2><a href="https://leetcode.com/problems/integer-to-roman">12. Integer to Roman</a></h2><h3>Medium</h3><hr><p>Roman numerals are represented by seven different symbols:&nbsp;<code>I</code>, <code>V</code>, <code>X</code>, <code>L</code>, <code>C</code>, <code>D</code> and <code>M</code>.</p>
 
-Symbol       Value
+<pre>
+<strong>Symbol</strong>       <strong>Value</strong>
 I             1
 V             5
 X             10
 L             50
 C             100
 D             500
-M             1000
-For example, 2 is written as II in Roman numeral, just two one's added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II.
+M             1000</pre>
 
-Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:
+<p>For example,&nbsp;<code>2</code> is written as <code>II</code>&nbsp;in Roman numeral, just two one&#39;s added together. <code>12</code> is written as&nbsp;<code>XII</code>, which is simply <code>X + II</code>. The number <code>27</code> is written as <code>XXVII</code>, which is <code>XX + V + II</code>.</p>
 
-I can be placed before V (5) and X (10) to make 4 and 9. 
-X can be placed before L (50) and C (100) to make 40 and 90. 
-C can be placed before D (500) and M (1000) to make 400 and 900.
-Given an integer, convert it to a roman numeral.
+<p>Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not <code>IIII</code>. Instead, the number four is written as <code>IV</code>. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as <code>IX</code>. There are six instances where subtraction is used:</p>
 
- 
+<ul>
+	<li><code>I</code> can be placed before <code>V</code> (5) and <code>X</code> (10) to make 4 and 9.&nbsp;</li>
+	<li><code>X</code> can be placed before <code>L</code> (50) and <code>C</code> (100) to make 40 and 90.&nbsp;</li>
+	<li><code>C</code> can be placed before <code>D</code> (500) and <code>M</code> (1000) to make 400 and 900.</li>
+</ul>
 
-Example 1:
+<p>Given an integer, convert it to a roman numeral.</p>
 
-Input: num = 3
-Output: "III"
-Explanation: 3 is represented as 3 ones.
-Example 2:
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-Input: num = 58
-Output: "LVIII"
-Explanation: L = 50, V = 5, III = 3.
-Example 3:
+<pre>
+<strong>Input:</strong> num = 3
+<strong>Output:</strong> &quot;III&quot;
+<strong>Explanation:</strong> 3 is represented as 3 ones.
+</pre>
 
-Input: num = 1994
-Output: "MCMXCIV"
-Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
- 
+<p><strong class="example">Example 2:</strong></p>
 
-Constraints:
+<pre>
+<strong>Input:</strong> num = 58
+<strong>Output:</strong> &quot;LVIII&quot;
+<strong>Explanation:</strong> L = 50, V = 5, III = 3.
+</pre>
 
-1 <= num <= 3999
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> num = 1994
+<strong>Output:</strong> &quot;MCMXCIV&quot;
+<strong>Explanation:</strong> M = 1000, CM = 900, XC = 90 and IV = 4.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= num &lt;= 3999</code></li>
+</ul>
