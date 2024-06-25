@@ -14,7 +14,6 @@ class Solution:
             elif l==lm:
 
                 l=nums[i]
-                print(f'l={l},i={i}')
         return ret
 
 
