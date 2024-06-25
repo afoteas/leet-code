@@ -1,8 +1,7 @@
 import re
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        ss=s.strip().lower()
-        ts = re.sub(r'[^a-zA-Z0-9]', '', ss)
+        ts = re.sub(r'[^a-z0-9]', '', s.strip().lower())
         p = 0
         pi = len(ts)
         for i in range(0,int(pi/2)):
