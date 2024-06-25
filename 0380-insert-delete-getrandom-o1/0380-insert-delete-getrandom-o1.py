@@ -19,7 +19,8 @@ class RandomizedSet:
             return False
 
     def getRandom(self) -> int:
-        return  random.choice(list(self.s))
+        # return  random.choice(list(self.s))
+        return list(self.s)[random.randint(0,len(self.s)-1)]
         
 
 
