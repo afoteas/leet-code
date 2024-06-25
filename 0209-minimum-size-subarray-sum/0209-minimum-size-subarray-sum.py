@@ -31,7 +31,7 @@ class Solution:
                 l+=1
             else:
                 r+=1
-                if r >= len(nums):
+                if r >= ln:
                     break
                 s+=nums[r]
         if count<100001:
