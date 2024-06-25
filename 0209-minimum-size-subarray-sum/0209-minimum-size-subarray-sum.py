@@ -22,7 +22,7 @@ class Solution:
         l=0
         r=0
         s=nums[0]
-        count = 1000000
+        count = 100001
         ln=len(nums)
         while r<ln:
             if s>=target:
@@ -32,7 +32,7 @@ class Solution:
             else:
                 r+=1
                 s+=nums[min(r,ln-1)]
-        if count<1000000:
+        if count<100001:
             return count
         else:
             return 0
