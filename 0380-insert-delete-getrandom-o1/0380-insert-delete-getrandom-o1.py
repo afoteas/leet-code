@@ -22,7 +22,7 @@ class RandomizedSet:
 
         idx = self.idx_map[val]
         self.lst[idx] = self.lst[-1]
-        self.idx_map[self.lst[-1]] = idx
+        self.idx_map[self.lst[idx]] = idx
         self.lst.pop()
         del self.idx_map[val]
         return True
