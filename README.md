@@ -38,3 +38,23 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/afoteas/leet-code/tree/master/0014-longest-common-prefix) |
+# Array
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
+# Hash Table
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
+# Math
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
+# Design
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
+# Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
