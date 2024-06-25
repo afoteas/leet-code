@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) |
 | [0134-gas-station](https://github.com/afoteas/leet-code/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/afoteas/leet-code/tree/master/0135-candy) |
 | [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
@@ -73,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) |
 | [0134-gas-station](https://github.com/afoteas/leet-code/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/afoteas/leet-code/tree/master/0135-candy) |
 # Binary Search
@@ -87,3 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
+# Dynamic Programming
+|  |
+| ------- |
+| [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) |
