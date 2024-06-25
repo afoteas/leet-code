@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # String Matching
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/afoteas/leet-code/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/afoteas/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/afoteas/leet-code/tree/master/0058-length-of-last-word) |
 # Tree
@@ -31,3 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/afoteas/leet-code/tree/master/0104-maximum-depth-of-binary-tree) |
+# Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/afoteas/leet-code/tree/master/0014-longest-common-prefix) |
