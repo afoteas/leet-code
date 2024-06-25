@@ -2,13 +2,13 @@ import random
 class RandomizedSet:
 
     def __init__(self):
-        self.s =set()
+        self.s =[]
 
     def insert(self, val: int) -> bool:
         if val in self.s:
             return False
         else:
-            self.s.add(val)
+            self.s.append(val)
             return True
 
     def remove(self, val: int) -> bool:
@@ -20,7 +20,7 @@ class RandomizedSet:
 
     def getRandom(self) -> int:
         # return  random.choice(list(self.s))
-        return list(self.s)[random.randint(0,len(self.s)-1)]
+        return self.s[random.randint(0,len(self.s)-1)]
         
 
 
