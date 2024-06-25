@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/afoteas/leet-code/tree/master/0134-gas-station) |
 | [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 # Hash Table
 |  |
@@ -58,3 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
+# Greedy
+|  |
+| ------- |
+| [0134-gas-station](https://github.com/afoteas/leet-code/tree/master/0134-gas-station) |
