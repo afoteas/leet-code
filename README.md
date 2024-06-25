@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # String Matching
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/afoteas/leet-code/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/afoteas/leet-code/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/afoteas/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/afoteas/leet-code/tree/master/0058-length-of-last-word) |
@@ -51,11 +52,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/afoteas/leet-code/tree/master/0013-roman-to-integer) |
 | [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 # Math
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/afoteas/leet-code/tree/master/0009-palindrome-number) |
+| [0013-roman-to-integer](https://github.com/afoteas/leet-code/tree/master/0013-roman-to-integer) |
 | [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 # Design
 |  |
