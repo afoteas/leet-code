@@ -24,14 +24,16 @@ class Solution:
         s=nums[0]
         count = 100001
         ln=len(nums)
-        while r<ln:
+        while True:
             if s>=target:
                 count=min(count,r-l+1)
                 s-=nums[l]
                 l+=1
             else:
                 r+=1
-                s+=nums[min(r,ln-1)]
+                if r >= len(nums):
+                    break
+                s+=nums[r]
         if count<100001:
             return count
         else:
