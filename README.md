@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/afoteas/leet-code/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/afoteas/leet-code/tree/master/0135-candy) |
 | [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
+| [0228-summary-ranges](https://github.com/afoteas/leet-code/tree/master/0228-summary-ranges) |
 | [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 # Hash Table
 |  |
