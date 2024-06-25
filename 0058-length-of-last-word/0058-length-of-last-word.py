@@ -1,6 +1,6 @@
 import re
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
-        ss=s.strip().split(" ")
+        ss=s.rstrip().split(" ")
         return len(ss[-1])
         
