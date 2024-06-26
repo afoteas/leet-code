@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/afoteas/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/afoteas/leet-code/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/afoteas/leet-code/tree/master/0125-valid-palindrome) |
+| [0392-is-subsequence](https://github.com/afoteas/leet-code/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/afoteas/leet-code/tree/master/1894-merge-strings-alternately) |
 # String
 |  |
@@ -22,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0058-length-of-last-word](https://github.com/afoteas/leet-code/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/afoteas/leet-code/tree/master/0125-valid-palindrome) |
 | [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
+| [0392-is-subsequence](https://github.com/afoteas/leet-code/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/afoteas/leet-code/tree/master/1894-merge-strings-alternately) |
 # Tree
 |  |
@@ -99,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) |
+| [0392-is-subsequence](https://github.com/afoteas/leet-code/tree/master/0392-is-subsequence) |
 # Counting
 |  |
 | ------- |
