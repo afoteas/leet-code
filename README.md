@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/afoteas/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/afoteas/leet-code/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/afoteas/leet-code/tree/master/0125-valid-palindrome) |
+| [0202-happy-number](https://github.com/afoteas/leet-code/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/afoteas/leet-code/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/afoteas/leet-code/tree/master/1894-merge-strings-alternately) |
 # String
@@ -63,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/afoteas/leet-code/tree/master/0013-roman-to-integer) |
+| [0202-happy-number](https://github.com/afoteas/leet-code/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
 # Math
@@ -70,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0009-palindrome-number](https://github.com/afoteas/leet-code/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/afoteas/leet-code/tree/master/0013-roman-to-integer) |
+| [0202-happy-number](https://github.com/afoteas/leet-code/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 # Design
 |  |
