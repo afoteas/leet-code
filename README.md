@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/afoteas/leet-code/tree/master/0001-two-sum) |
 | [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/afoteas/leet-code/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0134-gas-station](https://github.com/afoteas/leet-code/tree/master/0134-gas-station) |
@@ -63,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/afoteas/leet-code/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/afoteas/leet-code/tree/master/0013-roman-to-integer) |
 | [0202-happy-number](https://github.com/afoteas/leet-code/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
