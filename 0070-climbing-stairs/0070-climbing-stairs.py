@@ -20,7 +20,7 @@ class Solution:
         memo = {}
         return self.climbStairsMemo(n, memo)
     
-    def climbStairs(self, n: int) -> int:
+    def climbStairsDP(self, n: int) -> int:
         if n in [1, 2]:
             return n
         dp = {1:1,2:2}
@@ -28,7 +28,7 @@ class Solution:
             dp[i]=dp[i-1] + dp[i-2]
         return dp[n]
 
-    def climbStairsSO(self, n: int) -> int:
+    def climbStairs(self, n: int) -> int:
         if n in [1, 2]:
             return n
         prev=1
