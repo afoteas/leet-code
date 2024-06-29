@@ -23,13 +23,13 @@ class Solution:
             dp[0][i] = max(dp[0][i-1], dp[1][i])
         return dp[0][-1]
 
-    def maxSubArrayTabBetter(self, nums: List[int]) -> int:
+    def maxSubArray(self, nums: List[int]) -> int:
         dp = [*nums]
         for i in range(1, len(nums)):
             dp[i] = max(nums[i], nums[i] + dp[i-1])
         return max(dp)
 
-    def maxSubArray(self, nums):
+    def maxSubArrayDQ(self, nums):
         pre, suf = [*nums], [*nums]
         for i in range(1, len(nums)):       pre[i] += max(0, pre[i-1])
         for i in range(len(nums)-2,-1,-1):  suf[i] += max(0, suf[i+1])
