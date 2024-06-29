@@ -138,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0071-simplify-path](https://github.com/afoteas/leet-code/tree/master/0071-simplify-path) |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) |
 | [0290-word-pattern](https://github.com/afoteas/leet-code/tree/master/0290-word-pattern) |
 ## Array
@@ -164,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0071-simplify-path](https://github.com/afoteas/leet-code/tree/master/0071-simplify-path) |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) |
 ## Recursion
 |  |
