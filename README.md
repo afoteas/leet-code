@@ -144,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/afoteas/leet-code/tree/master/0053-maximum-subarray) |
 | [0088-merge-sorted-array](https://github.com/afoteas/leet-code/tree/master/0088-merge-sorted-array) |
 | [0219-contains-duplicate-ii](https://github.com/afoteas/leet-code/tree/master/0219-contains-duplicate-ii) |
 ## Sliding Window
@@ -171,4 +172,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/afoteas/leet-code/tree/master/0053-maximum-subarray) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/afoteas/leet-code/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
