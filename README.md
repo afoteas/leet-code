@@ -151,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/afoteas/leet-code/tree/master/0198-house-robber) |
 | [0219-contains-duplicate-ii](https://github.com/afoteas/leet-code/tree/master/0219-contains-duplicate-ii) |
+| [0322-coin-change](https://github.com/afoteas/leet-code/tree/master/0322-coin-change) |
 ## Sliding Window
 |  |
 | ------- |
@@ -186,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/afoteas/leet-code/tree/master/0053-maximum-subarray) |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/afoteas/leet-code/tree/master/0198-house-robber) |
+| [0322-coin-change](https://github.com/afoteas/leet-code/tree/master/0322-coin-change) |
 ## Trie
 |  |
 | ------- |
@@ -194,4 +196,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/afoteas/leet-code/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
