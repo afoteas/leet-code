@@ -1,5 +1,5 @@
 class Solution:
-    def rob(self, nums: List[int]) -> int:
+    def rob1(self, nums: List[int]) -> int:
         if len(nums) < 3:
             return max(nums)
         dp=[nums[0],nums[1],nums[0]+nums[2]]
@@ -7,5 +7,11 @@ class Solution:
             dp=[dp[1],dp[2],max(dp[0],dp[1])+nums[i]]
         return max(dp)
 
-
+    def rob(self, nums: List[int]) -> int:
+        if len(nums) < 3:
+            return max(nums)
+        nums[2]+=nums[0]
+        for i in range(3,len(nums)):
+            nums[i] = max(nums[i-2],nums[i-3]) + nums[i]
+        return max(nums[-2:])
         
