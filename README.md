@@ -146,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/afoteas/leet-code/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/afoteas/leet-code/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/afoteas/leet-code/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/afoteas/leet-code/tree/master/0088-merge-sorted-array) |
@@ -202,4 +203,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/afoteas/leet-code/tree/master/0322-coin-change) |
+## Binary Search
+|  |
+| ------- |
+| [0035-search-insert-position](https://github.com/afoteas/leet-code/tree/master/0035-search-insert-position) |
 <!---LeetCode Topics End-->
