@@ -7,7 +7,6 @@ class Solution:
                 if i[1] <= inter[-1][1]:
                     continue
                 inter[-1] = [inter[-1][0],i[1]]
-
             else:
                 inter.append(i)
         return inter
