@@ -1,5 +1,5 @@
 class Solution:
-    def coinChange(self, coins: List[int], amount: int) -> int:
+    def coinChange1(self, coins: List[int], amount: int) -> int:
         @cache
         def internal(coins, amount):
             if amount == 0:
@@ -16,5 +16,15 @@ class Solution:
         result = internal(tuple(coins), amount)
         return result if result != float('inf') else -1
 
+    def coinChange(self, coins: List[int], amount: int) -> int:
+        dp = [0] + ([float('inf')] * amount)
+        for i in range(1, amount + 1):
+            for coin in coins:
+                if coin <= i:
+                    dp[i] = min(dp[i], dp[i - coin] + 1)
+
+        if dp[-1] == float('inf'):
+            return -1
+        return dp[-1]
         
         
