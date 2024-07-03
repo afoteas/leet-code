@@ -9,7 +9,7 @@ class Node:
 import copy
 
 class Solution:
-    def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
+    def copyRandomList2(self, head: 'Optional[Node]') -> 'Optional[Node]':
         dc = copy.deepcopy(head)
         return dc
 
