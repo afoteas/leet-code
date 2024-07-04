@@ -210,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0101-symmetric-tree](https://github.com/afoteas/leet-code/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/afoteas/leet-code/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/afoteas/leet-code/tree/master/0322-coin-change) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
 ## Binary Search
 |  |
 | ------- |
@@ -226,16 +227,23 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0100-same-tree](https://github.com/afoteas/leet-code/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/afoteas/leet-code/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/afoteas/leet-code/tree/master/0226-invert-binary-tree) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/afoteas/leet-code/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/afoteas/leet-code/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/afoteas/leet-code/tree/master/0226-invert-binary-tree) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
 ## Binary Tree
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/afoteas/leet-code/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/afoteas/leet-code/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/afoteas/leet-code/tree/master/0226-invert-binary-tree) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
 <!---LeetCode Topics End-->
