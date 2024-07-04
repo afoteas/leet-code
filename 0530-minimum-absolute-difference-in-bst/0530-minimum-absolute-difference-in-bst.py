@@ -26,6 +26,9 @@ class Solution:
             minRight = curr.val
             minVal = min(minRight - root.val, minVal)
         
+        if minVal == 1:
+            return 1
+        
         return min([self.getMinimumDifference(root.left), self.getMinimumDifference(root.right), minVal])
 
         
