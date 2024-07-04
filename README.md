@@ -136,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0138-copy-list-with-random-pointer](https://github.com/afoteas/leet-code/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
 | [0219-contains-duplicate-ii](https://github.com/afoteas/leet-code/tree/master/0219-contains-duplicate-ii) |
+| [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/afoteas/leet-code/tree/master/0290-word-pattern) |
 ## String
 |  |
@@ -143,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0071-simplify-path](https://github.com/afoteas/leet-code/tree/master/0071-simplify-path) |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) |
+| [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/afoteas/leet-code/tree/master/0290-word-pattern) |
 ## Array
 |  |
@@ -168,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0056-merge-intervals](https://github.com/afoteas/leet-code/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/afoteas/leet-code/tree/master/0088-merge-sorted-array) |
+| [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) |
 ## Math
 |  |
 | ------- |
