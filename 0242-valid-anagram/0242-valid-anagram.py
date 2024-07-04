@@ -14,6 +14,4 @@ class Solution:
             return False
 
     def isAnagram(self, s: str, t: str) -> bool:
-        tls = sorted(t)
-        sls = sorted(s)
-        return sls == tls
+        return sorted(t) == sorted(s)
