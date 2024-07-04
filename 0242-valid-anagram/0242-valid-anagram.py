@@ -16,7 +16,7 @@ class Solution:
     def isAnagram2(self, s: str, t: str) -> bool:
         return sorted(t) == sorted(s)
     
-    def isAnagram(self, s: str, t: str) -> bool:
+    def isAnagram3(self, s: str, t: str) -> bool:
         sd = {}
         td = {}
         for c in s:
@@ -30,3 +30,15 @@ class Solution:
             else:
                 td[c]=0
         return td == sd
+
+    def isAnagram(self, s: str, t: str) -> bool:
+        
+        from collections import Counter
+
+        count_s = Counter(s)
+        count_t = Counter(t)
+
+        if count_s == count_t:
+            return True
+        else:
+            return False
