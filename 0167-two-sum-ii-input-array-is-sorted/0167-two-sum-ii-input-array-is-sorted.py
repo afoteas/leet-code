@@ -25,5 +25,4 @@ class Solution:
                  for j in range(i+1, len(ret)):
                     if numbers[ret[i]-1]+numbers[ret[j]-1]==target and ret[j] != ret[i]:
                         return [ret[j],ret[i]]
-        print("peos")
         return ret[::-1]
