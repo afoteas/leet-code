@@ -32,7 +32,7 @@ class Solution:
             if -(numbers[i] - target) in numbers[i+1:]:
                 return [i+1,numbers[i+1:].index(-(numbers[i] - target))+2+i]
 
-    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+    def twoSumWhile(self, numbers: List[int], target: int) -> List[int]:
         i=0
         j=len(numbers)-1
         tar = numbers[i] + numbers[j]
@@ -43,3 +43,13 @@ class Solution:
                 j-=1
             tar = numbers[i] + numbers[j]
         return [i+1,j+1]
+    
+    def twoSum(self, numbers: List[int], target: int, i=None, j=None) -> List[int]:
+        i  = 0 if i is None else i
+        j  = len(numbers) - 1 if j is None else j
+        if numbers[i] + numbers[j] < target:
+            return self.twoSum(numbers, target, i+1, j)
+        elif numbers[i] + numbers[j] > target:
+            return self.twoSum(numbers, target, i, j-1)
+        else:
+            return [i+1, j+1]
