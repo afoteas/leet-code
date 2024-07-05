@@ -5,7 +5,7 @@ class Solution:
                 if numbers[i]+numbers[j]==target:
                     return [i+1,j+1]
 
-    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+    def twoSumMedium(self, numbers: List[int], target: int) -> List[int]:
         test=[]
         for number in numbers:
             test.append(number-target)
@@ -26,3 +26,8 @@ class Solution:
                     if numbers[ret[i]-1]+numbers[ret[j]-1]==target and ret[j] != ret[i]:
                         return [ret[j],ret[i]]
         return ret[::-1]
+
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        for i in range(len(numbers)):
+            if -(numbers[i] - target) in numbers[i+1:]:
+                return [i+1,numbers[i+1:].index(-(numbers[i] - target))+2+i]
