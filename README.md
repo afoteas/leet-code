@@ -177,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/afoteas/leet-code/tree/master/0002-add-two-numbers) |
+| [0172-factorial-trailing-zeroes](https://github.com/afoteas/leet-code/tree/master/0172-factorial-trailing-zeroes) |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) |
 ## Stack
 |  |
