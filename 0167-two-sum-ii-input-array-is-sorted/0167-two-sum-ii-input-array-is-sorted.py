@@ -27,7 +27,19 @@ class Solution:
                         return [ret[j],ret[i]]
         return ret[::-1]
 
-    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+    def twoSumEven(self, numbers: List[int], target: int) -> List[int]:
         for i in range(len(numbers)):
             if -(numbers[i] - target) in numbers[i+1:]:
                 return [i+1,numbers[i+1:].index(-(numbers[i] - target))+2+i]
+
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        i=0
+        j=len(numbers)-1
+        tar = numbers[i] + numbers[j]
+        while tar != target:
+            if tar < target:
+                i+=1
+            else:
+                j-=1
+            tar = numbers[i] + numbers[j]
+        return [i+1,j+1]
