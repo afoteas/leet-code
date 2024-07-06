@@ -1,6 +1,6 @@
 import numpy as np
 class Solution:
-    def trailingZeroesBest(self, n: int) -> int:
+    def trailingZeroes(self, n: int) -> int:
         out = 0
         while n:
             temp = n//5
@@ -8,7 +8,7 @@ class Solution:
             n = temp
         return out
     
-    def trailingZeroes(self, n: int) -> int:
+    def trailingZeroesTheo(self, n: int) -> int:
         if n==0:
             return 0
         kr5 = 0
