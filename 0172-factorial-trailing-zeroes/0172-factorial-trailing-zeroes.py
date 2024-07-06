@@ -16,16 +16,10 @@ class Solution:
         zeros = 0
         for i in range(1, n+1):
             ans = i
-            # while ans%10 == 0:
-            #     zeros += 1
-            #     ans = ans//10
             while ans%5 == 0:
                 kr5 += 1
                 ans = ans//5
-            while ans%2 == 0:
-                kr2 += 1
-                ans = ans//2
-        return zeros + min([kr5, kr2])
+        return kr5
 
     def trailingZeroesAAA(self, n: int) -> int:
         ans=1
