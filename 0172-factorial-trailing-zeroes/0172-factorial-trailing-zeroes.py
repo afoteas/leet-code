@@ -1,7 +1,14 @@
 import numpy as np
 class Solution:
-
     def trailingZeroes(self, n: int) -> int:
+        out = 0
+        while n:
+            temp = n//5
+            out += temp
+            n = temp
+        return out
+    
+    def trailingZeroesMine(self, n: int) -> int:
         if n==0:
             return 0
         kr2 = 0
