@@ -154,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/afoteas/leet-code/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/afoteas/leet-code/tree/master/0088-merge-sorted-array) |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
+| [0162-find-peak-element](https://github.com/afoteas/leet-code/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/afoteas/leet-code/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
@@ -227,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/afoteas/leet-code/tree/master/0035-search-insert-position) |
+| [0162-find-peak-element](https://github.com/afoteas/leet-code/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Linked List
 |  |
