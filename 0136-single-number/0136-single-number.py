@@ -1,3 +1,6 @@
+import functools
+
+
 class Solution:
     def singleNumberBad(self, nums: List[int]) -> int:
         mySet = set(nums)
