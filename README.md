@@ -156,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/afoteas/leet-code/tree/master/0198-house-robber) |
+| [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0219-contains-duplicate-ii](https://github.com/afoteas/leet-code/tree/master/0219-contains-duplicate-ii) |
 | [0322-coin-change](https://github.com/afoteas/leet-code/tree/master/0322-coin-change) |
 ## Sliding Window
@@ -172,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0056-merge-intervals](https://github.com/afoteas/leet-code/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/afoteas/leet-code/tree/master/0088-merge-sorted-array) |
+| [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) |
 ## Math
 |  |
@@ -195,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/afoteas/leet-code/tree/master/0053-maximum-subarray) |
+| [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -268,4 +271,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0098-validate-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
