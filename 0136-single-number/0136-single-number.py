@@ -10,7 +10,7 @@ class Solution:
                 return n
         return 0
 
-    def singleNumber(self, nums: List[int]) -> int:
+    def singleNumberBetter(self, nums: List[int]) -> int:
         values = []
         for n in nums:
             if n in values:
@@ -18,4 +18,7 @@ class Solution:
             else:
                 values.append(n)
         return values[0]
-        
+
+
+    def singleNumber(self, nums: List[int]) -> int:
+        return functools.reduce(lambda x, y: x ^ y, nums, 0)
