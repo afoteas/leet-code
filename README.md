@@ -189,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0071-simplify-path](https://github.com/afoteas/leet-code/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/afoteas/leet-code/tree/master/0094-binary-tree-inorder-traversal) |
+| [0155-min-stack](https://github.com/afoteas/leet-code/tree/master/0155-min-stack) |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) |
 ## Recursion
 |  |
@@ -288,4 +289,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0136-single-number](https://github.com/afoteas/leet-code/tree/master/0136-single-number) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/afoteas/leet-code/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
