@@ -189,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/afoteas/leet-code/tree/master/0002-add-two-numbers) |
+| [0069-sqrtx](https://github.com/afoteas/leet-code/tree/master/0069-sqrtx) |
 | [0172-factorial-trailing-zeroes](https://github.com/afoteas/leet-code/tree/master/0172-factorial-trailing-zeroes) |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) |
 ## Stack
@@ -241,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/afoteas/leet-code/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/afoteas/leet-code/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/afoteas/leet-code/tree/master/0069-sqrtx) |
 | [0162-find-peak-element](https://github.com/afoteas/leet-code/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0300-longest-increasing-subsequence](https://github.com/afoteas/leet-code/tree/master/0300-longest-increasing-subsequence) |
