@@ -23,11 +23,12 @@ class Solution:
             return 1
 
         ans = x
+        batches = 100
         steps = abs(n)-1
-        bigSteps = steps//100
+        bigSteps = steps//batches
         for i in range(bigSteps):
-            ans *=myRec(x,100)
-        for i in range(steps - bigSteps*100):
+            ans *=myRec(x,batches)
+        for i in range(steps - bigSteps*batches):
             ans *=x
         if n > 0:
             return ans
