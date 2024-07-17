@@ -23,7 +23,7 @@ class Solution:
             return 1
 
         ans = x
-        batches = 100
+        batches = 300
         steps = abs(n)-1
         bigSteps = steps//batches
         for i in range(bigSteps):
