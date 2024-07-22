@@ -34,7 +34,7 @@ class Solution:
                     retList.append(matrix[i][j])
                     # print(matrix[i][j])
                 break
-            elif d >= depth_h and not size_h == 2:
+            elif d == depth_h and not size_h == 2:
                 # print(f"extra2, size_v={size_v}, size_h={size_h}")
                 j = size_h - d  - 1
                 for i in range(d, size_v-d):
