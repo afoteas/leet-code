@@ -1,5 +1,5 @@
 class Solution:
-    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
+    def spiralOrderWrong(self, matrix: List[List[int]]) -> List[int]:
         retList = []
         size_v = len(matrix)
         size_h = len(matrix[0])
@@ -46,4 +46,30 @@ class Solution:
             
         return retList
                 
-        
+    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
+        if not matrix or not matrix[0]:
+            return []
+        result = []
+        n = len(matrix[0])
+        m = len(matrix)
+        left, right, top, bot = 0, n-1, 0, m-1
+        while left <= right and top <= bot:
+            for i in range(left, right+1):
+                result.append(matrix[top][i])
+            top += 1
+            if top > bot:
+                break 
+            for i in range(top, bot+1):
+                result.append(matrix[i][right])
+            right -= 1
+            if left > right:
+                break 
+            for i in range(right, left-1, -1):
+                result.append(matrix[bot][i])
+            bot -= 1
+            if top > bot:
+                break 
+            for i in range(bot, top-1, -1):
+                result.append(matrix[i][left])
+            left += 1
+        return result        
