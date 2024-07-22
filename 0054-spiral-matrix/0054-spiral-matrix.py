@@ -11,12 +11,12 @@ class Solution:
                 # print("one")
                 for j in range(d, size_h-d):
                     retList.append(matrix[i][j])
-                    print(matrix[i][j])
+                    # print(matrix[i][j])
                 j = size_h - d  - 1
                 # print("two")
                 for i in range(d+1, size_v-d-1):
                     retList.append(matrix[i][j])
-                    print(matrix[i][j])
+                    # print(matrix[i][j])
                 i = size_v-d-1
                 # print("three")
                 for j in range(size_h-d-1,d-1,-1):
@@ -26,13 +26,13 @@ class Solution:
                 # print(f"four, d={d}")
                 for i in range(size_v-d-2,d, -1):
                     retList.append(matrix[i][j])
-                    print(matrix[i][j])
+                    # print(matrix[i][j])
             elif d == depth_v and not size_v == 2:
                 i = d
                 # print("extra1")
                 for j in range(d, size_h-d):
                     retList.append(matrix[i][j])
-                    print(matrix[i][j])
+                    # print(matrix[i][j])
                 break
             elif d >= depth_h and not size_h == 2:
                 # print(f"extra2, size_v={size_v}, size_h={size_h}")
