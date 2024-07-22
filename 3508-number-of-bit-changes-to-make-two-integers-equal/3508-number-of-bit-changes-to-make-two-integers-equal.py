@@ -4,5 +4,5 @@ class Solution:
         if ~n & difs:
             return -1
         else:
-            return bin(difs).count('1')
+            return difs.bit_count()
         
