@@ -1,5 +1,5 @@
 class Solution:
-    def rotate(self, matrix: List[List[int]]) -> None:
+    def rotateArray(self, matrix: List[List[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.
         """
@@ -21,4 +21,24 @@ class Solution:
             start+=1
             stop-=1
 
+    def rotate(self, matrix: List[List[int]]) -> None:
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
+        start, stop = 0 , len(matrix) - 1
+
+        while start < stop:
+            # print(f"start={start}, stop={stop}")
+            for i in range(0, stop - start):
+                temp = matrix[start][start+i]
+                # print(temp)
+                matrix[start][start+i] = matrix[stop-i][start]
+                matrix[stop-i][start] = matrix[stop][stop-i]
+                matrix[stop][stop-i] = matrix[start+i][stop]
+                matrix[start+i][stop] = temp
+                
+                
+                
+            start+=1
+            stop-=1
     
