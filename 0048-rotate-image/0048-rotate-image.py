@@ -6,14 +6,14 @@ class Solution:
         start, stop = 0 , len(matrix) - 1
 
         while start < stop:
-            print(f"start={start}, stop={stop}")
+            # print(f"start={start}, stop={stop}")
             for i in range(0, stop - start):
                 temp = []
                 temp.append(matrix[start][start+i])
                 temp.append(matrix[start+i][stop])
                 temp.append(matrix[stop][stop-i])
                 temp.append(matrix[stop-i][start])
-                print(temp)
+                # print(temp)
                 matrix[start+i][stop] = temp[0]
                 matrix[stop][stop-i] = temp[1]
                 matrix[stop-i][start] = temp[2]
