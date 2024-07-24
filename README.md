@@ -146,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/afoteas/leet-code/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0071-simplify-path](https://github.com/afoteas/leet-code/tree/master/0071-simplify-path) |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
+| [0151-reverse-words-in-a-string](https://github.com/afoteas/leet-code/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/afoteas/leet-code/tree/master/0290-word-pattern) |
@@ -180,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/afoteas/leet-code/tree/master/0088-merge-sorted-array) |
+| [0151-reverse-words-in-a-string](https://github.com/afoteas/leet-code/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Sorting
 |  |
