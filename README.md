@@ -144,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/afoteas/leet-code/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0068-text-justification](https://github.com/afoteas/leet-code/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/afoteas/leet-code/tree/master/0071-simplify-path) |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/afoteas/leet-code/tree/master/0151-reverse-words-in-a-string) |
@@ -159,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/afoteas/leet-code/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/afoteas/leet-code/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/afoteas/leet-code/tree/master/0056-merge-intervals) |
+| [0068-text-justification](https://github.com/afoteas/leet-code/tree/master/0068-text-justification) |
 | [0088-merge-sorted-array](https://github.com/afoteas/leet-code/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/afoteas/leet-code/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/afoteas/leet-code/tree/master/0136-single-number) |
@@ -335,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/afoteas/leet-code/tree/master/0054-spiral-matrix) |
+| [0068-text-justification](https://github.com/afoteas/leet-code/tree/master/0068-text-justification) |
 | [1803-average-waiting-time](https://github.com/afoteas/leet-code/tree/master/1803-average-waiting-time) |
 ## Union Find
 |  |
