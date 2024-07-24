@@ -19,9 +19,9 @@ class Solution:
         while i<num-l-1:
             temp = temp.next
             i+=1
-        ret = temp.next
+        head = temp.next
         temp.next = None
-        return ret
+        return head
 
 
 
