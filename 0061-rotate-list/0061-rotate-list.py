@@ -15,8 +15,10 @@ class Solution:
         temp.next = head
         l = k % num
         temp = head
-        for i in range(num-l-1):
+        i = 0
+        while i<num-l-1:
             temp = temp.next
+            i+=1
         ret = temp.next
         temp.next = None
         return ret
