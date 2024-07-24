@@ -7,7 +7,7 @@
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         self.m=0
-        self.ret = []
+        self.ret=0
         def mSmall(root):
             print("entered")
             if root.left:
@@ -17,14 +17,12 @@ class Solution:
                 print("m == k")
                 return
             self.m+=1
-            self.ret.append(root.val)
+            self.ret = root.val
             if root.right:
                 print("root.right")
                 mSmall(root.right)
         mSmall(root)
-        print(self.ret)
-        print(self.m)
-        return self.ret[-1]
+        return self.ret
                 
 
         
