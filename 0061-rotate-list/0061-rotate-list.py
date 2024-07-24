@@ -15,7 +15,7 @@ class Solution:
         temp.next = head
         l = k % num
         temp = head
-        for i in range(num - l-1):
+        for i in range(num-l-1):
             temp = temp.next
         ret = temp.next
         temp.next = None
