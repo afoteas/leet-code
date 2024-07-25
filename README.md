@@ -144,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/afoteas/leet-code/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0022-generate-parentheses](https://github.com/afoteas/leet-code/tree/master/0022-generate-parentheses) |
 | [0068-text-justification](https://github.com/afoteas/leet-code/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/afoteas/leet-code/tree/master/0071-simplify-path) |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
@@ -225,6 +226,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/afoteas/leet-code/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/afoteas/leet-code/tree/master/0053-maximum-subarray) |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/afoteas/leet-code/tree/master/0198-house-robber) |
@@ -350,4 +352,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/afoteas/leet-code/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/afoteas/leet-code/tree/master/0054-spiral-matrix) |
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/afoteas/leet-code/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
