@@ -167,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/afoteas/leet-code/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/afoteas/leet-code/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/afoteas/leet-code/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/afoteas/leet-code/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/afoteas/leet-code/tree/master/0198-house-robber) |
@@ -206,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/afoteas/leet-code/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/afoteas/leet-code/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/afoteas/leet-code/tree/master/0069-sqrtx) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/afoteas/leet-code/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0172-factorial-trailing-zeroes](https://github.com/afoteas/leet-code/tree/master/0172-factorial-trailing-zeroes) |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) |
 | [0367-valid-perfect-square](https://github.com/afoteas/leet-code/tree/master/0367-valid-perfect-square) |
@@ -215,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/afoteas/leet-code/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/afoteas/leet-code/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/afoteas/leet-code/tree/master/0094-binary-tree-inorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/afoteas/leet-code/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/afoteas/leet-code/tree/master/0155-min-stack) |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) |
 ## Recursion
