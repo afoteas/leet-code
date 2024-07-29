@@ -7,24 +7,16 @@ class Solution:
         i=0
         for interval in intervals:
             if newInterval[0] <= interval[1] and startIndex==-1:
-                print(f"here:{i},interval={interval}")
                 startIndex=i
             if newInterval[1] < interval[0]:
-                print("one")
                 endIndex = i-1
-                # endIndex=max(i-1,startIndex)
                 break
             if newInterval[1] <= interval[1]:
                 endIndex=i       
-                print("two")     
                 break
             i+=1
         if intervals[-1][1] < newInterval[1] and endIndex==-1 and startIndex != -1:
-            print("entered")
             endIndex = len(intervals) - 1
-
-
-        print(f"startIndex={startIndex},endIndex={endIndex}")
         if endIndex != -1 and endIndex < startIndex:
             intervals.insert(startIndex, newInterval)
         elif intervals[0][0] > newInterval[1] and endIndex==0 and startIndex == 0:
