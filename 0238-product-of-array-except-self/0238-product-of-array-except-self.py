@@ -11,7 +11,7 @@ class Solution:
         return ret
 
 
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
+    def productExceptSelfBad(self, nums: List[int]) -> List[int]:
         ret = []
         prod = 1
         size = len(nums)
@@ -34,4 +34,14 @@ class Solution:
   
         return ret
 
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        out = [None] * len(nums)
+        pref, suff = 1, 1
+        for i in range(len(nums)):
+            out[i] = pref
+            pref *= nums[i]
+        for i in range(len(nums) -1, -1, -1):
+            out[i] *= suff
+            suff *= nums[i]
+        return out 
         
