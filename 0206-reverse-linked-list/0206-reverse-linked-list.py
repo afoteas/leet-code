@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def reverseListPop(self, head: Optional[ListNode]) -> Optional[ListNode]:
         l = []
         if not head:
             return None
@@ -19,4 +19,14 @@ class Solution:
         temp.next= None
         return head
 
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        prev = None
+        curr = head
+        
+        while curr:
+            tmp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = tmp
+        return prev
         
