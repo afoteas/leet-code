@@ -24,8 +24,6 @@ class Solution:
         for num in nums[::-1]:
             prod*=num
             right.append(prod)
-        print(left)
-        print(right)
         for i in range(size):
             if i == 0:
                 ret.append(right[size-2])
