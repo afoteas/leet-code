@@ -1,6 +1,5 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-
         last=[]
         for c in s:
             if c in ["(", "{", "["]:
@@ -16,4 +15,4 @@ class Solution:
         if len(last) == 0:
             return True
         else:
-            return False      
+            return False     
