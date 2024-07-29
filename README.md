@@ -144,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/afoteas/leet-code/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0020-valid-parentheses](https://github.com/afoteas/leet-code/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/afoteas/leet-code/tree/master/0022-generate-parentheses) |
 | [0068-text-justification](https://github.com/afoteas/leet-code/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/afoteas/leet-code/tree/master/0071-simplify-path) |
@@ -211,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/afoteas/leet-code/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/afoteas/leet-code/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/afoteas/leet-code/tree/master/0094-binary-tree-inorder-traversal) |
 | [0155-min-stack](https://github.com/afoteas/leet-code/tree/master/0155-min-stack) |
