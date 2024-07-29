@@ -32,8 +32,6 @@ class Solution:
                 last=temp
 
             temp = temp.next
-        
-        print(temp.val)
 
         if temp.val == delete:
             temp = last
