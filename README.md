@@ -140,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/afoteas/leet-code/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/afoteas/leet-code/tree/master/0290-word-pattern) |
+| [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
 ## String
 |  |
 | ------- |
@@ -153,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/afoteas/leet-code/tree/master/0290-word-pattern) |
+| [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
 ## Array
 |  |
 | ------- |
@@ -373,4 +375,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/afoteas/leet-code/tree/master/0238-product-of-array-except-self) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
