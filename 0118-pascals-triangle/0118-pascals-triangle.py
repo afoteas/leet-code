@@ -4,10 +4,10 @@ class Solution:
             return [[1]]
         else:
             ret = [[1]]
-            for i in range(3,numRows+2):
+            for i in range(2,numRows+1):
                 temp = []
-                for j in range(i-1):
-                    if j == 0 or j == i-2:
+                for j in range(i):
+                    if j == 0 or j == i-1:
                         temp.append(1)
                     else:
                         temp.append(ret[-1][j-1]+ret[-1][j])
