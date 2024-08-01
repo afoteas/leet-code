@@ -17,7 +17,7 @@ class Solution:
 
         return len(set(parents.values()))
 
-    def findCircleNum(self, M: List[List[int]]) -> int:
+    def findCircleNumSlow(self, M: List[List[int]]) -> int:
        
         if not M:
             return 0
@@ -39,4 +39,20 @@ class Solution:
                 dfs(i)
         
         return count
-   
+
+
+    def dfs(self, isConnected, visited, i) -> int:
+        for j in range(len(isConnected)):
+            if isConnected[i][j] == 1 and j not in visited:
+                visited.add(j)
+                self.dfs(isConnected, visited, j)
+
+    def findCircleNum(self, isConnected: List[List[int]]) -> int:
+        visited = set()
+        num_prov = 0
+        for city in range(len(isConnected)):
+            if city not in visited: 
+            # as long as a city is visted, then all connected cities should be considered into one province
+                self.dfs(isConnected, visited, city)
+                num_prov += 1 # increment when one traversal finishes
+        return num_prov
