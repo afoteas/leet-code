@@ -27,7 +27,7 @@ class Solution:
         
         def dfs(u):
             for v in range(n):
-                if M[u][v] ==1 and visit[v] == False:
+                if M[u][v] == 1 and visit[v] == False:
                     visit[v] = True
                     dfs(v)
         
