@@ -56,6 +56,7 @@ class Solution:
                     return True
             
             visited[node]=False
+            return False
 
         for i in range(len(graph)):
             if not dfs(i):
