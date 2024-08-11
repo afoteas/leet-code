@@ -9,11 +9,14 @@ class Solution:
     def shortestAlternatingPaths(self, n: int, redEdges: List[List[int]], blueEdges: List[List[int]]) -> List[int]:
         red = defaultdict(list)
         blue = defaultdict(list)
+        print(red)
+        print(blue)
         for s, d in redEdges:
             red[s].append(d)
         for s, d in blueEdges:
             blue[s].append(d)
         c_map = [red, blue]
+        print(c_map)
 
         bfs = []
         visited = set()
