@@ -1,10 +1,4 @@
 class Solution:
-    def nextEdge(self, edge, current) -> List[int]:
-        ret = []
-        for e in edge:
-            if e[0] == current:
-                ret.append(e[1])
-        return ret
 
     def shortestAlternatingPaths(self, n: int, redEdges: List[List[int]], blueEdges: List[List[int]]) -> List[int]:
         red = defaultdict(list)
