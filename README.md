@@ -274,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/afoteas/leet-code/tree/master/0871-keys-and-rooms) |
+| [1229-shortest-path-with-alternating-colors](https://github.com/afoteas/leet-code/tree/master/1229-shortest-path-with-alternating-colors) |
 ## Binary Search
 |  |
 | ------- |
@@ -401,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/afoteas/leet-code/tree/master/0871-keys-and-rooms) |
+| [1229-shortest-path-with-alternating-colors](https://github.com/afoteas/leet-code/tree/master/1229-shortest-path-with-alternating-colors) |
 ## Topological Sort
 |  |
 | ------- |
