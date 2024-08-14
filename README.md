@@ -142,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/afoteas/leet-code/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
+| [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) |
 ## String
 |  |
 | ------- |
@@ -159,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/afoteas/leet-code/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
+| [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) |
 ## Array
 |  |
 | ------- |
@@ -210,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/afoteas/leet-code/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) |
+| [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) |
 ## Math
 |  |
 | ------- |
@@ -367,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0136-single-number](https://github.com/afoteas/leet-code/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/afoteas/leet-code/tree/master/0222-count-complete-tree-nodes) |
+| [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) |
 ## Design
 |  |
 | ------- |
