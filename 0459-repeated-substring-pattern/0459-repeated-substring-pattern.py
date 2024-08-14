@@ -1,5 +1,5 @@
 class Solution:
-    def repeatedSubstringPattern(self, s: str) -> bool:
+    def repeatedSubstringPatternStupid(self, s: str) -> bool:
         count = len(s)
         if count < 2:
             return False
@@ -18,4 +18,6 @@ class Solution:
         return False
 
 
+    def repeatedSubstringPattern(self, s: str) -> bool:
+        return s in(s+s)[1:-1]
         
