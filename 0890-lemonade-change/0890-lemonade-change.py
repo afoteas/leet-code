@@ -3,7 +3,6 @@ class Solution:
         fives = 0
         tens = 0
         for bill in bills:
-            print(f"fives={fives}, tens={tens}")
             if bill == 5:
                 fives +=1
             elif bill == 10:
