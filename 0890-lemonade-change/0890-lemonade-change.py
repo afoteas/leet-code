@@ -12,16 +12,12 @@ class Solution:
                 else:
                     return False
             else:
-                if tens:
+                if tens and fives:
                     tens-=1
-                    if fives:
-                        fives-=1
-                    else:
-                        return False
+                    fives-=1
+                elif fives > 2:
+                    fives-=3
                 else:
-                    if fives > 2:
-                        fives-=3
-                    else:
-                        return False
+                    return False
         return True
         
