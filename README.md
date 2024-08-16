@@ -162,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) |
 | [0459-repeated-substring-pattern](https://github.com/afoteas/leet-code/tree/master/0459-repeated-substring-pattern) |
+| [0742-to-lower-case](https://github.com/afoteas/leet-code/tree/master/0742-to-lower-case) |
 ## Array
 |  |
 | ------- |
