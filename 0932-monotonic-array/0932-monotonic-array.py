@@ -1,5 +1,5 @@
 class Solution:
-    def isMonotonic(self, nums: List[int]) -> bool:
+    def isMonotonicSlow(self, nums: List[int]) -> bool:
         previous = nums[0]
         monotonic = 0  # 0 uninitialized, 1 increasing, 2 decreasing
         
@@ -17,4 +17,15 @@ class Solution:
                 
             previous = num
         
-        return True   
+        return True
+
+    def isMonotonic(self, nums: List[int]) -> bool:
+        increasing = decreasing = True
+        for i in range(len(nums) - 1):
+            if nums[i] < nums[i + 1]:
+                decreasing = False
+            if nums[i] > nums[i + 1]:
+                increasing = False
+            if not increasing and not decreasing:
+                return False
+        return True
