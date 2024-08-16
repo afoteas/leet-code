@@ -1,8 +1,7 @@
 class Solution {
 public:
     string toLowerCase(string s) {
-        std::size_t len = s.size();
-        for(int i=0; i<len; i++) {
+        for(int i=0; i<s.size(); i++) {
             int asci = static_cast<int>(s[i]);
             if( asci < 91 && asci > 64) {
                 s[i] = static_cast<char>(asci + 32);
