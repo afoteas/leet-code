@@ -2,7 +2,7 @@ class Solution {
 public:
     bool isMonotonic(vector<int>& nums) {
         int previous = nums[0];
-        int monotonic = 0; // 0 unitialized, 1 increasing, 2 decreasing
+        int monotonic = 0; // 0 uninitialized, 1 increasing, 2 decreasing
         for (int num: nums) {
             if (num == previous) continue;
             if (monotonic) {
