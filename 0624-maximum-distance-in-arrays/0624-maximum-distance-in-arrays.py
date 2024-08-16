@@ -19,14 +19,11 @@ class Solution:
             if temp_low != low and temp_high != high:
                 ret = max(high - temp_low, temp_high - low)
             else:
-
                 t_low = arr[0]
                 t_high = arr[-1]
                 ret = max(ret, max(high - t_low, t_high - low))
-
             low = temp_low
             high = temp_high
-            print(f"ret={ret}, low={low}, high={high}")
         return ret
 
 
