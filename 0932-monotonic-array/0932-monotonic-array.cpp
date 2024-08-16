@@ -17,6 +17,5 @@ public:
             previous = num;
         }
         return true;
-        
     }
 };
