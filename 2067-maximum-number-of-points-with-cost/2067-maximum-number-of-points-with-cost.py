@@ -14,3 +14,19 @@ class Solution:
                 left = max(left-1, points[i-1][j])
                 points[i][j]=max(left,right[j])+points[i][j]
         return max(points[-1])
+    
+    def maxPointsSlow(self, points: List[List[int]]) -> int:
+        rows, cols = len(points), len(points[0])
+        multiadd = lambda a,b: map(operator.add, a,b)
+        @cache
+        def mask(pos:int) -> List[int]:
+            return [-abs(i - pos) for i in range(cols)]
+
+        for i in range(1,rows):
+            for j in range(cols):
+                points[i][j]=max(multiadd(points[i-1], mask(j)))+points[i][j]
+        return max(points[-1])
+
+                
+
+
