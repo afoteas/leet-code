@@ -1,6 +1,6 @@
 class Solution:
-
-    def climbStairsSlow(self, n: int) -> int:
+    @cache
+    def climbStairs(self, n: int) -> int:
         if n==1:
             return 1
         elif n==2:
@@ -29,7 +29,7 @@ class Solution:
             dp[i]=dp[i-1] + dp[i-2]
         return dp[n]
 
-    def climbStairs(self, n: int) -> int:
+    def climbStairsFinal(self, n: int) -> int:
         if n in [1, 2]:
             return n
         prev=1
