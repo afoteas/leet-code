@@ -199,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/afoteas/leet-code/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [1803-average-waiting-time](https://github.com/afoteas/leet-code/tree/master/1803-average-waiting-time) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/afoteas/leet-code/tree/master/1950-sign-of-the-product-of-an-array) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/afoteas/leet-code/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Sliding Window
 |  |
 | ------- |
@@ -273,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/afoteas/leet-code/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/afoteas/leet-code/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/afoteas/leet-code/tree/master/0322-coin-change) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/afoteas/leet-code/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Trie
 |  |
 | ------- |
