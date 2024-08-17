@@ -9,21 +9,10 @@ public:
         for (int i=0; i < nums.size(); ++i) {
             int rest = target - nums[i];
             if (dict.find(rest) != dict.end() && dict[rest] != i) {
-                return {i, dict[rest]};
+                return std::vector<int>{i, dict[rest]};
             }
         }
         return {};
     }
 
 };
-
-
-    // def twoSum(self, nums, target):
-    //     dick={}
-    //     for i in range(0,len(nums)):
-    //         dick[nums[i]]=i
-        
-    //     for i in range(0,len(nums)):
-    //         comp = target - nums[i]
-    //         if comp in dick and i != dick[comp]:
-    //             return [i, dick[comp]]
