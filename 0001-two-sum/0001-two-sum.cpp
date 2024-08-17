@@ -9,7 +9,7 @@ public:
         for (int i=0; i < nums.size(); ++i) {
             int rest = target - nums[i];
             if (dict.find(rest) != dict.end() && dict[rest] != i) {
-                return std::vector<int>{i, dict[rest]};
+                return {i, dict[rest]};
             }
         }
         return {};
