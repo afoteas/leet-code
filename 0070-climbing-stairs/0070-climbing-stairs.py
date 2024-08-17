@@ -1,4 +1,5 @@
 class Solution:
+
     def climbStairsSlow(self, n: int) -> int:
         if n==1:
             return 1
@@ -37,4 +38,4 @@ class Solution:
             temp = curr
             curr = prev + curr
             prev = temp
-        return curr
+        return curr    
