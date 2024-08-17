@@ -14,17 +14,3 @@ class Solution:
                 left = max(left-1, points[i-1][j])
                 points[i][j]=max(left,right[j])+points[i][j]
         return max(points[-1])
-
-
-
-
-
-
-
-    # def climbStairsDP(self, n: int) -> int:
-    #     if n in [1, 2]:
-    #         return n
-    #     dp = {1:1,2:2}
-    #     for i in range(3,n+1):
-    #         dp[i]=dp[i-1] + dp[i-2]
-    #     return dp[n]
