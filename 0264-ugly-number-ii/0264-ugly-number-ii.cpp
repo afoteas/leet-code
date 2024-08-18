@@ -2,7 +2,6 @@ class Solution {
 public:
 
     int nthUglyNumber(int n) {
-    // To store ugly numbers
         unsigned ugly[n]; 
         unsigned i2 = 0, i3 = 0, i5 = 0;
         unsigned next_multiple_of_2 = 2;
@@ -11,7 +10,7 @@ public:
         unsigned next_ugly_no = 1;
     
         ugly[0] = 1;
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < n; ++i) {
             next_ugly_no = min(
                 next_multiple_of_2,
                 min(next_multiple_of_3, next_multiple_of_5));
