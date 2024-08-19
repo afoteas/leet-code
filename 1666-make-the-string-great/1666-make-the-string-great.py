@@ -4,7 +4,6 @@ class Solution:
         if len(s) < 2:
             return s
         ret = []
-
         i = 0
         last = "?"
         while i < len(s):
