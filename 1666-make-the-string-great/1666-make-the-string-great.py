@@ -6,10 +6,9 @@ class Solution:
         ret = []
         i = 0
         last = "?"
-        while i < len(s):
-            if not ret:
-                ret.append(s[i])
-            elif abs(ord(s[i]) - ord(ret[-1])) == 32:
+        l = len(s)
+        while i < l:
+            if ret and abs(ord(s[i]) - ord(ret[-1])) == 32:
                 ret.pop()
             else:
                 ret.append(s[i])
