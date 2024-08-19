@@ -165,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) |
 | [0459-repeated-substring-pattern](https://github.com/afoteas/leet-code/tree/master/0459-repeated-substring-pattern) |
 | [0742-to-lower-case](https://github.com/afoteas/leet-code/tree/master/0742-to-lower-case) |
+| [1666-make-the-string-great](https://github.com/afoteas/leet-code/tree/master/1666-make-the-string-great) |
 ## Array
 |  |
 | ------- |
@@ -254,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/afoteas/leet-code/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/afoteas/leet-code/tree/master/0155-min-stack) |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) |
+| [1666-make-the-string-great](https://github.com/afoteas/leet-code/tree/master/1666-make-the-string-great) |
 ## Recursion
 |  |
 | ------- |
