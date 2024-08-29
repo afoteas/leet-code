@@ -10,8 +10,7 @@ public:
     }
     
     int add(int val) {
-        nums.insert
-        ( 
+        nums.insert(
             std::lower_bound( nums.begin(), nums.end(), val, greater<int>() ),
             val 
         );
