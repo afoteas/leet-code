@@ -10,9 +10,9 @@ class KthLargest:
         
 
     def add(self, val: int) -> int:
-        # bisect.insort(self.allNums, val)
-        self.allNums.append(val)
-        self.allNums.sort()
+        bisect.insort(self.allNums, val)
+        # self.allNums.append(val)
+        # self.allNums.sort()
         return self.allNums[-self.k]
 
 
