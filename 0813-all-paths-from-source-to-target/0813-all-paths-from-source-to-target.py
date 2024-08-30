@@ -18,7 +18,7 @@ class Solution:
         return routes[destination-1]
 
 
-    def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
+    def allPathsSourceTargetDfs(self, graph: List[List[int]]) -> List[List[int]]:
         def dfs(u: int, t: int, path: List[int]) -> Generator:
             if u == t:
                 yield path
@@ -32,6 +32,21 @@ class Solution:
         }
         return dfs(0, len(graph) - 1, [0])
 
+    def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
+        n = len(graph)
+        # Instead of nodes append whole path to the queue
+        def bfs(src, dst, res):
+            q = deque([[src]])
+            while q:
+                path = q.popleft()
+                if path[-1] == n-1:
+                    res.append(path)
+                for nei in graph[path[-1]]:
+                    q.append(path + [nei])
+        
+        res = []
+        bfs(0, n-1, res)
+        return res
 
 
         
