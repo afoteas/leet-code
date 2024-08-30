@@ -15,7 +15,7 @@ public:
         };
 
         vector<int> path = {0};
-        dfs(0,path);
+        dfs(0,{0});
         return ret;
     }
 };
