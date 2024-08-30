@@ -27,7 +27,7 @@ class Solution:
                 yield from dfs(v, t, path + [v])
 
         graph = {
-            u: list(neighbours)
+            u: neighbours
             for u, neighbours in enumerate(graph)
         }
         return dfs(0, len(graph) - 1, [0])
