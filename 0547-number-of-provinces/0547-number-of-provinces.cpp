@@ -1,3 +1,8 @@
+#include <vector>
+#include <iostream>
+
+using namespace std;
+
 class Solution {
 public:
     void dfs(const vector<vector<int>>& isConnected, int i, int len, vector<bool>& visit) {
