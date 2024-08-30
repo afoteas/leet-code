@@ -13,8 +13,6 @@ public:
                 path.pop_back();
             }
         };
-
-        vector<int> path = {0};
         dfs(0,{0});
         return ret;
     }
