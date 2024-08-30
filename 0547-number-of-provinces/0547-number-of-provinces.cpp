@@ -19,7 +19,7 @@ public:
                 count++;
                 visit.at(i)=true;
                 dfs(isConnected,i,len,visit);
-            }
+                }
         }
         return count;
     }
