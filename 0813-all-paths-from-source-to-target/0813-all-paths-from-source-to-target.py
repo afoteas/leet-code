@@ -53,13 +53,13 @@ class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
         n = len(graph)
         res = []
-        q = deque([[0]])
+        q = [[0]]
         while q:
-            path = q.popleft()
+            path = q.pop()
             if path[-1] == n-1:
                 res.append(path)
             for nei in graph[path[-1]]:
-                q.append(path + [nei])
+                q.insert(0,path + [nei])
         return res
 
         
