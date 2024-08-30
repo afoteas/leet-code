@@ -50,7 +50,7 @@ class Solution:
         return res
 
 
-    def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
+    def allPathsSourceTargetBfsMine(self, graph: List[List[int]]) -> List[List[int]]:
         n = len(graph)
         res = []
         q = [[0]]
@@ -62,4 +62,18 @@ class Solution:
                 q.insert(0,path + [nei])
         return res
 
-        
+    def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
+        self.ret = []
+        def dfs(u: int, t: int, path: List[int]):
+            if u == t:
+                self.ret.append(path)
+
+            for v in graph[u]:
+                dfs(v, t, path + [v])
+
+        graph = {
+            u: neighbours
+            for u, neighbours in enumerate(graph)
+        }
+        dfs(0, len(graph) - 1, [0])
+        return self.ret
