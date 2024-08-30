@@ -14,12 +14,14 @@ public:
         int len = isConnected.size();
         int count = 0;
         vector<bool> visit(len, false);
-        for(int i=0; i<len;i++) {
-            if(!visit.at(i)) {
+        for(int i=0; i<len;i++)
+        {
+            if(!visit.at(i))
+            {
                 count++;
                 visit.at(i)=true;
                 dfs(isConnected,i,len,visit);
-                }
+            }
         }
         return count;
     }
