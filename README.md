@@ -317,6 +317,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0774-maximum-depth-of-n-ary-tree) |
+| [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/afoteas/leet-code/tree/master/0871-keys-and-rooms) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/afoteas/leet-code/tree/master/1229-shortest-path-with-alternating-colors) |
@@ -380,6 +381,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0774-maximum-depth-of-n-ary-tree) |
+| [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/afoteas/leet-code/tree/master/0871-keys-and-rooms) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/afoteas/leet-code/tree/master/1492-time-needed-to-inform-all-employees) |
@@ -456,6 +458,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/afoteas/leet-code/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/afoteas/leet-code/tree/master/0022-generate-parentheses) |
 | [0077-combinations](https://github.com/afoteas/leet-code/tree/master/0077-combinations) |
+| [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -469,6 +472,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) |
+| [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/afoteas/leet-code/tree/master/0871-keys-and-rooms) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/afoteas/leet-code/tree/master/1229-shortest-path-with-alternating-colors) |
