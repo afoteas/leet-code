@@ -71,9 +71,9 @@ class Solution:
             for v in graph[u]:
                 dfs(v, t, path + [v])
 
-        graph = {
-            u: neighbours
-            for u, neighbours in enumerate(graph)
-        }
+        # graph = {
+        #     u: neighbours
+        #     for u, neighbours in enumerate(graph)
+        # }
         dfs(0, len(graph) - 1, [0])
         return self.ret
