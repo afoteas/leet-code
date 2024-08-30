@@ -3,8 +3,7 @@ public:
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
         int t = graph.size()-1;
         vector<vector<int>> ret;
-        function<void(int, vector<int>)> dfs = [&](int u, vector<int> path) {
-            cout << u <<'\n' ;  
+        function<void(int, vector<int>)> dfs = [&](int u, vector<int> path) { 
             if(u==t) {
                 ret.push_back(path);
             }
