@@ -32,13 +32,14 @@ class Solution:
         }
         return dfs(0, len(graph) - 1, [0])
 
-    def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
+    def allPathsSourceTargetDeque(self, graph: List[List[int]]) -> List[List[int]]:
         n = len(graph)
         # Instead of nodes append whole path to the queue
         def bfs(src, dst, res):
             q = deque([[src]])
             while q:
                 path = q.popleft()
+                print(path)
                 if path[-1] == n-1:
                     res.append(path)
                 for nei in graph[path[-1]]:
@@ -48,5 +49,17 @@ class Solution:
         bfs(0, n-1, res)
         return res
 
+
+    def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
+        n = len(graph)
+        res = []
+        q = deque([[0]])
+        while q:
+            path = q.popleft()
+            if path[-1] == n-1:
+                res.append(path)
+            for nei in graph[path[-1]]:
+                q.append(path + [nei])
+        return res
 
         
