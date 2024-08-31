@@ -205,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0624-maximum-distance-in-arrays](https://github.com/afoteas/leet-code/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/afoteas/leet-code/tree/master/0890-lemonade-change) |
 | [0932-monotonic-array](https://github.com/afoteas/leet-code/tree/master/0932-monotonic-array) |
+| [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) |
 | [1039-find-the-town-judge](https://github.com/afoteas/leet-code/tree/master/1039-find-the-town-judge) |
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/afoteas/leet-code/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
@@ -322,6 +323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/afoteas/leet-code/tree/master/0871-keys-and-rooms) |
+| [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/afoteas/leet-code/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/afoteas/leet-code/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/afoteas/leet-code/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
@@ -386,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/afoteas/leet-code/tree/master/0871-keys-and-rooms) |
+| [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/afoteas/leet-code/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/afoteas/leet-code/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 ## Binary Tree
@@ -454,6 +457,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/afoteas/leet-code/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/afoteas/leet-code/tree/master/0054-spiral-matrix) |
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) |
+| [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) |
 ## Backtracking
 |  |
 | ------- |
