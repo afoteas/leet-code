@@ -4,7 +4,7 @@ public:
         int x = grid.size();
         int y = grid[0].size();
         int ret {0};
-        function<void(int,int)> dfs = [this, &grid, x, y, &dfs](int i, int j) {
+        function<void(int,int)> dfs = [&grid, x, y, &dfs](int i, int j) {
             if(i==x || j==y || i<0 || j<0 || grid[i][j]=='0') {
                 return;
             }
