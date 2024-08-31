@@ -1,7 +1,6 @@
 int findJudge(int n, int** trust, int trustSize, int* trustColSize) {
-    int* numTrust = (int*)calloc(n + 1, sizeof(int)); // Allocate memory for numTrust array
+    int* numTrust = calloc(n + 1, sizeof(int));
     int i;
-    printf("%d,%d,%d\n",n,trustSize,trustColSize);
 
     for(i=0;i<trustSize;++i) {
         numTrust[trust[i][0]]--;
@@ -9,7 +8,6 @@ int findJudge(int n, int** trust, int trustSize, int* trustColSize) {
     }
     
     for(i=1; i<(n+1);i++){
-        printf("%d\n", numTrust[i]);
         if(numTrust[i] == n-1) {
             return i;
         }
