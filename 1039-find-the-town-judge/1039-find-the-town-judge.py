@@ -21,6 +21,7 @@ class Solution:
     def findJudge(self, n: int, trust: List[List[int]]) -> int:
         # Create a list of of person and their trust value
         numTrust = [0] * (n + 1)
+        print(numTrust)
 
         # Increase trust value of trustee and decrease trust value of truster for each pair
         for person1, person2 in trust:
