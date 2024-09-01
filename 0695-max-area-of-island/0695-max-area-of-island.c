@@ -10,7 +10,6 @@ void dfs(int i, int j, int** grid, int m, int n,int *area) {
 }
 
 int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize) {
-    printf("%d,%d", gridSize,*gridColSize);
     int area = 0;
     int res = 0;
     for(int i=0;i<gridSize;i++) {
