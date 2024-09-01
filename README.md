@@ -203,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/afoteas/leet-code/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0605-can-place-flowers](https://github.com/afoteas/leet-code/tree/master/0605-can-place-flowers) |
 | [0624-maximum-distance-in-arrays](https://github.com/afoteas/leet-code/tree/master/0624-maximum-distance-in-arrays) |
+| [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) |
 | [0890-lemonade-change](https://github.com/afoteas/leet-code/tree/master/0890-lemonade-change) |
 | [0932-monotonic-array](https://github.com/afoteas/leet-code/tree/master/0932-monotonic-array) |
 | [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) |
@@ -319,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) |
@@ -384,6 +386,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) |
@@ -451,12 +454,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/afoteas/leet-code/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) |
 ## Matrix
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/afoteas/leet-code/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/afoteas/leet-code/tree/master/0054-spiral-matrix) |
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) |
 | [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) |
 ## Backtracking
 |  |
