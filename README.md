@@ -209,6 +209,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) |
 | [1039-find-the-town-judge](https://github.com/afoteas/leet-code/tree/master/1039-find-the-town-judge) |
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) |
+| [1325-path-with-maximum-probability](https://github.com/afoteas/leet-code/tree/master/1325-path-with-maximum-probability) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/afoteas/leet-code/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [1803-average-waiting-time](https://github.com/afoteas/leet-code/tree/master/1803-average-waiting-time) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/afoteas/leet-code/tree/master/1950-sign-of-the-product-of-an-array) |
@@ -424,6 +425,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/afoteas/leet-code/tree/master/0264-ugly-number-ii) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/afoteas/leet-code/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/afoteas/leet-code/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1325-path-with-maximum-probability](https://github.com/afoteas/leet-code/tree/master/1325-path-with-maximum-probability) |
 ## Quickselect
 |  |
 | ------- |
@@ -488,6 +490,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-keys-and-rooms](https://github.com/afoteas/leet-code/tree/master/0871-keys-and-rooms) |
 | [1039-find-the-town-judge](https://github.com/afoteas/leet-code/tree/master/1039-find-the-town-judge) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/afoteas/leet-code/tree/master/1229-shortest-path-with-alternating-colors) |
+| [1325-path-with-maximum-probability](https://github.com/afoteas/leet-code/tree/master/1325-path-with-maximum-probability) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/afoteas/leet-code/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 ## Topological Sort
 |  |
@@ -512,4 +515,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/afoteas/leet-code/tree/master/0789-kth-largest-element-in-a-stream) |
+## Shortest Path
+|  |
+| ------- |
+| [1325-path-with-maximum-probability](https://github.com/afoteas/leet-code/tree/master/1325-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
