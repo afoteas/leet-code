@@ -6,6 +6,7 @@ void dfs(int i, int** isConnected, int len, int* visit) {
         }
     }
 }
+
 int findCircleNum(int** isConnected, int isConnectedSize, int* isConnectedColSize) {
     int count = 0;
     int* visit = (int*)calloc(isConnectedSize, sizeof(int));
