@@ -9,13 +9,13 @@ void dfs(int i, int** isConnected, int len, int* visit) {
 int findCircleNum(int** isConnected, int isConnectedSize, int* isConnectedColSize) {
     int count = 0;
     int* visit = (int*)calloc(isConnectedSize, sizeof(int));
-    for(int i=0; i<isConnectedSize;i++)
+    for(int i=0; i<isConnectedSize; i++)
     {
         if(!visit[i])
         {
             count++;
             visit[i]=1;
-            dfs(i,isConnected,isConnectedSize,visit);
+            dfs(i, isConnected, isConnectedSize, visit);
         }
     }
     return count;  
