@@ -6,6 +6,7 @@
 #include <cmath>
 
 class Solution {
+    using doubleint = std::pair<double, int>;
 public:
 
     double dijkstra(map<int,vector<pair<int,double>>>& graph, int source, int destination) {
@@ -41,7 +42,7 @@ public:
 
     }
 
-    double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start_node, int end_node) {
+    double maxProbabilityExt(int n, vector<vector<int>>& edges, vector<double>& succProb, int start_node, int end_node) {
         map<int,vector<pair<int,double>>> graph;
         for (size_t i = 0; i < edges.size(); ++i) {
             int s = edges[i][0];
@@ -58,5 +59,48 @@ public:
             return exp(-minPath);
         }
         
+    }
+
+    double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start_node, int end_node) {
+        vector<vector<doubleint>> adjList(n, vector<doubleint>());
+
+        for (int i = 0; i < edges.size(); i++) {
+            int a = edges[i][0];
+            int b = edges[i][1];
+            double c = -std::log(succProb[i]);
+
+            adjList[a].push_back({c, b});
+            adjList[b].push_back({c, a});
+        }
+
+        std::priority_queue<
+            doubleint, 
+            std::vector<doubleint>, 
+            std::greater<doubleint>
+        > pq;
+
+        std::vector<bool> visited(n, false);
+        pq.push({0.0, start_node});
+
+        while (!pq.empty()) {
+            auto [cost, node] = pq.top();
+            pq.pop();
+            if (visited[node]) {
+                continue;
+            }
+
+            if (node == end_node) {
+                return std::exp(-cost);
+            }
+
+            visited[node] = true;
+            for (auto &[c, neighbour] : adjList[node]) {
+                if (visited[neighbour]) {
+                    continue;
+                }
+                pq.push({cost + c, neighbour});
+            }
+        }
+        return 0;
     }
 };
