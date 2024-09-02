@@ -5,8 +5,10 @@
 #include <limits>
 #include <cmath>
 
+using namespace std;
+
 class Solution {
-    using doubleint = std::pair<double, int>;
+
 public:
 
     double dijkstra(map<int,vector<pair<int,double>>>& graph, int source, int destination) {
@@ -62,24 +64,24 @@ public:
     }
 
     double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start_node, int end_node) {
-        vector<vector<doubleint>> adjList(n, vector<doubleint>());
+        vector<vector<pair<double, int>>> adjList(n, vector<pair<double, int>>());
 
         for (int i = 0; i < edges.size(); i++) {
             int a = edges[i][0];
             int b = edges[i][1];
-            double c = -std::log(succProb[i]);
+            double c = -log(succProb[i]);
 
             adjList[a].push_back({c, b});
             adjList[b].push_back({c, a});
         }
 
-        std::priority_queue<
-            doubleint, 
-            std::vector<doubleint>, 
-            std::greater<doubleint>
+        priority_queue<
+            pair<double, int>, 
+            vector<pair<double, int>>, 
+            greater<pair<double, int>>
         > pq;
 
-        std::vector<bool> visited(n, false);
+        vector<bool> visited(n, false);
         pq.push({0.0, start_node});
 
         while (!pq.empty()) {
@@ -90,7 +92,7 @@ public:
             }
 
             if (node == end_node) {
-                return std::exp(-cost);
+                return exp(-cost);
             }
 
             visited[node] = true;
