@@ -107,7 +107,7 @@ public:
     }
 
 
-        double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start_node, int end_node) {
+    double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start_node, int end_node) {
         vector<double> maxProb(n, 0.0);
         maxProb[start_node] = 1.0;
 
