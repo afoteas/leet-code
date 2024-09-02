@@ -1,7 +1,7 @@
 class Solution {
 public:
     int chalkReplacer(vector<int>& chalk, int k) {
-        long long sum = accumulate(chalk.begin(), chalk.end(), 0LL); 
+        auto sum = accumulate(chalk.begin(), chalk.end(), 0LL); 
         k = k % sum;
 
         auto j {0};
