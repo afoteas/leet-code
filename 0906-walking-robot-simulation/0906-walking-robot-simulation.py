@@ -59,4 +59,30 @@ class Solution:
                 cindex+=1
         return maxEuclidean
 
-        
+
+"""
+The difference in performance between checking membership in a list (like obstacles1) and 
+checking membership in a set (like obstacles2) comes down to the underlying data structures 
+and their time complexities for membership tests.
+
+Lists vs. Sets
+
+Lists:
+When you check if an element is in a list using if [nx, ny] in obstacles1, Python has to iterate through
+the entire list until it finds a match or reaches the end. This results in a time complexity of O(n),
+where n is the number of elements in the list. In the worst case, it may have to check every single element.
+
+Sets:
+On the other hand, when you check if an element is in a set using if (nx, ny) in obstacles2, 
+Python uses a hash table under the hood. This allows for average-case constant time complexity O(1)
+for membership tests. The set checks the hash of the element to quickly determine if it exists, making it
+significantly faster than searching through a list.
+
+Summary
+Membership Test in List: O(n)
+Membership Test in Set: O(1) (average case)
+
+This is why using a set for membership testing is generally much faster than using a list,
+especially as the size of the collection grows. If you have a large number of obstacles and
+need to frequently check for their presence, using a set is the more efficient choice.
+"""
