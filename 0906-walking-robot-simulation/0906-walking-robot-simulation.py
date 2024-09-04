@@ -29,6 +29,7 @@ class Solution:
         
     def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:
         obstacles=set(map(tuple,obstacles))
+        # obstacles=set(map(tuple,obstacles))
         cindex = 0
         position = [0, 0]
         # n, e, s, w
@@ -47,6 +48,7 @@ class Solution:
             elif command > 0:
                 nx = x+ orientation[pointer][0]
                 ny = y+ orientation[pointer][1]
+                # if [nx,ny] in obstacles:
                 if (nx,ny) in obstacles:
                     cindex+=1
                 else:
@@ -56,7 +58,5 @@ class Solution:
             else:
                 cindex+=1
         return maxEuclidean
-
-
 
         
