@@ -29,7 +29,6 @@ class Solution:
         
     def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:
         obstacles=set(map(tuple,obstacles))
-        # obstacles=set(map(tuple,obstacles))
         cindex = 0
         position = [0, 0]
         # n, e, s, w
