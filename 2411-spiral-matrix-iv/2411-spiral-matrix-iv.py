@@ -5,7 +5,8 @@
 #         self.next = next
 class Solution:
     def spiralMatrix(self, m: int, n: int, head: Optional[ListNode]) -> List[List[int]]:
-        matrix = [[-1 for _ in range(n)] for _ in range(m)]
+        # matrix = [[-1 for _ in range(n)] for _ in range(m)]
+        matrix = [[-1] * n for _ in range(m)]
         m_min, m_max = 0, n-1
         n_min, n_max = 0, m-1
         while head:
