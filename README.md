@@ -217,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1950-sign-of-the-product-of-an-array](https://github.com/afoteas/leet-code/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/afoteas/leet-code/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/afoteas/leet-code/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
 ## Sliding Window
 |  |
 | ------- |
@@ -357,6 +358,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0092-reverse-linked-list-ii](https://github.com/afoteas/leet-code/tree/master/0092-reverse-linked-list-ii) |
 | [0138-copy-list-with-random-pointer](https://github.com/afoteas/leet-code/tree/master/0138-copy-list-with-random-pointer) |
 | [0206-reverse-linked-list](https://github.com/afoteas/leet-code/tree/master/0206-reverse-linked-list) |
+| [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
 ## Tree
 |  |
 | ------- |
@@ -456,6 +458,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0906-walking-robot-simulation](https://github.com/afoteas/leet-code/tree/master/0906-walking-robot-simulation) |
 | [1803-average-waiting-time](https://github.com/afoteas/leet-code/tree/master/1803-average-waiting-time) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/afoteas/leet-code/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
 ## Union Find
 |  |
 | ------- |
@@ -471,6 +474,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) |
 | [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) |
+| [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
 ## Backtracking
 |  |
 | ------- |
