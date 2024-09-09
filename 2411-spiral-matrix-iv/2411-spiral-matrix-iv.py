@@ -10,13 +10,11 @@ class Solution:
         m_min, m_max = 0, n-1
         n_min, n_max = 0, m-1
         while temp:
-            print("while")
             for i in range(m_min, m_max+1):
                 if temp:
                     matrix[n_min][i]=temp.val
                     temp = temp.next
                 else:
-                    print("break1")
                     break
             n_min+=1
             for i in range(n_min, n_max+1):
