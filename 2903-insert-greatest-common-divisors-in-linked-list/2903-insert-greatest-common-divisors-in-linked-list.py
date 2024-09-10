@@ -6,7 +6,6 @@
 class Solution:
       
     def insertGreatestCommonDivisors(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        @cache
         def gcd(a, b):
             while b:
                 a, b = b, a%b
