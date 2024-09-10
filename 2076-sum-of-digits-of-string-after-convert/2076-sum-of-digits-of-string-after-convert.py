@@ -10,7 +10,6 @@ class Solution:
             return sum([int(digit) for digit in str(num)])
         
         ret = convert(s)
-        print(ret)
         for i in range(k):
             ret = transform(ret)
         
