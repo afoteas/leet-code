@@ -45,12 +45,12 @@ class Solution:
         i = 0
         j = i
         for i in range(len(nums)):
+            print(i)
             if j > i+nums[i]:
                 pass
             else:
                 j = i+nums[i]
-            i+=1
-            if i > j:
+            if i+1 > j:
                 break
             if j >= len(nums)-1:
                 return True
