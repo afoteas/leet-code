@@ -182,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/afoteas/leet-code/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/afoteas/leet-code/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/afoteas/leet-code/tree/master/0057-insert-interval) |
+| [0066-plus-one](https://github.com/afoteas/leet-code/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/afoteas/leet-code/tree/master/0068-text-justification) |
 | [0088-merge-sorted-array](https://github.com/afoteas/leet-code/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/afoteas/leet-code/tree/master/0118-pascals-triangle) |
@@ -251,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0007-reverse-integer](https://github.com/afoteas/leet-code/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/afoteas/leet-code/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/afoteas/leet-code/tree/master/0050-powx-n) |
+| [0066-plus-one](https://github.com/afoteas/leet-code/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/afoteas/leet-code/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/afoteas/leet-code/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/afoteas/leet-code/tree/master/0150-evaluate-reverse-polish-notation) |
