@@ -22,9 +22,8 @@ public:
 
         ListNode* temp = head;
         while (temp->next) {
-            ListNode* node = new ListNode(gcd(temp->val, temp->next->val), temp->next);
-            temp->next = node;
-            temp = node->next;
+            temp->next = new ListNode(gcd(temp->val, temp->next->val), temp->next);
+            temp = temp->next->next;
         }
         return head;
     }
