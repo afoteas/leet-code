@@ -26,10 +26,10 @@ struct ListNode* createNode(int value, struct ListNode* next) {
 
 
 struct ListNode* insertGreatestCommonDivisors(struct ListNode* head){
-        struct ListNode* temp = head;
-        while (temp->next) {
-            temp->next = createNode(gcd(temp->val, temp->next->val), temp->next);
-            temp = temp->next->next;
-        }
-        return head;
+    struct ListNode* temp = head;
+    while (temp->next) {
+        temp->next = createNode(gcd(temp->val, temp->next->val), temp->next);
+        temp = temp->next->next;
     }
+    return head;
+}
