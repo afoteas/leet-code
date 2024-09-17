@@ -31,7 +31,8 @@ class Solution:
         nums.sort()
         n=len(nums)
         for i in range(n-1):
-            # if i > 0 and nums[i]
+            if i > 0 and nums[i] == nums[i-1]:
+                continue
             j=i+1
             k=n-1
             while j<k:
