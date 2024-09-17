@@ -46,6 +46,8 @@ class Solution:
                     k-=1
                     cont = True
                 if cont: continue
+                if nums[i] + nums[j] > 0:
+                    break
                 target = nums[j] + nums[k] + nums[i]
                 if target == 0:
                     ret.append([nums[i], nums[j], nums[k]])
