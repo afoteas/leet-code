@@ -48,8 +48,8 @@ class Solution:
                     k-=1
                     cont = True
                 if cont: continue
-                if a + b > 0:
-                    break
+                # if a + b > 0:
+                #     break
                 target = a + b + c
                 if target == 0:
                     ret.append([a, b, c])
