@@ -31,6 +31,8 @@ class Solution:
         nums.sort()
         n=len(nums)
         for i in range(n-1):
+            if nums[i] > 0:
+                break
             if i > 0 and nums[i] == nums[i-1]:
                 continue
             j=i+1
