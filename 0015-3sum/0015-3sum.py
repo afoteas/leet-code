@@ -27,7 +27,7 @@ class Solution:
 
 
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        ret = set()
+        ret = []
         nums.sort()
         n=len(nums)
         for i in range(n-1):
@@ -36,16 +36,22 @@ class Solution:
             j=i+1
             k=n-1
             while j<k:
+                if j > i+1 and nums[j-1] == nums[j]:
+                    j+=1
+                    continue
+                if k < n-1 and nums[k] == nums[k+1]:
+                    k-=1
+                    continue
                 target = nums[j] + nums[k] + nums[i]
                 if target == 0:
-                    ret.add(tuple(sorted((nums[i], nums[j], nums[k]))))
+                    ret.append([nums[i], nums[j], nums[k]])
                     k-=1
                     j+=1
                 elif target>0:
                     k-=1
                 else:
                     j+=1      
-        return list(ret)
+        return ret
             
 
 
