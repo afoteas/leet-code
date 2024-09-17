@@ -38,9 +38,13 @@ class Solution:
             while j<k:
                 if j > i+1 and nums[j-1] == nums[j]:
                     j+=1
+                    if k < n-1 and nums[k] == nums[k+1]:
+                        k-=1
                     continue
                 if k < n-1 and nums[k] == nums[k+1]:
                     k-=1
+                    if j > i+1 and nums[j-1] == nums[j]:
+                        j+=1
                     continue
                 target = nums[j] + nums[k] + nums[i]
                 if target == 0:
