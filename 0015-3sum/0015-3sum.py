@@ -86,8 +86,8 @@ class Solution:
                     r -= 1
                     while nums[r] == nums[r + 1] and l < r:
                         r -= 1
-                    while nums[l] == nums[l - 1] and l < r:
-                        l += 1
+                    # while nums[l] == nums[l - 1] and l < r:
+                    #     l += 1
                         
         return res      
 
