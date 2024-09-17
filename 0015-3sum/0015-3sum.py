@@ -31,26 +31,28 @@ class Solution:
         nums.sort()
         n=len(nums)
         for i in range(n-1):
-            if nums[i] > 0:
+            a = nums[i]
+            if a > 0:
                 break
-            if i > 0 and nums[i] == nums[i-1]:
+            if i > 0 and a == nums[i-1]:
                 continue
             j=i+1
             k=n-1
             while j<k:
+                b,c = nums[j],nums[k]
                 cont = False
-                if j > i+1 and nums[j-1] == nums[j]:
+                if j > i+1 and nums[j-1] == b:
                     j+=1
                     cont = True
-                if k < n-1 and nums[k] == nums[k+1]:
+                if k < n-1 and c == nums[k+1]:
                     k-=1
                     cont = True
                 if cont: continue
-                if nums[i] + nums[j] > 0:
+                if a + b > 0:
                     break
-                target = nums[j] + nums[k] + nums[i]
+                target = a + b + c
                 if target == 0:
-                    ret.append([nums[i], nums[j], nums[k]])
+                    ret.append([a, b, c])
                     k-=1
                     j+=1
                 elif target>0:
