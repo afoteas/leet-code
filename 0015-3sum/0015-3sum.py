@@ -36,16 +36,14 @@ class Solution:
             j=i+1
             k=n-1
             while j<k:
+                cont = False
                 if j > i+1 and nums[j-1] == nums[j]:
                     j+=1
-                    if k < n-1 and nums[k] == nums[k+1]:
-                        k-=1
-                    continue
+                    cont = True
                 if k < n-1 and nums[k] == nums[k+1]:
                     k-=1
-                    if j > i+1 and nums[j-1] == nums[j]:
-                        j+=1
-                    continue
+                    cont = True
+                if cont: continue
                 target = nums[j] + nums[k] + nums[i]
                 if target == 0:
                     ret.append([nums[i], nums[j], nums[k]])
