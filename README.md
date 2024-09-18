@@ -146,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) |
 | [0906-walking-robot-simulation](https://github.com/afoteas/leet-code/tree/master/0906-walking-robot-simulation) |
+| [0920-uncommon-words-from-two-sentences](https://github.com/afoteas/leet-code/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1039-find-the-town-judge](https://github.com/afoteas/leet-code/tree/master/1039-find-the-town-judge) |
 ## String
 |  |
@@ -168,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0459-repeated-substring-pattern](https://github.com/afoteas/leet-code/tree/master/0459-repeated-substring-pattern) |
 | [0664-strange-printer](https://github.com/afoteas/leet-code/tree/master/0664-strange-printer) |
 | [0742-to-lower-case](https://github.com/afoteas/leet-code/tree/master/0742-to-lower-case) |
+| [0920-uncommon-words-from-two-sentences](https://github.com/afoteas/leet-code/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1666-make-the-string-great](https://github.com/afoteas/leet-code/tree/master/1666-make-the-string-great) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/afoteas/leet-code/tree/master/2076-sum-of-digits-of-string-after-convert) |
 ## Array
@@ -505,6 +507,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
+| [0920-uncommon-words-from-two-sentences](https://github.com/afoteas/leet-code/tree/master/0920-uncommon-words-from-two-sentences) |
 ## Graph
 |  |
 | ------- |
