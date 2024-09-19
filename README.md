@@ -158,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/afoteas/leet-code/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/afoteas/leet-code/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/afoteas/leet-code/tree/master/0022-generate-parentheses) |
+| [0067-add-binary](https://github.com/afoteas/leet-code/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/afoteas/leet-code/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/afoteas/leet-code/tree/master/0071-simplify-path) |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
@@ -263,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/afoteas/leet-code/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/afoteas/leet-code/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/afoteas/leet-code/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/afoteas/leet-code/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/afoteas/leet-code/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/afoteas/leet-code/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/afoteas/leet-code/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -459,6 +461,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/afoteas/leet-code/tree/master/0067-add-binary) |
 | [0136-single-number](https://github.com/afoteas/leet-code/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/afoteas/leet-code/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/0191-number-of-1-bits) |
@@ -475,6 +478,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/afoteas/leet-code/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/afoteas/leet-code/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/afoteas/leet-code/tree/master/0068-text-justification) |
 | [0906-walking-robot-simulation](https://github.com/afoteas/leet-code/tree/master/0906-walking-robot-simulation) |
 | [1803-average-waiting-time](https://github.com/afoteas/leet-code/tree/master/1803-average-waiting-time) |
