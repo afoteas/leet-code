@@ -1,19 +1,18 @@
 class Solution {
 public:
     int countConsistentStrings(string allowed, vector<string>& words) {
-    int ret = 0;
-    for(auto& w: words) {
-        bool found = true;
-        for(char c: w){
-            if (allowed.find(c) == string::npos) {
-                printf("%d",string::npos);
-                found = false;
-                break;
+        int ret = 0;
+        for(auto& w: words) {
+            bool found = true;
+            for(char c: w){
+                if (allowed.find(c) == string::npos) {
+                    found = false;
+                    break;
+                }
             }
+            if (found) ret++;
         }
-        if (found) ret++;
-    }
-    return ret;
+        return ret;
         
     }
 };
