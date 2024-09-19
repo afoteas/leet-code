@@ -6,6 +6,7 @@ public:
         bool found = true;
         for(char c: w){
             if (allowed.find(c) == string::npos) {
+                printf("%d",string::npos);
                 found = false;
                 break;
             }
