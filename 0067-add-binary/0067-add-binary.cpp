@@ -49,14 +49,12 @@ public:
                 i++;
             }
         } else {
-            // cout << "rem: "<<rem << ", b["<<i<<"]=" <<b[i];
               while(i < lb ) {
                 if (b[i]=='0') {
                     if (rem == '1') {
                         ret.push_back('1');
                         rem = '0';
                     } else {
-                        // cout << "rem: "<<rem << ", b["<<i<<"]=" <<b[i];
                         ret.push_back('0');
                     }
                 } else {
