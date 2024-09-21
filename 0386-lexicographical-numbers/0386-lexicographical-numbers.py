@@ -1,5 +1,5 @@
 class Solution:
-    def lexicalOrder(self, n: int) -> List[int]:
+    def lexicalOrderGood(self, n: int) -> List[int]:
         ans = []
         def dfs(i):
             if i > n:
@@ -16,4 +16,24 @@ class Solution:
                 break
             dfs(i)
         return ans
+
+    def lexicalOrder(self, n: int) -> List[int]:
+        ans = []
+        curr = 1
+
+
+        while len(ans) < n:
+            ans.append(curr)
+
+            #go to next level
+            if curr * 10 <= n:
+                curr *= 10
+
+            # go next in same level
+            else:
+                while curr % 10 == 9 or curr == n:
+                    curr //= 10
+
+                curr += 1
         
+        return ans
