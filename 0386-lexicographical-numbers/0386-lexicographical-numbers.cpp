@@ -16,7 +16,7 @@ public:
 
     vector<int> lexicalOrder(int n) {
         vector<int> ans;
-        function<void(int)> f = [&ans, &n, &f] (int i) mutable
+        function<void(int)> f = [&ans, n, &f] (int i) mutable
         {
             if (i>n) return;
             ans.push_back(i);
