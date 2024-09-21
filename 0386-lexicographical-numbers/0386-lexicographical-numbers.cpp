@@ -18,9 +18,9 @@ public:
         vector<int> ans;
         function<void(int)> f = [&ans, n, &f] (int i) mutable
         {
-            // if (i>n) return;
+            if (i>n) return;
             ans.push_back(i);
-            for(int j=0; j<=9 && i<=n; j++){
+            for(int j=0; j<=9; j++){
                 int x=10*i+j;
                 if (x>n) break;
                 f(x);
