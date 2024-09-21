@@ -20,7 +20,7 @@ public:
         {
             // if (i>n) return;
             ans.push_back(i);
-            for(int j=0; j<=9 ; j++){
+            for(int j=0; j<=9 && i<=n; j++){
                 int x=10*i+j;
                 if (x>n) break;
                 f(x);
