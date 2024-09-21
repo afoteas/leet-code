@@ -323,6 +323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
+| [0386-lexicographical-numbers](https://github.com/afoteas/leet-code/tree/master/0386-lexicographical-numbers) |
 ## Memoization
 |  |
 | ------- |
@@ -410,6 +411,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/afoteas/leet-code/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/afoteas/leet-code/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0386-lexicographical-numbers](https://github.com/afoteas/leet-code/tree/master/0386-lexicographical-numbers) |
 | [0404-sum-of-left-leaves](https://github.com/afoteas/leet-code/tree/master/0404-sum-of-left-leaves) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) |
