@@ -20,8 +20,6 @@ class Solution:
     def lexicalOrder(self, n: int) -> List[int]:
         ans = []
         curr = 1
-
-
         while len(ans) < n:
             ans.append(curr)
 
