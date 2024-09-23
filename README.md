@@ -315,6 +315,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/afoteas/leet-code/tree/master/0264-ugly-number-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/afoteas/leet-code/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/afoteas/leet-code/tree/master/0322-coin-change) |
+| [0338-counting-bits](https://github.com/afoteas/leet-code/tree/master/0338-counting-bits) |
 | [0650-2-keys-keyboard](https://github.com/afoteas/leet-code/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/afoteas/leet-code/tree/master/0664-strange-printer) |
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) |
@@ -468,6 +469,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0137-single-number-ii](https://github.com/afoteas/leet-code/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/afoteas/leet-code/tree/master/0222-count-complete-tree-nodes) |
+| [0338-counting-bits](https://github.com/afoteas/leet-code/tree/master/0338-counting-bits) |
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) |
 | [0476-number-complement](https://github.com/afoteas/leet-code/tree/master/0476-number-complement) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) |
