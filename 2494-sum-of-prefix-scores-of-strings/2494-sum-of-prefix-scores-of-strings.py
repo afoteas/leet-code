@@ -29,7 +29,7 @@ class Solution:
             ret.append(r)
         return ret
 
-    def sumPrefixScores(self, words: List[str]) -> List[int]:
+    def sumPrefixScoresTrie(self, words: List[str]) -> List[int]:
         def insert_key(root:TrieNode, key:str):
             curr = root
             for c in key:
@@ -62,5 +62,26 @@ class Solution:
             ret.append(find_score(root,w))
         return ret
 
+
+    def sumPrefixScores(self, words: List[str]) -> List[int]:
+        d = {}
+        for word in words:
+            currLevel = d
+            for char in word:
+                if char not in currLevel:
+                    currLevel[char] = [0, {}]
+                currLevel[char][0] += 1
+                currLevel = currLevel[char][1]
+
+        prefixCounts = []
+        for word in words:
+            prefixCount = 0
+            currLevel = d
+            for char in word:
+                prefixCount += currLevel[char][0]
+                currLevel = currLevel[char][1]
+            prefixCounts.append(prefixCount)
+
+        return prefixCounts
 
         
