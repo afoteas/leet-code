@@ -41,6 +41,7 @@ class Solution:
                 else:
                     curr.child[index].count += 1
                 curr = curr.child[index]
+        @cache
         def find_score(root:TrieNode, key:str) -> int:
             curr = root
             ret = 0
