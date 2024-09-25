@@ -58,7 +58,6 @@ class Solution:
         root = TrieNode()
         for w in words:
             insert_key(root, w)
-        print(root.count)
         for w in words:
             ret.append(find_score(root,w))
         return ret
