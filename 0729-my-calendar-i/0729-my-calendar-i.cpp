@@ -52,7 +52,7 @@ public:
 
     bool book(int start, int end) {
         auto it = data.lower_bound(start);
-        if (it != data.end() && it->first < end) {
+        if (it != data.end() && (it->first < end )) {
             return false;
         }
         if(it != data.begin() && start < prev(it)->second){
