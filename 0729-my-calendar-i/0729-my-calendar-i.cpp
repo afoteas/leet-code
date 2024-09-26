@@ -1,24 +1,55 @@
 class MyCalendar {
 public:
-    set<pair<int, int>> bookings; // Store pairs of (start, end) times
 
+    set<int> starts;
+    set<int> ends;
     MyCalendar() {
+        
     }
 
-    bool book(int start, int end) {
-        // Check if the new booking overlaps with existing bookings
-        for (const auto& booking : bookings) {
-            // If the new booking overlaps with an existing booking, return false
-            if (start < booking.second && end > booking.first) {
-                return false; // Overlapping condition
-            }
+    void print() {
+        cout << "starts:[ ";
+        for(auto& v:starts) {
+            cout<<v<< " ";
         }
+        cout<< "]\nends:[ ";
+        for(auto& v:ends) {
+            cout<<v<< " ";
+        }
+        cout<< "]\n";
+    }
+    
+    bool book(int start, int end) {
+        // print();
+        // cout<<"add [" <<start<<","<<end<<"] ";
+        if (starts.find(start) != starts.end()) {
+            // cout<<"false\n";
+            return false;
+        }
+        if (starts.size() == 0 || start >= *ends.rbegin() || end <= *starts.begin()) {
+            starts.insert(start);
+            ends.insert(end);
+            // cout<<"true\n";
+            return true;
+        }
+        auto pos1 = ends.upper_bound(start);
+        auto pos2 = starts.lower_bound(end);
+
+        int index1 = distance(ends.begin(), pos1);
+        int index2 = distance(starts.begin(), pos2);
+        // cout<<"index1="<<index1<<",index2="<<index2<<"\n";
+        if (index1 == index2){
+            starts.insert(start);
+            ends.insert(end);
+            // cout<<"true\n";
+            return true;
+        }
+        // cout<<"false\n";
+        return false;
         
-        // If no overlap, insert the new booking
-        bookings.insert({start, end});
-        return true;
     }
 };
+
 /**
  * Your MyCalendar object will be instantiated and called as such:
  * MyCalendar* obj = new MyCalendar();
