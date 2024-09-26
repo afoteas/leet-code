@@ -3,6 +3,7 @@ public:
 
     set<int> starts;
     set<int> ends;
+    map<int, int> data;
     MyCalendar() {
         
     }
@@ -19,7 +20,7 @@ public:
         cout<< "]\n";
     }
     
-    bool book(int start, int end) {
+    bool bookSlow(int start, int end) {
         // print();
         // cout<<"add [" <<start<<","<<end<<"] ";
         if (starts.find(start) != starts.end()) {
@@ -47,6 +48,20 @@ public:
         // cout<<"false\n";
         return false;
         
+    }
+
+    bool book(int start, int end) {
+        auto it = data.lower_bound(start);
+        if (it != data.end() && it->first < end) {
+            return false;
+        }
+
+        auto it2 = data.lower_bound(start);
+        if(it2 != data.begin() && start < prev(it2)->second){
+            return false;
+        }
+        data[start] = end;
+        return true;
     }
 };
 
