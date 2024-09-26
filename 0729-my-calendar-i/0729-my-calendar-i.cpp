@@ -52,12 +52,10 @@ public:
 
     bool book(int start, int end) {
         auto it = data.lower_bound(start);
-        if (it != data.end() && (it->first < end )) {
+        if ((it != data.end() && it->first < end ) || (it != data.begin() && start < prev(it)->second)) {
             return false;
         }
-        if(it != data.begin() && start < prev(it)->second){
-            return false;
-        }
+
         data[start] = end;
         return true;
     }
