@@ -327,6 +327,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) |
 | [0386-lexicographical-numbers](https://github.com/afoteas/leet-code/tree/master/0386-lexicographical-numbers) |
+| [0440-k-th-smallest-in-lexicographical-order](https://github.com/afoteas/leet-code/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Memoization
 |  |
