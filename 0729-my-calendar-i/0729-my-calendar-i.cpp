@@ -55,9 +55,7 @@ public:
         if (it != data.end() && it->first < end) {
             return false;
         }
-
-        auto it2 = data.lower_bound(start);
-        if(it2 != data.begin() && start < prev(it2)->second){
+        if(it != data.begin() && start < prev(it)->second){
             return false;
         }
         data[start] = end;
