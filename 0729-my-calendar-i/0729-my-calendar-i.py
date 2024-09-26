@@ -8,7 +8,7 @@ class MyCalendar:
         
 
     def book(self, start: int, end: int) -> bool:
-        print(f"try: {start}, {end}")
+
         if start in self.starts:
             return False
         
