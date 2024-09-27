@@ -1,5 +1,5 @@
 class Solution:
-    def hIndexOk(self, citations: List[int]) -> int:
+    def hIndex(self, citations: List[int]) -> int:
         citations.sort()
         l = len(citations)
         lt = l-1
@@ -13,7 +13,7 @@ class Solution:
         return min(len(citations),citations[0])        
 
 
-    def hIndex(self, citations: List[int]) -> int:
+    def hIndex2(self, citations: List[int]) -> int:
         citations.sort()
         l = len(citations)
         if citations[l-1] == 0:
