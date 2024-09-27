@@ -2,10 +2,7 @@
 // bool isBadVersion(int version);
 
 int firstBadVersion(int n) {
-    unsigned int good = -2, bad = n, test;
-
-    printf("%d\n",good);
-    printf("%d\n",good+1);
+    unsigned int good = -1, bad = n, test;
     
     while (good+1 != bad){
         test = (good + bad)>>1;
