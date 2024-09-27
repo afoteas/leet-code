@@ -11,8 +11,6 @@ class Solution:
                 bad = test
             else:
                 good = test
-        print(good)
-        print(bad)
         return bad
 
 
