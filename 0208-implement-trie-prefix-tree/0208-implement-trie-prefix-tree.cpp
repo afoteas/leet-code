@@ -1,6 +1,7 @@
 class Trie {
 public:
     unordered_map<char,Trie> trie;
+    bool end = false;
     Trie() {
         
     }
@@ -13,7 +14,7 @@ public:
             }
             curr = &curr->trie[c];
         }
-        curr->trie['#']=Trie();
+        curr->end = true;
         
     }
     
@@ -25,11 +26,7 @@ public:
             }
             curr = &curr->trie[c];
         }
-        if (curr->trie.find('#') == curr->trie.end()) {
-            return false;
-        } else {
-            return true;
-        }
+        return curr->end;
     }
     
     bool startsWith(string prefix) {
@@ -51,28 +48,3 @@ public:
  * bool param_2 = obj->search(word);
  * bool param_3 = obj->startsWith(prefix);
  */
-
-
-    //  def insert(self, word: str) -> None:
-    //     t = self.trie
-    //     for w in word:
-    //         if w not in t:
-    //             t[w] = {}
-    //         t = t[w]
-    //     t['#'] = True
-
-    // def search(self, word: str) -> bool:
-    //     t = self.trie
-    //     for w in word:
-    //         if w not in t:
-    //             return False
-    //         t = t[w]
-    //     return True if '#' in t else False
-
-    // def startsWith(self, prefix: str) -> bool:
-    //     t = self.trie
-    //     for w in prefix:
-    //         if w not in t:
-    //             return False
-    //         t = t[w]
-    //     return True
