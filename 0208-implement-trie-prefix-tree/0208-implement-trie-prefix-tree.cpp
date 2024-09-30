@@ -1,6 +1,6 @@
 class Trie {
 public:
-    unordered_map<char,Trie> trie;
+    map<char,Trie> trie;
     bool end = false;
     Trie() {
         
