@@ -9,8 +9,8 @@ class Solution:
 
     def minBitFlips(self, start: int, goal: int) -> int:
         ret = 0
-        peor = start ^ goal
-        while peor > 0:
-            ret += peor & 1
-            peor >>=1
+        xor = start ^ goal
+        while xor > 0:
+            ret += xor & 1
+            xor >>=1
         return ret        
