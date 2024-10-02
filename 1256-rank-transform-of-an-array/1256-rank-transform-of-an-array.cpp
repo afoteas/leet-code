@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> arrayRankTransform(vector<int>& arr) {
+    vector<int> arrayRankTransformTooShort(vector<int>& arr) {
         vector<pair<int, int>> arrPair;
         vector<int> ret;
         int i=0;
@@ -30,6 +30,38 @@ public:
 
         for(auto&a:arrPair) {
             ret.push_back(a.first);
+        }
+        return ret;
+        
+    }
+
+    vector<int> arrayRankTransform(vector<int>& arr) {
+        vector<pair<int, int>> arrPair;
+        vector<int> ret(arr.size());
+        int i=0;
+        int rank=1;
+        int previous;
+        bool first = true;
+        for(auto&a:arr) {
+            arrPair.push_back(make_pair(a, i++));
+        }
+        sort(arrPair.begin(),arrPair.end());
+        for(auto&a:arrPair) {
+            if (first) {
+                previous = a.first;
+                a.first = rank;
+                first= false;
+            }
+            else if(a.first == previous) {
+                a.first = rank;
+            } else {
+                previous = a.first;
+                a.first = ++rank;
+            }
+        }
+
+        for(int j = 0; j<ret.size(); j++) {
+            ret[arrPair[j].second] = arrPair[j].first;
         }
         return ret;
         
