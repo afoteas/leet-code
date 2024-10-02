@@ -37,7 +37,6 @@ public:
 
     vector<int> arrayRankTransform(vector<int>& arr) {
         vector<pair<int, int>> arrPair;
-        vector<int> ret(arr.size());
         int i=0;
         int rank=1;
         int previous;
@@ -60,10 +59,10 @@ public:
             }
         }
 
-        for(int j = 0; j<ret.size(); j++) {
-            ret[arrPair[j].second] = arrPair[j].first;
+        for(int j = 0; j<arr.size(); j++) {
+            arr[arrPair[j].second] = arrPair[j].first;
         }
-        return ret;
+        return arr;
         
     }
 };
