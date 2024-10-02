@@ -149,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0906-walking-robot-simulation](https://github.com/afoteas/leet-code/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/afoteas/leet-code/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1039-find-the-town-judge](https://github.com/afoteas/leet-code/tree/master/1039-find-the-town-judge) |
+| [1256-rank-transform-of-an-array](https://github.com/afoteas/leet-code/tree/master/1256-rank-transform-of-an-array) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) |
 ## String
 |  |
@@ -226,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) |
 | [1039-find-the-town-judge](https://github.com/afoteas/leet-code/tree/master/1039-find-the-town-judge) |
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) |
+| [1256-rank-transform-of-an-array](https://github.com/afoteas/leet-code/tree/master/1256-rank-transform-of-an-array) |
 | [1325-path-with-maximum-probability](https://github.com/afoteas/leet-code/tree/master/1325-path-with-maximum-probability) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/afoteas/leet-code/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -262,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/afoteas/leet-code/tree/master/0274-h-index) |
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) |
+| [1256-rank-transform-of-an-array](https://github.com/afoteas/leet-code/tree/master/1256-rank-transform-of-an-array) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/afoteas/leet-code/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 ## Math
 |  |
