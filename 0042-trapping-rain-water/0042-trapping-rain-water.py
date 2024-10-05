@@ -18,7 +18,7 @@ class Solution:
             previous = h
         if height[-2] < height[-1]:
             peaks.append(len(height)-1)
-        print(peaks)
+        # print(peaks)
         tmp = [peaks[0]]
         for i in range(1,len(peaks)-1):
             if height[peaks[i]] <=  height[peaks[i-1]] and height[peaks[i]] <= height[peaks[i+1]]:
@@ -33,7 +33,7 @@ class Solution:
                     continue
                 tmp.append(peaks[i])
             tmp.append(peaks[-1])
-        print(tmp)
+        # print(tmp)
         ret = 0
         for i in range(len(peaks)-1):
             l = peaks[i]
