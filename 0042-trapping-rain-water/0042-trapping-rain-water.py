@@ -19,12 +19,14 @@ class Solution:
         if height[-2] < height[-1]:
             peaks.append(len(height)-1)
         # print(peaks)
-        tmp = [peaks[0]]
-        for i in range(1,len(peaks)-1):
-            if height[peaks[i]] <=  height[peaks[i-1]] and height[peaks[i]] <= height[peaks[i+1]]:
-                continue
-            tmp.append(peaks[i])
-        tmp.append(peaks[-1])
+        # tmp = [peaks[0]]
+        # for i in range(1,len(peaks)-1):
+        #     if height[peaks[i]] <=  height[peaks[i-1]] and height[peaks[i]] <= height[peaks[i+1]]:
+        #         continue
+        #     tmp.append(peaks[i])
+        # tmp.append(peaks[-1])
+        tmp = list(peaks)
+        peaks = []
         while tmp != peaks:
             peaks = list(tmp)
             tmp = [peaks[0]]
