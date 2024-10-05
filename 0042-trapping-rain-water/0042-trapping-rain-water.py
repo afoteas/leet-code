@@ -6,7 +6,6 @@ class Solution:
         monotony = -1
         previous = height[0]
         for i,h in enumerate(height):
-            # print(f"previous={previous}, h={h}, monotony={monotony}")
             if h <= previous and monotony >= 0:
                 peaks.append(i-1)
             if h > previous:
@@ -27,7 +26,6 @@ class Solution:
                     continue
                 peaks.append(tmp[i])
             peaks.append(tmp[-1])
-        # print(tmp)
         ret = 0
         for i in range(len(peaks)-1):
             l = peaks[i]
