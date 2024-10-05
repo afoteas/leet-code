@@ -32,9 +32,9 @@ class Solution:
         print(m)
         print(n)
         while m <= n-1:
-            print("mpeos")
+            # print("mpeos")
             if height[peaks[m]] <= height[peaks[m-1]] and height[peaks[m]] <= height[peaks[m+1]]:
-                print("peos")
+                # print("peos")
                 del peaks[m]
                 n-=1
                 m=1
