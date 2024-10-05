@@ -28,19 +28,16 @@ class Solution:
         #     peaks.append(tmp[-1])
         m = 1
         n = len(peaks)-1
-        # print(peaks)
-        # print(m)
-        # print(n)
+        r = 1
         while m <= n-1:
-            # print("mpeos")
+            if height[peaks[r]] < height[peaks[m]]:
+                r = m
             if height[peaks[m]] <= height[peaks[m-1]] and height[peaks[m]] <= height[peaks[m+1]]:
-                # print("peos")
                 del peaks[m]
                 n-=1
-                m=1
+                m=r
             else:
                 m+=1
-        # print(peaks)
         ret = 0
         for i in range(len(peaks)-1):
             l = peaks[i]
