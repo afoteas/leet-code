@@ -17,28 +17,28 @@ class Solution:
             previous = h
         if height[-2] < height[-1]:
             peaks.append(len(height)-1)
-        # tmp = []
-        # while tmp != peaks:
-        #     tmp = list(peaks)
-        #     peaks = [tmp[0]]
-        #     for i in range(1,len(tmp)-1):
-        #         if height[tmp[i]] <=  height[tmp[i-1]] and height[tmp[i]] <= height[tmp[i+1]]:
-        #             continue
-        #         peaks.append(tmp[i])
-        #     peaks.append(tmp[-1])
-        m = 1
-        n = len(peaks)-1
-        r = 1
-        while m <= n-1:
-            if height[peaks[r]] < height[peaks[m]]:
-                r = m
-            if height[peaks[m]] <= height[peaks[m-1]] and height[peaks[m]] <= height[peaks[m+1]]:
-                # del peaks[m]
-                peaks.pop(m)
-                n-=1
-                m=r
-            else:
-                m+=1
+        tmp = []
+        while tmp != peaks:
+            tmp = list(peaks)
+            peaks = [tmp[0]]
+            for i in range(1,len(tmp)-1):
+                if height[tmp[i]] <=  height[tmp[i-1]] and height[tmp[i]] <= height[tmp[i+1]]:
+                    continue
+                peaks.append(tmp[i])
+            peaks.append(tmp[-1])
+        # m = 1
+        # n = len(peaks)-1
+        # r = 1
+        # while m <= n-1:
+        #     if height[peaks[r]] < height[peaks[m]]:
+        #         r = m
+        #     if height[peaks[m]] <= height[peaks[m-1]] and height[peaks[m]] <= height[peaks[m+1]]:
+        #         # del peaks[m]
+        #         peaks.pop(m)
+        #         n-=1
+        #         m=r
+        #     else:
+        #         m+=1
         ret = 0
         for i in range(len(peaks)-1):
             l = peaks[i]
