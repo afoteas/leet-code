@@ -28,9 +28,9 @@ class Solution:
         #     peaks.append(tmp[-1])
         m = 1
         n = len(peaks)-1
-        print(peaks)
-        print(m)
-        print(n)
+        # print(peaks)
+        # print(m)
+        # print(n)
         while m <= n-1:
             # print("mpeos")
             if height[peaks[m]] <= height[peaks[m-1]] and height[peaks[m]] <= height[peaks[m+1]]:
@@ -40,7 +40,7 @@ class Solution:
                 m=1
             else:
                 m+=1
-        print(peaks)
+        # print(peaks)
         ret = 0
         for i in range(len(peaks)-1):
             l = peaks[i]
