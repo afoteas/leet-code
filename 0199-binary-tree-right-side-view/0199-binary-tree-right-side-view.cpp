@@ -29,7 +29,7 @@ public:
         return ret;
     }
 
-        vector<int> rightSideView(TreeNode* root) {
+    vector<int> rightSideView(TreeNode* root) {
         vector<int> view;
         if (!root) return view;
 
