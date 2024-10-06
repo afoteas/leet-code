@@ -46,8 +46,8 @@ class Solution:
                 while r < t:
                     if s[l+r:l+r+n] in word_count:
                         seen_words[s[l+r:l+r+n]] += 1
-                        # if seen_words[s[l+r:l+r+n]] > word_count[s[l+r:l+r+n]]:
-                        #     break
+                        if seen_words[s[l+r:l+r+n]] > word_count[s[l+r:l+r+n]]:
+                            break
                         r+=n
                     else:
                         break
