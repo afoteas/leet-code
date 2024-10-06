@@ -20,7 +20,6 @@ class Solution:
                         break
                 if len(tmp) == 0:
                     ret.append(l)
-                    l+=min(n,len(set(words)))-1
             l+=1
         return ret
                 
