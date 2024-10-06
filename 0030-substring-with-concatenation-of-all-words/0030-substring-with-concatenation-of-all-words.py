@@ -1,7 +1,5 @@
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
-        if not s or not words or not words[0]:
-            return []
         l = 0
         r = 0
         ret = []
@@ -9,6 +7,8 @@ class Solution:
             words = [''.join(words)]
         m = len(s)
         n = len(words[0])
+        if n*len(words)>m:
+            return ret
         while l + n <= m:
             if s[l:l+n] in words:
                 tmp = list(words)
