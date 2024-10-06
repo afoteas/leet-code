@@ -204,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0066-plus-one](https://github.com/afoteas/leet-code/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/afoteas/leet-code/tree/master/0068-text-justification) |
 | [0088-merge-sorted-array](https://github.com/afoteas/leet-code/tree/master/0088-merge-sorted-array) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/afoteas/leet-code/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/afoteas/leet-code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/afoteas/leet-code/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -325,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/afoteas/leet-code/tree/master/0053-maximum-subarray) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0191-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 ## Dynamic Programming
@@ -422,6 +424,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/afoteas/leet-code/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/afoteas/leet-code/tree/master/0101-symmetric-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/afoteas/leet-code/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/afoteas/leet-code/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/afoteas/leet-code/tree/master/0199-binary-tree-right-side-view) |
@@ -467,6 +470,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/afoteas/leet-code/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/afoteas/leet-code/tree/master/0101-symmetric-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/afoteas/leet-code/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/afoteas/leet-code/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/afoteas/leet-code/tree/master/0199-binary-tree-right-side-view) |
@@ -481,6 +485,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0098-validate-binary-search-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/afoteas/leet-code/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/afoteas/leet-code/tree/master/0789-kth-largest-element-in-a-stream) |
