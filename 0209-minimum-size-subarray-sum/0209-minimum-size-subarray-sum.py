@@ -1,23 +1,4 @@
 class Solution:
-    def minSubArrayLenSlow(self, target: int, nums: List[int]) -> int:
-        window = []
-        count = 100000
-        solution = False
-        for num in nums:
-            window.append(num)
-            if solution:
-                window.pop(0)
-            while sum(window) >= target:
-                solution = True
-                print("solution")
-                if len(window) < count:
-                    count = len(window)
-                window.pop(0)
-        if solution:
-            return count
-        else:
-            return 0
-
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         l=0
         r=0
@@ -38,6 +19,3 @@ class Solution:
             return count
         else:
             return 0
-
-
-        
