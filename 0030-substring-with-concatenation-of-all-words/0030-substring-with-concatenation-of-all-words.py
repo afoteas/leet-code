@@ -39,7 +39,7 @@ class Solution:
             return ret
         word_count = Counter(words) 
         while l + n <= m:
-            if s[l:l+n] in words:
+            if s[l:l+n] in word_count:
                 seen_words = Counter()
                 seen_words[s[l:l+n]] += 1
                 r=n
