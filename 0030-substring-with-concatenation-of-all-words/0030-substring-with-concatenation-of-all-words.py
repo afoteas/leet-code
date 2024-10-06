@@ -1,12 +1,9 @@
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         m = len(s)
-        n = len(words[0])
         l = 0
         r = 0
         ret = []
-        # if m == len(words):
-        #     return [0]
         if len(set(words)) == 1:
             words = [''.join(words)]
         n = len(words[0])
