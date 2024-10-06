@@ -1,11 +1,11 @@
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
-        m = len(s)
         l = 0
         r = 0
         ret = []
         if len(set(words)) == 1:
             words = [''.join(words)]
+        m = len(s)
         n = len(words[0])
         while l + n <= m:
             if s[l:l+n] in words:
@@ -20,6 +20,7 @@ class Solution:
                         break
                 if len(tmp) == 0:
                     ret.append(l)
+                    l+=min(n,len(set(words)))-1
             l+=1
         return ret
                 
