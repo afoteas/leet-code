@@ -212,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/afoteas/leet-code/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) |
+| [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0219-contains-duplicate-ii](https://github.com/afoteas/leet-code/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/afoteas/leet-code/tree/master/0238-product-of-array-except-self) |
@@ -246,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/afoteas/leet-code/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/afoteas/leet-code/tree/master/0219-contains-duplicate-ii) |
 ## Two Pointers
 |  |
@@ -385,6 +387,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0069-sqrtx](https://github.com/afoteas/leet-code/tree/master/0069-sqrtx) |
 | [0162-find-peak-element](https://github.com/afoteas/leet-code/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/afoteas/leet-code/tree/master/0222-count-complete-tree-nodes) |
 | [0278-first-bad-version](https://github.com/afoteas/leet-code/tree/master/0278-first-bad-version) |
 | [0300-longest-increasing-subsequence](https://github.com/afoteas/leet-code/tree/master/0300-longest-increasing-subsequence) |
@@ -546,6 +549,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/afoteas/leet-code/tree/master/0238-product-of-array-except-self) |
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) |
 | [1694-make-sum-divisible-by-p](https://github.com/afoteas/leet-code/tree/master/1694-make-sum-divisible-by-p) |
