@@ -7,7 +7,7 @@ public:
          for(auto &v:values) {
             int count = num/v.second;
             num -= v.second*count;
-            for(int i=0; i<count; i++) {
+            while (count--) {
                 returnStr += v.first;
             }
          }
