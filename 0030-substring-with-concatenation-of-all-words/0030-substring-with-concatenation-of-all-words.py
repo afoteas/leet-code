@@ -43,7 +43,7 @@ class Solution:
                 seen_words = Counter()
                 seen_words[s[l:l+n]] += 1
                 r=n
-                while seen_words != word_count:
+                while r < t:
                     if s[l+r:l+r+n] in word_count:
                         seen_words[s[l+r:l+r+n]] += 1
                         if seen_words[s[l+r:l+r+n]] > word_count[s[l+r:l+r+n]]:
