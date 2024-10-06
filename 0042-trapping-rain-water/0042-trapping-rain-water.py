@@ -33,7 +33,6 @@ class Solution:
             if height[peaks[r]] < height[peaks[m]]:
                 r = m
             if height[peaks[m]] <= height[peaks[m-1]] and height[peaks[m]] <= height[peaks[m+1]]:
-                # del peaks[m]
                 peaks.pop(m)
                 n-=1
                 m=r
