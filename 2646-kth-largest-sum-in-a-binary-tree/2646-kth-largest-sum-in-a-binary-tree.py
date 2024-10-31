@@ -22,6 +22,5 @@ class Solution:
         if len(levels) < k:
             return -1
         levels.sort(reverse = True)
-        print(levels)
         return levels[k-1]
         
