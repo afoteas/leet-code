@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    long long kthLargestLevelSum(TreeNode* root, int k) {
+    long long kthLargestLevelSumMine(TreeNode* root, int k) {
         if (!root) return -1;
 
         std::vector<double> levels;
@@ -35,6 +35,37 @@ public:
 
         std::sort(levels.rbegin(), levels.rend());
         return levels[k - 1];
+        
+    }
+
+    long long kthLargestLevelSum(TreeNode* root, int k) {
+        if(root==NULL)
+        return -1;
+        queue<TreeNode*>q;
+        q.push(root);
+        priority_queue<long long>pq;
+        while(!q.empty())
+        {
+            int n = q.size();
+            long long sum =0;
+            for(int i =0;i<n;i++)
+            {
+                auto x = q.front();
+                q.pop();
+                sum+=x->val;
+                if(x->left)q.push(x->left);
+                if(x->right)q.push(x->right);
+            }
+            pq.push(sum);
+        }
+        if(pq.size()<k)
+            return -1;
+        k-=1;
+        while(k--)
+        {
+            pq.pop();
+        }
+        return pq.top();
         
     }
 };
