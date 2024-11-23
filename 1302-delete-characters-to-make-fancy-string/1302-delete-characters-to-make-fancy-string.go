@@ -28,7 +28,7 @@ func makeFancyString(s string) string {
     var character byte
     var cnt int
 
-    for i := 0; i < len(s); i++{
+    for i := 0; i < len(s); i++ {
         currentCharacter := s[i]
         if(character != currentCharacter){
             character = currentCharacter
