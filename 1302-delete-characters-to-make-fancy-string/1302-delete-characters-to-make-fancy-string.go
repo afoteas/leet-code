@@ -34,7 +34,7 @@ func makeFancyString(s string) string {
             character = currentCharacter
             cnt = 1
             result = append(result, character)
-        }else if(cnt < 2){
+        }else if cnt < 2 {
             cnt++
             result = append(result, character)
         }
