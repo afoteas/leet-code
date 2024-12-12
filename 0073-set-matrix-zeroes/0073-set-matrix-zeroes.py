@@ -7,7 +7,7 @@ class Solution:
         n = len(matrix[0])
         verticals = set()
         for i in range(m):
-            newVerticals = [index for index, value in enumerate(matrix[i]) if value == 0]
+            newVerticals = [index for index, value in enumerate(matrix[i]) if value == 0 and index not in verticals]
             verticals.update(newVerticals)
             for ii in range(0,i):
                 for jj in newVerticals:
