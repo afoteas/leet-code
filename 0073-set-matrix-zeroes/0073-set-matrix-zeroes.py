@@ -17,7 +17,5 @@ class Solution:
             else:
                 for jj in verticals:
                     matrix[i][jj] = 0
-        print(verticals)
-        # print(f"m={m}, n={n}")
 
         
