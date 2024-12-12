@@ -5,10 +5,10 @@ class Solution:
         """
         m = len(matrix)
         n = len(matrix[0])
-        verticals = set()
+        verticals = []
         for i in range(m):
             newVerticals = [index for index, value in enumerate(matrix[i]) if value == 0 and index not in verticals]
-            verticals.update(newVerticals)
+            verticals.extend(newVerticals)
             for ii in range(0,i):
                 for jj in newVerticals:
                     matrix[ii][jj] = 0
