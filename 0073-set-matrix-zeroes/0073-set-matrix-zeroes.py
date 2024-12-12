@@ -37,9 +37,10 @@ class Solution:
                 if value == 0:
                     hasZero = True
             verticals.update(new)
-            for ii in range(0,i):
-                for jj in new:
-                    matrix[ii][jj] = 0
+            if new:
+                for ii in range(0,i):
+                    for jj in new:
+                        matrix[ii][jj] = 0
             if hasZero:
                 matrix[i] = [0]*n
 
