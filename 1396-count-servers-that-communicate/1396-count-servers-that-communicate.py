@@ -9,8 +9,8 @@ class Solution:
                 if grid[i][j]:
                     row[i]+=1
                     col[j]+=1
-        print(row)
-        print(col)
+        # print(row)
+        # print(col)
         ret = 0
         for i in range(m):
             for j in range(n):
