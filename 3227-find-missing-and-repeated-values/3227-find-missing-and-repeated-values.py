@@ -21,7 +21,6 @@ class Solution:
                     nums[grid[i][j]-1] -= 1
                 else:
                     a = grid[i][j]
-        print(nums)
         b = nums.index(1) + 1
         return [a, b]
         
