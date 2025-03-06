@@ -156,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1694-make-sum-divisible-by-p](https://github.com/afoteas/leet-code/tree/master/1694-make-sum-divisible-by-p) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/afoteas/leet-code/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3227-find-missing-and-repeated-values](https://github.com/afoteas/leet-code/tree/master/3227-find-missing-and-repeated-values) |
 ## String
 |  |
@@ -257,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2067-maximum-number-of-points-with-cost](https://github.com/afoteas/leet-code/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3227-find-missing-and-repeated-values](https://github.com/afoteas/leet-code/tree/master/3227-find-missing-and-repeated-values) |
 ## Sliding Window
 |  |
@@ -279,6 +281,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/afoteas/leet-code/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/afoteas/leet-code/tree/master/0283-move-zeroes) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Sorting
 |  |
 | ------- |
