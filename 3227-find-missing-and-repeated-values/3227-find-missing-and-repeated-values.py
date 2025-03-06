@@ -18,7 +18,7 @@ class Solution:
         for i in range(n):
             for j in range(n):
                 if nums[grid[i][j]-1]:
-                    nums[grid[i][j]-1] -= 1
+                    nums[grid[i][j]-1] = 0
                 else:
                     a = grid[i][j]
         b = nums.index(1) + 1
