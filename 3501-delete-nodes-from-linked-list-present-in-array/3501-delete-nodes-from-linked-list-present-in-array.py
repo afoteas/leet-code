@@ -14,23 +14,8 @@ class Solution:
         for num in nums:
             numsDict[num] = True
 
-        def findVal(val):
-            # if val in seen:
-            #     return True
-            # if val in notSeen:
-            #     return False
-            # if val in nums:
-            #     seen.append(val)
-            #     return True
-            # notSeen.append(val)
-            # return False
-            if val in numsDict:
-                return True
-            else:
-                return False
-
         while cur.next:
-            if not findVal(cur.val):
+            if not cur.val in numsDict:
                 if not ret:
                     ret = cur
                     end = cur
@@ -38,7 +23,7 @@ class Solution:
                     end.next = cur
                     end = end.next
             cur = cur.next
-        if findVal(cur.val):
+        if cur.val in numsDict:
             end.next = None
         else:
             if not ret:
