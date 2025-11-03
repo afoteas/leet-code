@@ -8,7 +8,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
- #include <set>
+ #include <unordered_set>
  using namespace std;
 
     //  def modifiedList(self, nums: List[int], head: Optional[ListNode]) -> Optional[ListNode]:
@@ -25,7 +25,7 @@
 class Solution {
 public:
     ListNode* modifiedList(vector<int>& nums, ListNode* head) {
-        set<int> const  n(begin(nums), end(nums));
+        unordered_set<int> const  n(begin(nums), end(nums));
         ListNode dummy(0, head);
         ListNode* curr = &dummy;
 
