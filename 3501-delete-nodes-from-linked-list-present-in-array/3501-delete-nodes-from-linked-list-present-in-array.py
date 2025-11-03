@@ -34,7 +34,7 @@ class Solution:
                 end.next = cur
         return ret
 
-    def modifiedList(self, nums: List[int], head: Optional[ListNode]) -> Optional[ListNode]:
+    def modifiedListBetter(self, nums: List[int], head: Optional[ListNode]) -> Optional[ListNode]:
         # Create a set for efficient lookup of values in nums
         values_to_remove = set(nums)
 
@@ -58,6 +58,17 @@ class Solution:
 
         return head
 
+    def modifiedList(self, nums: List[int], head: Optional[ListNode]) -> Optional[ListNode]:
+        n = set(nums)
+        dummy = ListNode(0)
+        dummy.next = head
+        curr = dummy
+        while curr.next:
+            if (curr.next.val in n):
+                curr.next = curr.next.next
+            else:
+                curr = curr.next
+        return dummy.next
 
         
                 
