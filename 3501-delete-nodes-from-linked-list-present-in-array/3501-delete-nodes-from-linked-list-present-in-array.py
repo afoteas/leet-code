@@ -10,12 +10,13 @@ class Solution:
         cur = head
         seen = []
         notSeen = []
-        numsDict = {}
+        numsCheck = {}
         for num in nums:
-            numsDict[num] = True
+            numsCheck[num] = True
+
 
         while cur.next:
-            if not cur.val in numsDict:
+            if not cur.val in numsCheck:
                 if not ret:
                     ret = cur
                     end = cur
@@ -23,7 +24,7 @@ class Solution:
                     end.next = cur
                     end = end.next
             cur = cur.next
-        if cur.val in numsDict:
+        if cur.val in numsCheck:
             end.next = None
         else:
             if not ret:
