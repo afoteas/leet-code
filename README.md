@@ -1,133 +1,54 @@
 # leet-code
 Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 
+## Table of Contents
+- [LeetCode Topics](#leetcode-topics)
+- [Hash Table](#hash-table)
+- [String](#string)
+- [Array](#array)
+- [Sliding Window](#sliding-window)
+- [Two Pointers](#two-pointers)
+- [Sorting](#sorting)
+- [Math](#math)
+- [Stack](#stack)
+- [Recursion](#recursion)
+- [Divide and Conquer](#divide-and-conquer)
+- [Dynamic Programming](#dynamic-programming)
+- [Trie](#trie)
+- [Memoization](#memoization)
+- [Breadth-First Search](#breadth-first-search)
+- [Binary Search](#binary-search)
+- [Linked List](#linked-list)
+- [Tree](#tree)
+- [Depth-First Search](#depth-first-search)
+- [Binary Tree](#binary-tree)
+- [Binary Search Tree](#binary-search-tree)
+- [Heap (Priority Queue)](#heap-priority-queue)
+- [Quickselect](#quickselect)
+- [Bit Manipulation](#bit-manipulation)
+- [Design](#design)
+- [Simulation](#simulation)
+- [Union Find](#union-find)
+- [Matrix](#matrix)
+- [Backtracking](#backtracking)
+- [Prefix Sum](#prefix-sum)
+- [Counting](#counting)
+- [Graph](#graph)
+- [Topological Sort](#topological-sort)
+- [String Matching](#string-matching)
+- [Greedy](#greedy)
+- [Game Theory](#game-theory)
+- [Data Stream](#data-stream)
+- [Shortest Path](#shortest-path)
+- [Number Theory](#number-theory)
+- [Segment Tree](#segment-tree)
+- [Ordered Set](#ordered-set)
+- [Counting Sort](#counting-sort)
+- [Interactive](#interactive)
+- [Queue](#queue)
+- [Monotonic Stack](#monotonic-stack)
+- [Combinatorics](#combinatorics)
 
-# Two Pointers
-|  |
-| ------- |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/afoteas/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/afoteas/leet-code/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
-| [0125-valid-palindrome](https://github.com/afoteas/leet-code/tree/master/0125-valid-palindrome) |
-| [0202-happy-number](https://github.com/afoteas/leet-code/tree/master/0202-happy-number) |
-| [0392-is-subsequence](https://github.com/afoteas/leet-code/tree/master/0392-is-subsequence) |
-| [1894-merge-strings-alternately](https://github.com/afoteas/leet-code/tree/master/1894-merge-strings-alternately) |
-# String
-|  |
-| ------- |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/afoteas/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-# String Matching
-|  |
-| ------- |
-| [0013-roman-to-integer](https://github.com/afoteas/leet-code/tree/master/0013-roman-to-integer) |
-| [0014-longest-common-prefix](https://github.com/afoteas/leet-code/tree/master/0014-longest-common-prefix) |
-| [0020-valid-parentheses](https://github.com/afoteas/leet-code/tree/master/0020-valid-parentheses) |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/afoteas/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-| [0058-length-of-last-word](https://github.com/afoteas/leet-code/tree/master/0058-length-of-last-word) |
-| [0125-valid-palindrome](https://github.com/afoteas/leet-code/tree/master/0125-valid-palindrome) |
-| [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
-| [0392-is-subsequence](https://github.com/afoteas/leet-code/tree/master/0392-is-subsequence) |
-| [1894-merge-strings-alternately](https://github.com/afoteas/leet-code/tree/master/1894-merge-strings-alternately) |
-# Tree
-|  |
-| ------- |
-| [0104-maximum-depth-of-binary-tree](https://github.com/afoteas/leet-code/tree/master/0104-maximum-depth-of-binary-tree) |
-| [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
-# Depth-First Search
-|  |
-| ------- |
-| [0104-maximum-depth-of-binary-tree](https://github.com/afoteas/leet-code/tree/master/0104-maximum-depth-of-binary-tree) |
-| [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
-# Breadth-First Search
-|  |
-| ------- |
-| [0104-maximum-depth-of-binary-tree](https://github.com/afoteas/leet-code/tree/master/0104-maximum-depth-of-binary-tree) |
-| [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
-# Binary Tree
-|  |
-| ------- |
-| [0104-maximum-depth-of-binary-tree](https://github.com/afoteas/leet-code/tree/master/0104-maximum-depth-of-binary-tree) |
-| [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) |
-# Trie
-|  |
-| ------- |
-| [0014-longest-common-prefix](https://github.com/afoteas/leet-code/tree/master/0014-longest-common-prefix) |
-# Array
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/afoteas/leet-code/tree/master/0001-two-sum) |
-| [0036-valid-sudoku](https://github.com/afoteas/leet-code/tree/master/0036-valid-sudoku) |
-| [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) |
-| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/afoteas/leet-code/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
-| [0134-gas-station](https://github.com/afoteas/leet-code/tree/master/0134-gas-station) |
-| [0135-candy](https://github.com/afoteas/leet-code/tree/master/0135-candy) |
-| [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
-| [0228-summary-ranges](https://github.com/afoteas/leet-code/tree/master/0228-summary-ranges) |
-| [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
-# Hash Table
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/afoteas/leet-code/tree/master/0001-two-sum) |
-| [0013-roman-to-integer](https://github.com/afoteas/leet-code/tree/master/0013-roman-to-integer) |
-| [0036-valid-sudoku](https://github.com/afoteas/leet-code/tree/master/0036-valid-sudoku) |
-| [0202-happy-number](https://github.com/afoteas/leet-code/tree/master/0202-happy-number) |
-| [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
-| [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
-# Math
-|  |
-| ------- |
-| [0009-palindrome-number](https://github.com/afoteas/leet-code/tree/master/0009-palindrome-number) |
-| [0013-roman-to-integer](https://github.com/afoteas/leet-code/tree/master/0013-roman-to-integer) |
-| [0070-climbing-stairs](https://github.com/afoteas/leet-code/tree/master/0070-climbing-stairs) |
-| [0202-happy-number](https://github.com/afoteas/leet-code/tree/master/0202-happy-number) |
-| [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
-# Design
-|  |
-| ------- |
-| [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
-# Randomized
-|  |
-| ------- |
-| [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
-# Greedy
-|  |
-| ------- |
-| [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) |
-| [0134-gas-station](https://github.com/afoteas/leet-code/tree/master/0134-gas-station) |
-| [0135-candy](https://github.com/afoteas/leet-code/tree/master/0135-candy) |
-# Binary Search
-|  |
-| ------- |
-| [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
-# Sliding Window
-|  |
-| ------- |
-| [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
-# Prefix Sum
-|  |
-| ------- |
-| [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
-# Dynamic Programming
-|  |
-| ------- |
-| [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) |
-| [0070-climbing-stairs](https://github.com/afoteas/leet-code/tree/master/0070-climbing-stairs) |
-| [0392-is-subsequence](https://github.com/afoteas/leet-code/tree/master/0392-is-subsequence) |
-# Counting
-|  |
-| ------- |
-| [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
-# Matrix
-|  |
-| ------- |
-| [0036-valid-sudoku](https://github.com/afoteas/leet-code/tree/master/0036-valid-sudoku) |
-# Stack
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/afoteas/leet-code/tree/master/0020-valid-parentheses) |
-# Memoization
-|  |
-| ------- |
-| [0070-climbing-stairs](https://github.com/afoteas/leet-code/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Hash Table
@@ -159,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3227-find-missing-and-repeated-values](https://github.com/afoteas/leet-code/tree/master/3227-find-missing-and-repeated-values) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/afoteas/leet-code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [0036-valid-sudoku](https://github.com/afoteas/leet-code/tree/master/0036-valid-sudoku) |
 ## String
 |  |
 | ------- |
@@ -193,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/afoteas/leet-code/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/afoteas/leet-code/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/afoteas/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/afoteas/leet-code/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Array
 |  |
@@ -200,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/afoteas/leet-code/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/afoteas/leet-code/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/afoteas/leet-code/tree/master/0015-3sum) |
+| [0027-remove-element](https://github.com/afoteas/leet-code/tree/master/0027-remove-element) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/afoteas/leet-code/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/afoteas/leet-code/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/afoteas/leet-code/tree/master/0035-search-insert-position) |
@@ -226,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/afoteas/leet-code/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/afoteas/leet-code/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/afoteas/leet-code/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/afoteas/leet-code/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
@@ -261,6 +186,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/afoteas/leet-code/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [0189-rotate-array](https://github.com/afoteas/leet-code/tree/master/0189-rotate-array) |
+| [0228-summary-ranges](https://github.com/afoteas/leet-code/tree/master/0228-summary-ranges) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3227-find-missing-and-repeated-values](https://github.com/afoteas/leet-code/tree/master/3227-find-missing-and-repeated-values) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/afoteas/leet-code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -273,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0030-substring-with-concatenation-of-all-words](https://github.com/afoteas/leet-code/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/afoteas/leet-code/tree/master/0219-contains-duplicate-ii) |
+| [0076-minimum-window-substring](https://github.com/afoteas/leet-code/tree/master/0076-minimum-window-substring) |
 ## Two Pointers
 |  |
 | ------- |
@@ -301,11 +229,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1256-rank-transform-of-an-array](https://github.com/afoteas/leet-code/tree/master/1256-rank-transform-of-an-array) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/afoteas/leet-code/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/afoteas/leet-code/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/afoteas/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/afoteas/leet-code/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0125-valid-palindrome](https://github.com/afoteas/leet-code/tree/master/0125-valid-palindrome) |
+| [0202-happy-number](https://github.com/afoteas/leet-code/tree/master/0202-happy-number) |
+| [0392-is-subsequence](https://github.com/afoteas/leet-code/tree/master/0392-is-subsequence) |
+| [1894-merge-strings-alternately](https://github.com/afoteas/leet-code/tree/master/1894-merge-strings-alternately) |
 ## Math
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/afoteas/leet-code/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/afoteas/leet-code/tree/master/0007-reverse-integer) |
+| [0009-palindrome-number](https://github.com/afoteas/leet-code/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/afoteas/leet-code/tree/master/0012-integer-to-roman) |
 | [0048-rotate-image](https://github.com/afoteas/leet-code/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/afoteas/leet-code/tree/master/0050-powx-n) |
@@ -442,6 +377,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0092-reverse-linked-list-ii](https://github.com/afoteas/leet-code/tree/master/0092-reverse-linked-list-ii) |
 | [0138-copy-list-with-random-pointer](https://github.com/afoteas/leet-code/tree/master/0138-copy-list-with-random-pointer) |
 | [0206-reverse-linked-list](https://github.com/afoteas/leet-code/tree/master/0206-reverse-linked-list) |
+| [0141-linked-list-cycle](https://github.com/afoteas/leet-code/tree/master/0141-linked-list-cycle) |
 | [0859-design-circular-deque](https://github.com/afoteas/leet-code/tree/master/0859-design-circular-deque) |
 | [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/afoteas/leet-code/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
@@ -453,6 +389,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/afoteas/leet-code/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/afoteas/leet-code/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/afoteas/leet-code/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/afoteas/leet-code/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/afoteas/leet-code/tree/master/0112-path-sum) |
@@ -545,6 +482,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) |
 | [0476-number-complement](https://github.com/afoteas/leet-code/tree/master/0476-number-complement) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) |
+| [0190-reverse-bits](https://github.com/afoteas/leet-code/tree/master/0190-reverse-bits) |
+| [3508-number-of-bit-changes-to-make-two-integers-equal](https://github.com/afoteas/leet-code/tree/master/3508-number-of-bit-changes-to-make-two-integers-equal) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/afoteas/leet-code/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Design
 |  |
@@ -554,6 +493,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0729-my-calendar-i](https://github.com/afoteas/leet-code/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/afoteas/leet-code/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/afoteas/leet-code/tree/master/0859-design-circular-deque) |
+| [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) |
 ## Simulation
 |  |
 | ------- |
@@ -631,6 +571,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0459-repeated-substring-pattern](https://github.com/afoteas/leet-code/tree/master/0459-repeated-substring-pattern) |
+| [0013-roman-to-integer](https://github.com/afoteas/leet-code/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/afoteas/leet-code/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/afoteas/leet-code/tree/master/0020-valid-parentheses) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/afoteas/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0058-length-of-last-word](https://github.com/afoteas/leet-code/tree/master/0058-length-of-last-word) |
+| [0125-valid-palindrome](https://github.com/afoteas/leet-code/tree/master/0125-valid-palindrome) |
+| [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) |
+| [0392-is-subsequence](https://github.com/afoteas/leet-code/tree/master/0392-is-subsequence) |
+| [1894-merge-strings-alternately](https://github.com/afoteas/leet-code/tree/master/1894-merge-strings-alternately) |
 ## Greedy
 |  |
 | ------- |
@@ -640,6 +589,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0605-can-place-flowers](https://github.com/afoteas/leet-code/tree/master/0605-can-place-flowers) |
 | [0624-maximum-distance-in-arrays](https://github.com/afoteas/leet-code/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/afoteas/leet-code/tree/master/0890-lemonade-change) |
+| [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) |
+| [0134-gas-station](https://github.com/afoteas/leet-code/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/afoteas/leet-code/tree/master/0135-candy) |
 ## Game Theory
 |  |
 | ------- |
