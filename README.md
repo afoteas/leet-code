@@ -191,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/afoteas/leet-code/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/afoteas/leet-code/tree/master/2076-sum-of-digits-of-string-after-convert) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/afoteas/leet-code/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/afoteas/leet-code/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Array
@@ -257,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1950-sign-of-the-product-of-an-array](https://github.com/afoteas/leet-code/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/afoteas/leet-code/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/afoteas/leet-code/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/afoteas/leet-code/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -562,6 +564,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1803-average-waiting-time](https://github.com/afoteas/leet-code/tree/master/1803-average-waiting-time) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/afoteas/leet-code/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/afoteas/leet-code/tree/master/2076-sum-of-digits-of-string-after-convert) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/afoteas/leet-code/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/afoteas/leet-code/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Union Find
