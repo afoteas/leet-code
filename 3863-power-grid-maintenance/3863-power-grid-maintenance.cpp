@@ -19,13 +19,12 @@ public:
         };
 
         // dfs moved inside
-        function<void(int, int)> dfs = [&](int i0, int i) {
+        auto dfs = [&](auto&& self, int i0, int i) -> void {
             root[i] = i0;
             comp[i0].insert(i);
             viz[i] = 1;
             for (int j : adj[i]) {
-                if (viz[j]) continue;
-                dfs(i0, j);
+                if (!viz[j]) self(self, i0, j);  // \U0001f448 recursive call
             }
         };
 
@@ -34,7 +33,7 @@ public:
         comp.resize(c + 1);
 
         for (int i = 1; i <= c; i++) {
-            if (!viz[i]) dfs(i, i);
+            if (!viz[i]) dfs(dfs, i, i);
         }
 
         vector<int> ans;
