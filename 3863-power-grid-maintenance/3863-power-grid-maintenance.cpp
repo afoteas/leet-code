@@ -6,7 +6,7 @@ public:
     void build_adj(int c, vector<vector<int>>& connections){
         for(int i=1; i<=c; i++) adj[i].clear();
         for(auto& e: connections){
-            const int u=e[0], v=e[1];
+            int u=e[0], v=e[1];
             adj[u].push_back(v);
             adj[v].push_back(u);
         }
