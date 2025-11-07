@@ -21,7 +21,7 @@ public:
         // dfs moved inside
         auto dfs = [&](auto&& self, int i0, int i) -> void {
             root[i] = i0;
-            comp[i0].insert(i);
+            comp[i0-1].insert(i);
             viz[i] = 1;
             for (int j : adj[i]) {
                 if (!viz[j]) self(self, i0, j);  // \U0001f448 recursive call
@@ -30,7 +30,7 @@ public:
 
         // main logic
         build_adj(c, connections);
-        comp.resize(c + 1);
+        comp.resize(c);
 
         for (int i = 1; i <= c; i++) {
             if (!viz[i]) dfs(dfs, i, i);
@@ -39,7 +39,7 @@ public:
         vector<int> ans;
         for (auto& q : queries) {
             const int t = q[0], x = q[1], rx = root[x];
-            auto& C = comp[rx];
+            auto& C = comp[rx-1];
             if (t == 2)
                 C.erase(x);
             else {
