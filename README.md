@@ -192,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/afoteas/leet-code/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2625-increment-submatrices-by-one](https://github.com/afoteas/leet-code/tree/master/2625-increment-submatrices-by-one) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3227-find-missing-and-repeated-values](https://github.com/afoteas/leet-code/tree/master/3227-find-missing-and-repeated-values) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/afoteas/leet-code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -543,6 +544,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) |
 | [1396-count-servers-that-communicate](https://github.com/afoteas/leet-code/tree/master/1396-count-servers-that-communicate) |
 | [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
+| [2625-increment-submatrices-by-one](https://github.com/afoteas/leet-code/tree/master/2625-increment-submatrices-by-one) |
 | [3227-find-missing-and-repeated-values](https://github.com/afoteas/leet-code/tree/master/3227-find-missing-and-repeated-values) |
 ## Backtracking
 |  |
@@ -561,6 +563,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) |
 | [1694-make-sum-divisible-by-p](https://github.com/afoteas/leet-code/tree/master/1694-make-sum-divisible-by-p) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/afoteas/leet-code/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2625-increment-submatrices-by-one](https://github.com/afoteas/leet-code/tree/master/2625-increment-submatrices-by-one) |
 ## Counting
 |  |
 | ------- |
