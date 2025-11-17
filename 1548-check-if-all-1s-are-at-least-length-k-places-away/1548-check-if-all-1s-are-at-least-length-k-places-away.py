@@ -6,10 +6,7 @@ class Solution:
                 if prev >= 0:
                     if i - prev <= k:
                         return False
-                    else:
-                        prev = i
-                else:
-                    prev = i
+                prev = i
         return True
 
         
