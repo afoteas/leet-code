@@ -6,9 +6,9 @@ public:
         if (num1 == 0 || num2 == 0) {
             return operations;
         }
-        if (num1 == num2) {
-            return operations +1;
-        }
+        // if (num1 == num2) {
+        //     return operations +1;
+        // }
         if (num1 > num2) {
             num1 -= num2;
         }
