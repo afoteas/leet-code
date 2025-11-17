@@ -31,7 +31,8 @@ public:
         for(int i = 0; i < size-1; i++) {
             s[i] = (int(s[i]) + int(s[i+1]))%10;
         }
-        s.resize(size-1);
+        // s.resize(size-1);
+        s.pop_back();
         return hasSameDigits(s);
 
     }
