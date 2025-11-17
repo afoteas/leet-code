@@ -1,17 +1,15 @@
 class Solution:
     def kLengthApart(self, nums: List[int], k: int) -> bool:
         prev = -1
-        index = 0
-        for num in nums:
+        for i, num in enumerate(nums):
             if num:
                 if prev >= 0:
-                    if index - prev <= k:
+                    if i - prev <= k:
                         return False
                     else:
-                        prev = index
+                        prev = i
                 else:
-                    prev = index
-            index += 1
+                    prev = i
         return True
 
         
