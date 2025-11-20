@@ -171,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0605-can-place-flowers](https://github.com/afoteas/leet-code/tree/master/0605-can-place-flowers) |
 | [0624-maximum-distance-in-arrays](https://github.com/afoteas/leet-code/tree/master/0624-maximum-distance-in-arrays) |
 | [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) |
+| [0717-1-bit-and-2-bit-characters](https://github.com/afoteas/leet-code/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0729-my-calendar-i](https://github.com/afoteas/leet-code/tree/master/0729-my-calendar-i) |
 | [0830-largest-triangle-area](https://github.com/afoteas/leet-code/tree/master/0830-largest-triangle-area) |
 | [0859-design-circular-deque](https://github.com/afoteas/leet-code/tree/master/0859-design-circular-deque) |
