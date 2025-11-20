@@ -2,7 +2,7 @@ class Solution {
 public:
     bool isOneBitCharacter(vector<int>& bits) {
         bool second = false;
-        bool ret = false;
+        bool ret = true;
         for(auto& bit: bits) {
             if (second) {
                 second = false;
