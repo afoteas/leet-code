@@ -36,6 +36,7 @@ public:
         }
         return count;
     }
+
     int countValidSelectionsSlow(vector<int>& nums) {
         int count = 0;
         int nonZeros = 0;
