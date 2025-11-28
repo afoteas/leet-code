@@ -89,7 +89,7 @@ class Solution:
             else:
                 values[neighbor_node] += values[current_node]
 
-            # If the neighbor becomes a leaf node, add it to the queue
+            # If the neighbor becomes a leaf node, add it to the queue.
             if neighbor_node >= 0 and len(graph[neighbor_node]) == 1:
                 queue.append(neighbor_node)
 
