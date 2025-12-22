@@ -1,42 +1,34 @@
 class Solution {
 public:
-    // int minDeletionSize(vector<string>& strs) {
-    //     int strlen = strs[0].size();
-    //     int veclen = strs.size();
-    //     int ret = 0;
-    //     int i_last = -1;
+    int minDeletionSize(vector<string>& strs) {
+        int strlen = strs[0].size();
+        int veclen = strs.size();
+        int ret = 0;
+        int j_last = -1;
+        vector<bool> inorder(veclen - 1, false);
 
-    //     for(int i=0; i < strlen; i++) {
-    //         bool used = true;
-    //         for (int j = 0; j < veclen; j++) {
-    //             cout << strs[j][i] << ", ";
-    //             if (j == 0) continue;
-    //             // cout << "i_last = " << i_last << ", j=" << j << ", i=" << i << endl;
-    //             // if (i_last > -1)
-    //             // cout << "strs[j-1][i_last] ==  strs[j][i_last] -> " << strs[j-1][i_last] << "==" << strs[j][i_last] << endl; 
-    //             if (i_last == -1 || strs[j-1][i_last] ==  strs[j][i_last]) {
-    //                 // cout << "entered 1\n";
-    //                 // cout << "strs[j-1][i] = " << strs[j-1][i]  << "\n";
-    //                 // cout << "strs[j][i] = " << strs[j][i]  << "\n";
-    //                 if (used && strs[j-1][i] > strs[j][i]) {
-    //                     ret++;
-    //                     // cout << "entered 2\n";
-    //                     // cout << "ret=" << ret << " , i_last=" << i_last << endl;
-    //                     used = false;
-    //                     // break;
-    //                 }
-    //             }
-                
-    //         }
-    //         cout << endl;
-    //         if (used) i_last = i;
-    //     }
-    //     cout << i_last;
+        for(int j=0; j < strlen; j++) {
+            bool used = true;
+            for (int i = 1; i < veclen; i++) {
+                if (!inorder[i-1] && strs[i-1][j] > strs[i][j]) {
+                    ret++;
+                    used = false;
+                    break;
+                }
+            }
+            if (used){
+                for (int i = 1; i < veclen; i++) {
+                    if (strs[i-1][j] < strs[i][j]) {
+                        inorder[i-1] = true;
+                    }
+                }
+            }
+        }
 
-    //     return ret;
-    // }
+        return ret;
+    }
 
-        int minDeletionSize(vector<string>& A) {
+        int minDeletionSize2(vector<string>& A) {
         int N = A.size();
         int W = A[0].size();
         vector<bool> cuts(N - 1, false);
