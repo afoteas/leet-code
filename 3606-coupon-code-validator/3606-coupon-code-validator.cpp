@@ -13,7 +13,7 @@ public:
         if (s == "grocery")     return Grocery;
         if (s == "pharmacy")    return Pharmacy;
         if (s == "restaurant")  return Restaurant;
-        return Line::Invalid;
+        return Invalid;
     }
 
     vector<string> validateCoupons(
