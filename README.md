@@ -192,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) |
 | [1256-rank-transform-of-an-array](https://github.com/afoteas/leet-code/tree/master/1256-rank-transform-of-an-array) |
 | [1325-path-with-maximum-probability](https://github.com/afoteas/leet-code/tree/master/1325-path-with-maximum-probability) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/afoteas/leet-code/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/afoteas/leet-code/tree/master/1396-count-servers-that-communicate) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/afoteas/leet-code/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/afoteas/leet-code/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
@@ -402,6 +403,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/afoteas/leet-code/tree/master/0300-longest-increasing-subsequence) |
 | [0367-valid-perfect-square](https://github.com/afoteas/leet-code/tree/master/0367-valid-perfect-square) |
 | [0729-my-calendar-i](https://github.com/afoteas/leet-code/tree/master/0729-my-calendar-i) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/afoteas/leet-code/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/afoteas/leet-code/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/afoteas/leet-code/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 ## Linked List
@@ -577,6 +579,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) |
 | [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/afoteas/leet-code/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/afoteas/leet-code/tree/master/1396-count-servers-that-communicate) |
 | [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
 | [2625-increment-submatrices-by-one](https://github.com/afoteas/leet-code/tree/master/2625-increment-submatrices-by-one) |
