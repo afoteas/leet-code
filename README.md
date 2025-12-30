@@ -289,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/afoteas/leet-code/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/afoteas/leet-code/tree/master/1817-calculate-money-in-leetcode-bank) |
+| [1925-count-square-sum-triples](https://github.com/afoteas/leet-code/tree/master/1925-count-square-sum-triples) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/afoteas/leet-code/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2288-count-operations-to-obtain-zero](https://github.com/afoteas/leet-code/tree/master/2288-count-operations-to-obtain-zero) |
 | [2383-add-two-integers](https://github.com/afoteas/leet-code/tree/master/2383-add-two-integers) |
@@ -714,4 +715,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0175-combine-two-tables](https://github.com/afoteas/leet-code/tree/master/0175-combine-two-tables) |
+## Enumeration
+|  |
+| ------- |
+| [1925-count-square-sum-triples](https://github.com/afoteas/leet-code/tree/master/1925-count-square-sum-triples) |
 <!---LeetCode Topics End-->
