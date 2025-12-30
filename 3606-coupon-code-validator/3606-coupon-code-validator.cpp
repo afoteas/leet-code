@@ -15,7 +15,7 @@ typename std::vector<T>::iterator
 
 class Solution {
 public:
-    vector<string> validateCoupons(vector<string>& code, vector<string>& businessLine, vector<bool>& isActive) {
+    vector<string> validateCouponsMine(vector<string>& code, vector<string>& businessLine, vector<bool>& isActive) {
         int len = code.size();
         vector<string> electronics;
         vector<string> grocery;
@@ -62,7 +62,7 @@ public:
     }
 
 
-        vector<string> validateCouponsSlowChat(vector<string>& code, vector<string>& businessLine, vector<bool>& isActive) {
+    vector<string> validateCouponsSlowChat(vector<string>& code, vector<string>& businessLine, vector<bool>& isActive) {
         int len = code.size();
         vector<string> ans;
         const vector<string> allowed { "electronics", "grocery", "pharmacy", "restaurant" };
@@ -92,4 +92,51 @@ public:
         return ans;
         
     }
+
+
+    enum class Line { Electronics, Grocery, Pharmacy, Restaurant, Invalid };
+
+    Line classify(const string& s) {
+        if (s == "electronics") return Line::Electronics;
+        if (s == "grocery")     return Line::Grocery;
+        if (s == "pharmacy")    return Line::Pharmacy;
+        if (s == "restaurant")  return Line::Restaurant;
+        return Line::Invalid;
+    }
+
+    vector<string> validateCoupons(
+        vector<string>& code,
+        vector<string>& businessLine,
+        vector<bool>& isActive
+    ) {
+        vector<string> electronics, grocery, pharmacy, restaurant;
+        vector<string> ans;
+
+        auto valid = [](unsigned char c) {
+            return std::isalnum(c) || c == '_';
+        };
+
+        for (size_t i = 0; i < code.size(); ++i) {
+            if (!isActive[i] || code[i].empty()) continue;
+
+            if (!std::all_of(code[i].begin(), code[i].end(), valid))
+                continue;
+
+            switch (classify(businessLine[i])) {
+                case Line::Electronics: insert_sorted(electronics, code[i]); break;
+                case Line::Grocery:     insert_sorted(grocery, code[i]); break;
+                case Line::Pharmacy:    insert_sorted(pharmacy, code[i]); break;
+                case Line::Restaurant:  insert_sorted(restaurant, code[i]); break;
+                default: break;
+            }
+        }
+
+        ans.insert(ans.end(), electronics.begin(), electronics.end());
+        ans.insert(ans.end(), grocery.begin(), grocery.end());
+        ans.insert(ans.end(), pharmacy.begin(), pharmacy.end());
+        ans.insert(ans.end(), restaurant.begin(), restaurant.end());
+
+        return ans;
+    }
+
 };
