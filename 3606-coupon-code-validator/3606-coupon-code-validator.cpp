@@ -121,7 +121,7 @@ public:
 
             switch (classify(businessLine[i])) {
                 case Line::Electronics: 
-                    insert_sorted(ans, code[i]); 
+                    insert_sorted(electronics, code[i]); 
                     break;
                 case Line::Grocery:     
                     insert_sorted(grocery, code[i]); 
@@ -136,8 +136,12 @@ public:
                     break;
             }
         }
-
-        // ans.insert(ans.end(), electronics.begin(), electronics.end());
+        // ans.reserve(electronics.size() + grocery.size() + pharmacy.size() + restaurant.size());
+        // move(electronics.begin(), electronics.end(), back_inserter(ans));
+        // move(grocery.begin(), grocery.end(), back_inserter(ans));
+        // move(pharmacy.begin(), pharmacy.end(), back_inserter(ans));
+        // move(restaurant.begin(), restaurant.end(), back_inserter(ans));
+        ans.insert(ans.end(), electronics.begin(), electronics.end());
         ans.insert(ans.end(), grocery.begin(), grocery.end());
         ans.insert(ans.end(), pharmacy.begin(), pharmacy.end());
         ans.insert(ans.end(), restaurant.begin(), restaurant.end());
