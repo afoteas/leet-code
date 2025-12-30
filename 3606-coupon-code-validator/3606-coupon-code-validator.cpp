@@ -136,15 +136,15 @@ public:
                     break;
             }
         }
-        // ans.reserve(electronics.size() + grocery.size() + pharmacy.size() + restaurant.size());
-        // move(electronics.begin(), electronics.end(), back_inserter(ans));
-        // move(grocery.begin(), grocery.end(), back_inserter(ans));
-        // move(pharmacy.begin(), pharmacy.end(), back_inserter(ans));
-        // move(restaurant.begin(), restaurant.end(), back_inserter(ans));
-        ans.insert(ans.end(), electronics.begin(), electronics.end());
-        ans.insert(ans.end(), grocery.begin(), grocery.end());
-        ans.insert(ans.end(), pharmacy.begin(), pharmacy.end());
-        ans.insert(ans.end(), restaurant.begin(), restaurant.end());
+        ans.reserve(electronics.size() + grocery.size() + pharmacy.size() + restaurant.size());
+        move(electronics.begin(), electronics.end(), back_inserter(ans));
+        move(grocery.begin(), grocery.end(), back_inserter(ans));
+        move(pharmacy.begin(), pharmacy.end(), back_inserter(ans));
+        move(restaurant.begin(), restaurant.end(), back_inserter(ans));
+        // ans.insert(ans.end(), electronics.begin(), electronics.end());
+        // ans.insert(ans.end(), grocery.begin(), grocery.end());
+        // ans.insert(ans.end(), pharmacy.begin(), pharmacy.end());
+        // ans.insert(ans.end(), restaurant.begin(), restaurant.end());
 
         return ans;
     }
