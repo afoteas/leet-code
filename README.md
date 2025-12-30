@@ -207,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2625-increment-submatrices-by-one](https://github.com/afoteas/leet-code/tree/master/2625-increment-submatrices-by-one) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [3074-apple-redistribution-into-boxes](https://github.com/afoteas/leet-code/tree/master/3074-apple-redistribution-into-boxes) |
 | [3227-find-missing-and-repeated-values](https://github.com/afoteas/leet-code/tree/master/3227-find-missing-and-repeated-values) |
 | [3354-make-array-elements-equal-to-zero](https://github.com/afoteas/leet-code/tree/master/3354-make-array-elements-equal-to-zero) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/afoteas/leet-code/tree/master/3432-count-partitions-with-even-sum-difference) |
@@ -260,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1894-merge-strings-alternately](https://github.com/afoteas/leet-code/tree/master/1894-merge-strings-alternately) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/afoteas/leet-code/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/afoteas/leet-code/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [3074-apple-redistribution-into-boxes](https://github.com/afoteas/leet-code/tree/master/3074-apple-redistribution-into-boxes) |
 | [3606-coupon-code-validator](https://github.com/afoteas/leet-code/tree/master/3606-coupon-code-validator) |
 ## Math
 |  |
@@ -649,6 +651,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0624-maximum-distance-in-arrays](https://github.com/afoteas/leet-code/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/afoteas/leet-code/tree/master/0890-lemonade-change) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/afoteas/leet-code/tree/master/0955-delete-columns-to-make-sorted-ii) |
+| [3074-apple-redistribution-into-boxes](https://github.com/afoteas/leet-code/tree/master/3074-apple-redistribution-into-boxes) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/afoteas/leet-code/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Game Theory
 |  |
