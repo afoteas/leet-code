@@ -112,15 +112,12 @@ public:
         vector<string> electronics, grocery, pharmacy, restaurant;
         vector<string> ans;
 
-        auto valid = [](unsigned char c) {
-            return std::isalnum(c) || c == '_';
+        auto isValidCode = [](const string& s) {
+            return !s.empty() && all_of(s.begin(),s.end(), [](char c) {return isalnum(static_cast<unsigned char>(c)) || c == '_';});
         };
 
         for (size_t i = 0; i < code.size(); ++i) {
-            if (!isActive[i] || code[i].empty()) continue;
-
-            if (!std::all_of(code[i].begin(), code[i].end(), valid))
-                continue;
+            if (!isActive[i] || !isValidCode(code[i])) continue;
 
             switch (classify(businessLine[i])) {
                 case Line::Electronics: insert_sorted(electronics, code[i]); break;
