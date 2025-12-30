@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3227-find-missing-and-repeated-values](https://github.com/afoteas/leet-code/tree/master/3227-find-missing-and-repeated-values) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/afoteas/leet-code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3606-coupon-code-validator](https://github.com/afoteas/leet-code/tree/master/3606-coupon-code-validator) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/afoteas/leet-code/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/afoteas/leet-code/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3863-power-grid-maintenance](https://github.com/afoteas/leet-code/tree/master/3863-power-grid-maintenance) |
@@ -123,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/afoteas/leet-code/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/afoteas/leet-code/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3606-coupon-code-validator](https://github.com/afoteas/leet-code/tree/master/3606-coupon-code-validator) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Array
 |  |
@@ -209,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3354-make-array-elements-equal-to-zero](https://github.com/afoteas/leet-code/tree/master/3354-make-array-elements-equal-to-zero) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/afoteas/leet-code/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/afoteas/leet-code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3606-coupon-code-validator](https://github.com/afoteas/leet-code/tree/master/3606-coupon-code-validator) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/afoteas/leet-code/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/afoteas/leet-code/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/afoteas/leet-code/tree/master/3625-count-number-of-trapezoids-ii) |
@@ -257,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1894-merge-strings-alternately](https://github.com/afoteas/leet-code/tree/master/1894-merge-strings-alternately) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/afoteas/leet-code/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/afoteas/leet-code/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [3606-coupon-code-validator](https://github.com/afoteas/leet-code/tree/master/3606-coupon-code-validator) |
 ## Math
 |  |
 | ------- |
