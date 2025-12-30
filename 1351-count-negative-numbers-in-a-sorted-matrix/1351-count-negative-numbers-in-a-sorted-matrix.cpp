@@ -19,6 +19,7 @@ public:
         int n = grid[0].size();
         int shift = 0;
         for (int i=0; i < m; ++i) {
+            if (shift == n) break;
             for (int j=0; j < (n-shift); ++j) {
                 if (grid[i][j] < 0) {
                     ans += (n-j-shift)*(m-i);
@@ -28,6 +29,5 @@ public:
             }
         }
         return ans;
-        
     }
 };
