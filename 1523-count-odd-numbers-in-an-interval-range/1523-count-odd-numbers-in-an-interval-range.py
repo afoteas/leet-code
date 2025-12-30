@@ -1,5 +1,5 @@
 class Solution:
-    def countOdds(self, low: int, high: int) -> int:
+    def countOddsMine(self, low: int, high: int) -> int:
         if (high - low + 1) %2 == 0: # it has even elements
             return int((high-low+1)/2)
         else:
@@ -7,5 +7,8 @@ class Solution:
                 return (high-low)//2+1
             else:
                 return (high-low)//2
+
+    def countOdds(self, low: int, high: int) -> int:
+        return (high+1)//2 - (low//2)
 
         
