@@ -120,15 +120,24 @@ public:
             if (!isActive[i] || !isValidCode(code[i])) continue;
 
             switch (classify(businessLine[i])) {
-                case Line::Electronics: insert_sorted(electronics, code[i]); break;
-                case Line::Grocery:     insert_sorted(grocery, code[i]); break;
-                case Line::Pharmacy:    insert_sorted(pharmacy, code[i]); break;
-                case Line::Restaurant:  insert_sorted(restaurant, code[i]); break;
-                default: break;
+                case Line::Electronics: 
+                    insert_sorted(ans, code[i]); 
+                    break;
+                case Line::Grocery:     
+                    insert_sorted(grocery, code[i]); 
+                    break;
+                case Line::Pharmacy:    
+                    insert_sorted(pharmacy, code[i]); 
+                    break;
+                case Line::Restaurant:  
+                    insert_sorted(restaurant, code[i]); 
+                    break;
+                default: 
+                    break;
             }
         }
 
-        ans.insert(ans.end(), electronics.begin(), electronics.end());
+        // ans.insert(ans.end(), electronics.begin(), electronics.end());
         ans.insert(ans.end(), grocery.begin(), grocery.end());
         ans.insert(ans.end(), pharmacy.begin(), pharmacy.end());
         ans.insert(ans.end(), restaurant.begin(), restaurant.end());
