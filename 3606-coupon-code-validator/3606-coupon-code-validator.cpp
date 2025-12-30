@@ -6,13 +6,13 @@ class Solution {
 public:
 
 
-    enum class Line { Electronics, Grocery, Pharmacy, Restaurant, Invalid };
+    enum Line { Electronics, Grocery, Pharmacy, Restaurant, Invalid };
 
     Line classify(const string& s) {
-        if (s == "electronics") return Line::Electronics;
-        if (s == "grocery")     return Line::Grocery;
-        if (s == "pharmacy")    return Line::Pharmacy;
-        if (s == "restaurant")  return Line::Restaurant;
+        if (s == "electronics") return Electronics;
+        if (s == "grocery")     return Grocery;
+        if (s == "pharmacy")    return Pharmacy;
+        if (s == "restaurant")  return Restaurant;
         return Line::Invalid;
     }
 
@@ -32,16 +32,16 @@ public:
             if (!isActive[i] || !isValidCode(code[i])) continue;
 
             switch (classify(businessLine[i])) {
-                case Line::Electronics: 
+                case Electronics: 
                     electronics.insert(upper_bound(electronics.begin(), electronics.end(), code[i]), code[i]);
                     break;
-                case Line::Grocery:     
+                case Grocery:     
                     grocery.insert(upper_bound(grocery.begin(), grocery.end(), code[i]), code[i]);
                     break;
-                case Line::Pharmacy:    
+                case Pharmacy:    
                     pharmacy.insert(upper_bound(pharmacy.begin(), pharmacy.end(), code[i]), code[i]);
                     break;
-                case Line::Restaurant:  
+                case Restaurant:  
                     restaurant.insert(upper_bound(restaurant.begin(), restaurant.end(), code[i]), code[i]);
                     break;
                 default: 
