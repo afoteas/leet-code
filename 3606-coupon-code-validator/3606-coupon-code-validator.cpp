@@ -121,7 +121,8 @@ public:
 
             switch (classify(businessLine[i])) {
                 case Line::Electronics: 
-                    insert_sorted(electronics, code[i]); 
+                    // insert_sorted(electronics, code[i]);
+                    electronics.insert(upper_bound(electronics.begin(), electronics.end(), code[i] ), code[i]);
                     break;
                 case Line::Grocery:     
                     insert_sorted(grocery, code[i]); 
