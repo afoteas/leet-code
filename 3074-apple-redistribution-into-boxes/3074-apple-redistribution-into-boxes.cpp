@@ -8,6 +8,8 @@ public:
             if (sum > 0) {
                 ans ++;
                 sum -= c;
+            } else {
+                break;
             }
         }
         return ans;
