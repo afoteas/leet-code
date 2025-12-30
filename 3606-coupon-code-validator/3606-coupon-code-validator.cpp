@@ -29,7 +29,6 @@ public:
         auto isNotValidChar = [](char c)->bool {return !(isalnum(c) || (c == '_'));};
 
         for (int i=0; i < len; ++i) {
-            // cout << "businessLine:"<< businessLine[i] << endl;
             if(!isActive[i]) {
                 continue;
             }
@@ -38,25 +37,18 @@ public:
             }
             if(!businessLine[i].compare(str_electronics)) {
                 insert_sorted(electronics,code[i]);
-                // cout << "electronics" << endl;
                 continue;
             }
             if(!businessLine[i].compare(str_grocery)) {
                 insert_sorted(grocery,code[i]);
-                // cout << "grocery" << endl;
                 continue;
             }
             if(!businessLine[i].compare(str_pharmacy)) {
                 insert_sorted(pharmacy,code[i]);
-                // cout << "pharmacy" << endl;
                 continue;
             }
             if(!businessLine[i].compare(str_restaurant)) {
-                // cout << "restaurant" << endl;
                 insert_sorted(restaurant,code[i]);
-                // cout << "restaurant[0]:" << restaurant[0] << endl;
-
-
                 continue;
             }
         }
