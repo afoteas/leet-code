@@ -25,7 +25,7 @@ public:
         vector<string> ans;
 
         auto isValidCode = [](const string& s) {
-            return !s.empty() && all_of(s.begin(),s.end(), [](char c) {return isalnum(static_cast<unsigned char>(c)) || c == '_';});
+            return !s.empty() && all_of(s.begin(),s.end(), [](char c) {return isalnum(c) || c == '_';});
         };
 
         for (size_t i = 0; i < code.size(); ++i) {
