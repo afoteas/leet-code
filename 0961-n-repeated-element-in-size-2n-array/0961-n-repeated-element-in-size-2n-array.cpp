@@ -18,7 +18,10 @@ public:
         return 0;
     }
     int repeatedNTimes(vector<int>& A) {
-        for (int i = 0; i < A.size() - 2; ++i)
+        int len = A.size();
+        len >>=2;
+        ++len;
+        for (int i = 0; i < len; ++i)
             if (A[i] == A[i + 1] || A[i] == A[i + 2])
                 return A[i];
         return A.back();
