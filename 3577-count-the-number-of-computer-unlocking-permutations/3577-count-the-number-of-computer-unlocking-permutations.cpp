@@ -6,14 +6,10 @@ public:
             return 0;
         }
         int n = complexity.size();
-        const int N = 1e5 + 1;
-        vector<long long> comp(n,1);
+        vector<long> comp(n,1);
         for(int i = 1; i < n; ++i) {
             comp[i] = (comp[i-1]*i)%mod;
         }
-
-
-        
         return comp[n-1]%mod;
     }
 };
