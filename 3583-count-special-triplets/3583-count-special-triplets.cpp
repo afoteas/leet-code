@@ -65,10 +65,9 @@ public:
 
     //     return ans;
     // }
-
+    const int mod=1e9+7;
     int specialTriplets(vector<int>& nums) {
-        const int mod=1e9+7;
-        const int M=1000000, n=nums.size();
+        const int M=100001, n=nums.size();
         int freq[M]={0}, prev[M]={0};
         for(int x: nums) freq[x]++;
         long long cnt=0;
