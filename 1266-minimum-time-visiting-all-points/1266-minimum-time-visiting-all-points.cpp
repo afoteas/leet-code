@@ -10,7 +10,6 @@ public:
             int ay = abs(py-ny);
             int d = min(ax, ay);
             int s = max(ax, ay) - d;
-            cout << "d=" << d << ",s=" << s << endl;
             ans += (d+s);
 
 
