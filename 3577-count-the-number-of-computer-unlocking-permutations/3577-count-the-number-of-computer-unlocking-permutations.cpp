@@ -6,10 +6,10 @@ public:
             return 0;
         }
         int n = complexity.size();
-        vector<long> comp(n,1);
+        long ans=1;
         for(int i = 1; i < n; ++i) {
-            comp[i] = (comp[i-1]*i)%mod;
+            ans = (ans*i)%mod;
         }
-        return comp[n-1]%mod;
+        return ans%mod;
     }
 };
