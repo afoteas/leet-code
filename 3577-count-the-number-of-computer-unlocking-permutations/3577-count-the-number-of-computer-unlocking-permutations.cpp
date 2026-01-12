@@ -8,7 +8,6 @@ public:
         int n = complexity.size();
         const int N = 1e5 + 1;
         vector<long long> comp(n,1);
-        sort(complexity.begin(), complexity.end());
         for(int i = 1; i < n; ++i) {
             comp[i] = (comp[i-1]*i)%mod;
         }
