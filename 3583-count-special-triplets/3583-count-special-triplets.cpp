@@ -42,27 +42,43 @@ public:
 
     }
 
+    // int specialTriplets(vector<int>& nums) {
+    //     const int MOD = 1e9 + 7;
+    //     unordered_map<int, int> numCnt;
+    //     unordered_map<int, int> numPartialCnt;
+
+    //     numCnt.reserve(nums.size() * 2);
+    //     numPartialCnt.reserve(nums.size() * 2);
+
+    //     for (int v : nums) {
+    //         numCnt[v]++;
+    //     }
+
+    //     int ans = 0;
+    //     for (int v : nums) {
+    //         int target = v * 2;
+    //         int lCnt = numPartialCnt[target];
+    //         numPartialCnt[v]++;
+    //         int rCnt = numCnt[target] - numPartialCnt[target];
+    //         ans = (ans + (lCnt * 1LL * rCnt % MOD)) % MOD;
+    //     }
+
+    //     return ans;
+    // }
+
     int specialTriplets(vector<int>& nums) {
-        const int MOD = 1e9 + 7;
-        unordered_map<int, int> numCnt;
-        unordered_map<int, int> numPartialCnt;
-
-        numCnt.reserve(nums.size() * 2);
-        numPartialCnt.reserve(nums.size() * 2);
-
-        for (int v : nums) {
-            numCnt[v]++;
+        const int mod=1e9+7;
+        const int M=100001, n=nums.size();
+        int freq[M]={0}, prev[M]={0};
+        for(int x: nums) freq[x]++;
+        long long cnt=0;
+        prev[nums[0]]++;
+        for(int i=1; i<n-1; i++){
+            const int x=nums[i], x2=x<<1;
+            if (x2<M)
+                cnt+=(long long)prev[x2]*(freq[x2]-prev[x2]-(x==0));
+            prev[x]++;
         }
-
-        int ans = 0;
-        for (int v : nums) {
-            int target = v * 2;
-            int lCnt = numPartialCnt[target];
-            numPartialCnt[v]++;
-            int rCnt = numCnt[target] - numPartialCnt[target];
-            ans = (ans + (lCnt * 1LL * rCnt % MOD)) % MOD;
-        }
-
-        return ans;
+        return cnt%mod;
     }
 };
