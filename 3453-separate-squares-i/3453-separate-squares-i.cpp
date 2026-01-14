@@ -29,10 +29,10 @@ public:
                     upper += double(square[2])*square[2];
                 }
                 else if (top <= ans) {
-                    lower += (long double)(square[2])*square[2];
+                    lower += (double)(square[2])*square[2];
                 } else {
-                    lower += (long double)(square[2])*(ans-bottom);
-                    upper += (long double)(square[2])*(top-ans);
+                    lower += (double)(square[2])*(ans-bottom);
+                    upper += (double)(square[2])*(top-ans);
                     cut = true;
                 }
             }
