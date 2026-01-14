@@ -55,7 +55,7 @@ public:
 
             long long ia = static_cast<long long>((ansTop) * 1e5);
             long long ib = static_cast<long long>((ansBottom+1e-6) * 1e5);
-            cout << "ia:" << ia << ", ib:" << ib << endl;
+            // cout << "ia:" << ia << ", ib:" << ib << endl;
             if (ia == ib) {
                 break;
             }
