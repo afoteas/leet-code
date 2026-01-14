@@ -58,7 +58,7 @@ public:
         if (!cut) {
             double tempAns = 0;
             for(auto& square: squares) {
-                int top = square[1] + square[2];
+                const int top = square[1] + square[2];
                 if (top <= ans && top > tempAns) {
                     tempAns = top;
                 }
