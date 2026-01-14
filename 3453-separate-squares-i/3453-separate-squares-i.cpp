@@ -5,12 +5,12 @@ public:
         int miny = 1e9;
         long double upper = 0;
         long double lower = 0;
-        set<int> tops = {};
+        // set<int> tops = {};
         for(auto& square: squares) {
             miny = square[1] < miny ? square[1] : miny;
             maxy = (square[1] + square[2]) > maxy ? (square[1] + square[2]) : maxy;
             upper+= double(square[2])*square[2];
-            tops.insert(square[1] + square[2]);
+            // tops.insert(square[1] + square[2]);
         }
 
         double ans = miny + (maxy-miny)/2.0;
@@ -65,9 +65,16 @@ public:
 
         if (!cut) {
             double tempAns = 0;
-            for(auto& y:tops) {
-                if (y <= ans) {
-                    tempAns = y;
+            // for(auto& y:tops) {
+            //     if (y <= ans) {
+            //         tempAns = y;
+            //     }
+            // }
+
+            for(auto& square: squares) {
+                int top = square[1] + square[2];
+                if (top <= ans && top > tempAns) {
+                    tempAns = top;
                 }
             }
             ans = tempAns;
