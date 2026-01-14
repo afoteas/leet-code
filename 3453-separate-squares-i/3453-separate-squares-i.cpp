@@ -23,8 +23,8 @@ public:
             cut = false;
 
             for(auto& square: squares) {
-                const long bottom = square[1];
-                const long top = square[1] + square[2];
+                const int bottom = square[1];
+                const int top = square[1] + square[2];
                 if(bottom >= ans) {
                     upper += double(square[2])*square[2];
                 }
