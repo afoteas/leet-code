@@ -12,8 +12,8 @@ public:
         }
 
         double ans = miny + (maxy-miny)/2.0;
-        long double ansTop = maxy;
-        long double ansBottom = miny;
+        double ansTop = maxy;
+        double ansBottom = miny;
 
         bool cut = false;
 
