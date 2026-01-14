@@ -1,10 +1,10 @@
 class Solution {
 public:
     double separateSquares(vector<vector<int>>& squares) {
-        int maxy = 0;
+        int maxy {0};
         int miny = 1e9;
-        double upper = 0;
-        double lower = 0;
+        double upper {0};
+        double lower {0};
         for(auto& square: squares) {
             miny = square[1] < miny ? square[1] : miny;
             maxy = (square[1] + square[2]) > maxy ? (square[1] + square[2]) : maxy;
