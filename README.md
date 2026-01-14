@@ -219,6 +219,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/afoteas/leet-code/tree/master/3289-the-two-sneaky-numbers-of-digitville) |
 | [3354-make-array-elements-equal-to-zero](https://github.com/afoteas/leet-code/tree/master/3354-make-array-elements-equal-to-zero) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/afoteas/leet-code/tree/master/3432-count-partitions-with-even-sum-difference) |
+| [3453-separate-squares-i](https://github.com/afoteas/leet-code/tree/master/3453-separate-squares-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/afoteas/leet-code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/afoteas/leet-code/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/afoteas/leet-code/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
@@ -426,6 +427,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0729-my-calendar-i](https://github.com/afoteas/leet-code/tree/master/0729-my-calendar-i) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/afoteas/leet-code/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/afoteas/leet-code/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [3453-separate-squares-i](https://github.com/afoteas/leet-code/tree/master/3453-separate-squares-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/afoteas/leet-code/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 ## Linked List
 |  |
