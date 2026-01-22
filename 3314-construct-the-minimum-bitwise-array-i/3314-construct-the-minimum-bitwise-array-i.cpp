@@ -23,7 +23,7 @@ public:
         vector<int> ans;
         map<int,int> mapa;
         int i = 1;
-        while ((i|(i+1)) <= 2000) {
+        while ((i|(i+1)) < 2000) {
             mapa.insert({(i|(i+1)),i});
             ++i;
         }
