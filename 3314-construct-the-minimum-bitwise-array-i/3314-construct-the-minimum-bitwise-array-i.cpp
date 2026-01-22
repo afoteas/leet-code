@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> minBitwiseArraySlow(vector<int>& nums) {
+    vector<int> minBitwiseArray(vector<int>& nums) {
         vector<int> ans;
         for(const auto& num: nums) {
             bool found = false;
@@ -19,7 +19,7 @@ public:
         return ans;
     }
 
-    vector<int> minBitwiseArray(vector<int>& nums) {
+    vector<int> minBitwiseArraySlower(vector<int>& nums) {
         vector<int> ans;
         map<int,int> mapa;
         int i = 1;
