@@ -30,12 +30,7 @@ public:
     int minimumPairRemoval(vector<int>& nums) {
         int ans = 0;
         while (!isNonDecreasing(nums)) {
-            for(auto& num: nums) {
-                cout << num << ", ";
-            }
-            cout << endl;
             mergeOne(nums);
-            cout << "merged!!!" << endl;
             ++ans;
         }
         return ans;
