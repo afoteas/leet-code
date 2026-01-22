@@ -21,18 +21,24 @@ public:
 
     vector<int> minBitwiseArray(vector<int>& nums) {
         vector<int> ans;
-        map<int,int> mapa;
+        unordered_map<int,int> mapa;
         int i = 1;
         while (i < 1001) {
             mapa.insert({(i|(i+1)),i});
             ++i;
         }
         for(const auto& num: nums) {
-            auto it = mapa.find(num);
-            if (it != mapa.end()) {
-                ans.push_back(it->second);
-            }
-            else {
+            // auto it = mapa.find(num);
+            // if (it != mapa.end()) {
+            //     ans.push_back(it->second);
+            // }
+            // else {
+            //     ans.push_back(-1);
+            // }
+
+            try {
+                ans.push_back(mapa.at(num));
+            } catch (const std::out_of_range& e) {
                 ans.push_back(-1);
             }
         }
