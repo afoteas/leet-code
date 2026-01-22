@@ -288,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0007-reverse-integer](https://github.com/afoteas/leet-code/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/afoteas/leet-code/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/afoteas/leet-code/tree/master/0012-integer-to-roman) |
+| [0029-divide-two-integers](https://github.com/afoteas/leet-code/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/afoteas/leet-code/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/afoteas/leet-code/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/afoteas/leet-code/tree/master/0062-unique-paths) |
@@ -552,6 +553,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/afoteas/leet-code/tree/master/0029-divide-two-integers) |
 | [0067-add-binary](https://github.com/afoteas/leet-code/tree/master/0067-add-binary) |
 | [0136-single-number](https://github.com/afoteas/leet-code/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/afoteas/leet-code/tree/master/0137-single-number-ii) |
