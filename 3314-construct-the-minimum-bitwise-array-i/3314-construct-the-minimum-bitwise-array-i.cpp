@@ -28,19 +28,19 @@ public:
             ++i;
         }
         for(const auto& num: nums) {
-            // auto it = mapa.find(num);
-            // if (it != mapa.end()) {
-            //     ans.push_back(it->second);
-            // }
-            // else {
-            //     ans.push_back(-1);
-            // }
-
-            try {
-                ans.push_back(mapa.at(num));
-            } catch (const std::out_of_range& e) {
+            auto it = mapa.find(num);
+            if (it != mapa.end()) {
+                ans.push_back(it->second);
+            }
+            else {
                 ans.push_back(-1);
             }
+
+            // try {
+            //     ans.push_back(mapa.at(num));
+            // } catch (const std::out_of_range& e) {
+            //     ans.push_back(-1);
+            // }
         }
         
         return ans;
