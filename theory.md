@@ -43,15 +43,18 @@ A hash table (or hash map) is a data structure that implements an associative ar
 **Space Complexity:** O(n)
 
 ### Example: Two Sum
-```python
-def twoSum(nums, target):
-    seen = {}
-    for i, num in enumerate(nums):
-        complement = target - num
-        if complement in seen:
-            return [seen[complement], i]
-        seen[num] = i
-    return []
+```cpp
+vector<int> twoSum(vector<int>& nums, int target) {
+    unordered_map<int, int> seen;
+    for (int i = 0; i < nums.size(); i++) {
+        int complement = target - nums[i];
+        if (seen.find(complement) != seen.end()) {
+            return {seen[complement], i};
+        }
+        seen[nums[i]] = i;
+    }
+    return {};
+}
 ```
 
 ### Use Cases
@@ -77,13 +80,16 @@ An array is a collection of elements stored at contiguous memory locations. It's
 **Space Complexity:** O(n)
 
 ### Example: Maximum Subarray (Kadane's Algorithm)
-```python
-def maxSubArray(nums):
-    max_sum = current_sum = nums[0]
-    for num in nums[1:]:
-        current_sum = max(num, current_sum + num)
-        max_sum = max(max_sum, current_sum)
-    return max_sum
+```cpp
+int maxSubArray(vector<int>& nums) {
+    int max_sum = nums[0];
+    int current_sum = nums[0];
+    for (int i = 1; i < nums.size(); i++) {
+        current_sum = max(nums[i], current_sum + nums[i]);
+        max_sum = max(max_sum, current_sum);
+    }
+    return max_sum;
+}
 ```
 
 ### Use Cases
@@ -103,19 +109,25 @@ The sliding window technique is used to perform operations on a specific window 
 **Space Complexity:** O(1) to O(k) depending on the problem
 
 ### Example: Maximum Sum of Subarray of Size K
-```python
-def maxSumSubarray(arr, k):
-    if len(arr) < k:
-        return -1
+```cpp
+int maxSumSubarray(vector<int>& arr, int k) {
+    if (arr.size() < k) {
+        return -1;
+    }
     
-    window_sum = sum(arr[:k])
-    max_sum = window_sum
+    int window_sum = 0;
+    for (int i = 0; i < k; i++) {
+        window_sum += arr[i];
+    }
+    int max_sum = window_sum;
     
-    for i in range(k, len(arr)):
-        window_sum = window_sum - arr[i-k] + arr[i]
-        max_sum = max(max_sum, window_sum)
+    for (int i = k; i < arr.size(); i++) {
+        window_sum = window_sum - arr[i-k] + arr[i];
+        max_sum = max(max_sum, window_sum);
+    }
     
-    return max_sum
+    return max_sum;
+}
 ```
 
 ### Use Cases
@@ -135,21 +147,24 @@ The two pointers technique uses two pointers to iterate through a data structure
 **Space Complexity:** O(1)
 
 ### Example: Container With Most Water
-```python
-def maxArea(height):
-    left, right = 0, len(height) - 1
-    max_area = 0
+```cpp
+int maxArea(vector<int>& height) {
+    int left = 0, right = height.size() - 1;
+    int max_area = 0;
     
-    while left < right:
-        width = right - left
-        max_area = max(max_area, min(height[left], height[right]) * width)
+    while (left < right) {
+        int width = right - left;
+        max_area = max(max_area, min(height[left], height[right]) * width);
         
-        if height[left] < height[right]:
-            left += 1
-        else:
-            right -= 1
+        if (height[left] < height[right]) {
+            left++;
+        } else {
+            right--;
+        }
+    }
     
-    return max_area
+    return max_area;
+}
 ```
 
 ### Use Cases
@@ -175,21 +190,25 @@ Sorting algorithms arrange elements in a specific order (ascending or descending
 **Space Complexity:** O(1) to O(n) depending on algorithm
 
 ### Example: Merge Intervals
-```python
-def merge(intervals):
-    if not intervals:
-        return []
+```cpp
+vector<vector<int>> merge(vector<vector<int>>& intervals) {
+    if (intervals.empty()) {
+        return {};
+    }
     
-    intervals.sort(key=lambda x: x[0])
-    merged = [intervals[0]]
+    sort(intervals.begin(), intervals.end());
+    vector<vector<int>> merged = {intervals[0]};
     
-    for current in intervals[1:]:
-        if current[0] <= merged[-1][1]:
-            merged[-1][1] = max(merged[-1][1], current[1])
-        else:
-            merged.append(current)
+    for (int i = 1; i < intervals.size(); i++) {
+        if (intervals[i][0] <= merged.back()[1]) {
+            merged.back()[1] = max(merged.back()[1], intervals[i][1]);
+        } else {
+            merged.push_back(intervals[i]);
+        }
+    }
     
-    return merged
+    return merged;
+}
 ```
 
 ### Use Cases
@@ -214,20 +233,25 @@ A stack is a Last-In-First-Out (LIFO) data structure. Elements are added and rem
 **Space Complexity:** O(n)
 
 ### Example: Valid Parentheses
-```python
-def isValid(s):
-    stack = []
-    mapping = {')': '(', '}': '{', ']': '['}
+```cpp
+bool isValid(string s) {
+    stack<char> st;
+    unordered_map<char, char> mapping = {{')', '('}, {'}', '{'}, {']', '['}};
     
-    for char in s:
-        if char in mapping:
-            top = stack.pop() if stack else '#'
-            if mapping[char] != top:
-                return False
-        else:
-            stack.append(char)
+    for (char c : s) {
+        if (mapping.find(c) != mapping.end()) {
+            char top = st.empty() ? '#' : st.top();
+            if (!st.empty()) st.pop();
+            if (mapping[c] != top) {
+                return false;
+            }
+        } else {
+            st.push(c);
+        }
+    }
     
-    return not stack
+    return st.empty();
+}
 ```
 
 ### Use Cases
@@ -253,23 +277,28 @@ A queue is a First-In-First-Out (FIFO) data structure. Elements are added at the
 **Space Complexity:** O(n)
 
 ### Example: Moving Average
-```python
-from collections import deque
-
-class MovingAverage:
-    def __init__(self, size):
-        self.size = size
-        self.queue = deque()
-        self.sum = 0
+```cpp
+class MovingAverage {
+private:
+    int size;
+    queue<int> q;
+    double sum;
     
-    def next(self, val):
-        self.queue.append(val)
-        self.sum += val
+public:
+    MovingAverage(int size) : size(size), sum(0.0) {}
+    
+    double next(int val) {
+        q.push(val);
+        sum += val;
         
-        if len(self.queue) > self.size:
-            self.sum -= self.queue.popleft()
+        if (q.size() > size) {
+            sum -= q.front();
+            q.pop();
+        }
         
-        return self.sum / len(self.queue)
+        return sum / q.size();
+    }
+};
 ```
 
 ### Use Cases
@@ -290,22 +319,29 @@ Recursion is a method where a function calls itself to solve smaller instances o
 **Space Complexity:** O(n) for call stack depth
 
 ### Example: Fibonacci
-```python
-def fibonacci(n):
-    # Base cases
-    if n <= 1:
-        return n
-    # Recursive case
-    return fibonacci(n-1) + fibonacci(n-2)
+```cpp
+int fibonacci(int n) {
+    // Base cases
+    if (n <= 1) {
+        return n;
+    }
+    // Recursive case
+    return fibonacci(n-1) + fibonacci(n-2);
+}
 
-# Optimized with memoization
-def fibonacci_memo(n, memo={}):
-    if n in memo:
-        return memo[n]
-    if n <= 1:
-        return n
-    memo[n] = fibonacci_memo(n-1, memo) + fibonacci_memo(n-2, memo)
-    return memo[n]
+// Optimized with memoization
+unordered_map<int, int> memo;
+
+int fibonacci_memo(int n) {
+    if (memo.find(n) != memo.end()) {
+        return memo[n];
+    }
+    if (n <= 1) {
+        return n;
+    }
+    memo[n] = fibonacci_memo(n-1) + fibonacci_memo(n-2);
+    return memo[n];
+}
 ```
 
 ### Use Cases
@@ -330,32 +366,38 @@ Divide and conquer breaks a problem into smaller subproblems, solves them recurs
 **Time Complexity:** Often O(n log n)
 
 ### Example: Merge Sort
-```python
-def mergeSort(arr):
-    if len(arr) <= 1:
-        return arr
+```cpp
+vector<int> merge(vector<int>& left, vector<int>& right) {
+    vector<int> result;
+    int i = 0, j = 0;
     
-    mid = len(arr) // 2
-    left = mergeSort(arr[:mid])
-    right = mergeSort(arr[mid:])
+    while (i < left.size() && j < right.size()) {
+        if (left[i] <= right[j]) {
+            result.push_back(left[i++]);
+        } else {
+            result.push_back(right[j++]);
+        }
+    }
     
-    return merge(left, right)
+    while (i < left.size()) result.push_back(left[i++]);
+    while (j < right.size()) result.push_back(right[j++]);
+    return result;
+}
 
-def merge(left, right):
-    result = []
-    i = j = 0
+vector<int> mergeSort(vector<int>& arr) {
+    if (arr.size() <= 1) {
+        return arr;
+    }
     
-    while i < len(left) and j < len(right):
-        if left[i] <= right[j]:
-            result.append(left[i])
-            i += 1
-        else:
-            result.append(right[j])
-            j += 1
+    int mid = arr.size() / 2;
+    vector<int> left(arr.begin(), arr.begin() + mid);
+    vector<int> right(arr.begin() + mid, arr.end());
     
-    result.extend(left[i:])
-    result.extend(right[j:])
-    return result
+    left = mergeSort(left);
+    right = mergeSort(right);
+    
+    return merge(left, right);
+}
 ```
 
 ### Use Cases
@@ -380,35 +422,42 @@ Dynamic Programming (DP) solves complex problems by breaking them down into simp
 **Space Complexity:** O(n) to O(n²)
 
 ### Example: Climbing Stairs
-```python
-def climbStairs(n):
-    if n <= 2:
-        return n
+```cpp
+int climbStairs(int n) {
+    if (n <= 2) {
+        return n;
+    }
     
-    dp = [0] * (n + 1)
-    dp[1] = 1
-    dp[2] = 2
+    vector<int> dp(n + 1, 0);
+    dp[1] = 1;
+    dp[2] = 2;
     
-    for i in range(3, n + 1):
-        dp[i] = dp[i-1] + dp[i-2]
+    for (int i = 3; i <= n; i++) {
+        dp[i] = dp[i-1] + dp[i-2];
+    }
     
-    return dp[n]
+    return dp[n];
+}
 ```
 
 ### Example: Longest Common Subsequence
-```python
-def longestCommonSubsequence(text1, text2):
-    m, n = len(text1), len(text2)
-    dp = [[0] * (n + 1) for _ in range(m + 1)]
+```cpp
+int longestCommonSubsequence(string text1, string text2) {
+    int m = text1.length(), n = text2.length();
+    vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
     
-    for i in range(1, m + 1):
-        for j in range(1, n + 1):
-            if text1[i-1] == text2[j-1]:
-                dp[i][j] = dp[i-1][j-1] + 1
-            else:
-                dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+    for (int i = 1; i <= m; i++) {
+        for (int j = 1; j <= n; j++) {
+            if (text1[i-1] == text2[j-1]) {
+                dp[i][j] = dp[i-1][j-1] + 1;
+            } else {
+                dp[i][j] = max(dp[i-1][j], dp[i][j-1]);
+            }
+        }
+    }
     
-    return dp[m][n]
+    return dp[m][n];
+}
 ```
 
 ### Use Cases
@@ -429,47 +478,55 @@ Binary search is an efficient algorithm for finding an item in a sorted array by
 **Space Complexity:** O(1) iterative, O(log n) recursive
 
 ### Example: Binary Search
-```python
-def binarySearch(arr, target):
-    left, right = 0, len(arr) - 1
+```cpp
+int binarySearch(vector<int>& arr, int target) {
+    int left = 0, right = arr.size() - 1;
     
-    while left <= right:
-        mid = left + (right - left) // 2
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
         
-        if arr[mid] == target:
-            return mid
-        elif arr[mid] < target:
-            left = mid + 1
-        else:
-            right = mid - 1
+        if (arr[mid] == target) {
+            return mid;
+        } else if (arr[mid] < target) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+        }
+    }
     
-    return -1
+    return -1;
+}
 ```
 
 ### Example: Find First and Last Position
-```python
-def searchRange(nums, target):
-    def findBound(isFirst):
-        left, right = 0, len(nums) - 1
-        result = -1
+```cpp
+vector<int> searchRange(vector<int>& nums, int target) {
+    auto findBound = [&](bool isFirst) {
+        int left = 0, right = nums.size() - 1;
+        int result = -1;
         
-        while left <= right:
-            mid = left + (right - left) // 2
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
             
-            if nums[mid] == target:
-                result = mid
-                if isFirst:
-                    right = mid - 1
-                else:
-                    left = mid + 1
-            elif nums[mid] < target:
-                left = mid + 1
-            else:
-                right = mid - 1
+            if (nums[mid] == target) {
+                result = mid;
+                if (isFirst) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
+            } else if (nums[mid] < target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
         
-        return result
+        return result;
+    };
     
-    return [findBound(True), findBound(False)]
+    return {findBound(true), findBound(false)};
+}
 ```
 
 ### Use Cases
@@ -498,41 +555,49 @@ A linked list is a linear data structure where elements are stored in nodes, and
 - Insert/Delete at position: O(n)
 
 ### Example: Reverse Linked List
-```python
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+```cpp
+struct ListNode {
+    int val;
+    ListNode* next;
+    ListNode(int x = 0, ListNode* n = nullptr) : val(x), next(n) {}
+};
 
-def reverseList(head):
-    prev = None
-    current = head
+ListNode* reverseList(ListNode* head) {
+    ListNode* prev = nullptr;
+    ListNode* current = head;
     
-    while current:
-        next_node = current.next
-        current.next = prev
-        prev = current
-        current = next_node
+    while (current) {
+        ListNode* next_node = current->next;
+        current->next = prev;
+        prev = current;
+        current = next_node;
+    }
     
-    return prev
+    return prev;
+}
 ```
 
 ### Example: Detect Cycle (Floyd's Algorithm)
-```python
-def hasCycle(head):
-    if not head or not head.next:
-        return False
+```cpp
+bool hasCycle(ListNode* head) {
+    if (!head || !head->next) {
+        return false;
+    }
     
-    slow = fast = head
+    ListNode* slow = head;
+    ListNode* fast = head;
     
-    while fast and fast.next:
-        slow = slow.next
-        fast = fast.next.next
+    while (fast && fast->next) {
+        slow = slow->next;
+        fast = fast->next->next;
         
-        if slow == fast:
-            return True
+        if (slow == fast) {
+            return true;
+        }
+    }
     
-    return False
+    return false;
+}
 ```
 
 ### Use Cases
@@ -557,12 +622,14 @@ A tree is a hierarchical data structure with a root node and child nodes forming
 **Common Operations:** O(h) where h is height
 
 ### Example: Tree Node Definition
-```python
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+```cpp
+struct TreeNode {
+    int val;
+    TreeNode* left;
+    TreeNode* right;
+    TreeNode(int x = 0, TreeNode* l = nullptr, TreeNode* r = nullptr) 
+        : val(x), left(l), right(r) {}
+};
 ```
 
 ### Use Cases
@@ -586,40 +653,44 @@ A binary tree is a tree where each node has at most two children (left and right
 - Balanced: Height difference between subtrees ≤ 1
 
 ### Example: Maximum Depth
-```python
-def maxDepth(root):
-    if not root:
-        return 0
-    return 1 + max(maxDepth(root.left), maxDepth(root.right))
+```cpp
+int maxDepth(TreeNode* root) {
+    if (!root) {
+        return 0;
+    }
+    return 1 + max(maxDepth(root->left), maxDepth(root->right));
+}
 ```
 
 ### Example: Level Order Traversal
-```python
-from collections import deque
-
-def levelOrder(root):
-    if not root:
-        return []
+```cpp
+vector<vector<int>> levelOrder(TreeNode* root) {
+    if (!root) {
+        return {};
+    }
     
-    result = []
-    queue = deque([root])
+    vector<vector<int>> result;
+    queue<TreeNode*> q;
+    q.push(root);
     
-    while queue:
-        level_size = len(queue)
-        level = []
+    while (!q.empty()) {
+        int level_size = q.size();
+        vector<int> level;
         
-        for _ in range(level_size):
-            node = queue.popleft()
-            level.append(node.val)
+        for (int i = 0; i < level_size; i++) {
+            TreeNode* node = q.front();
+            q.pop();
+            level.push_back(node->val);
             
-            if node.left:
-                queue.append(node.left)
-            if node.right:
-                queue.append(node.right)
+            if (node->left) q.push(node->left);
+            if (node->right) q.push(node->right);
+        }
         
-        result.append(level)
+        result.push_back(level);
+    }
     
-    return result
+    return result;
+}
 ```
 
 ### Use Cases
@@ -643,33 +714,41 @@ A Binary Search Tree (BST) is a binary tree where:
 - Worst: O(n) when tree becomes skewed
 
 ### Example: Validate BST
-```python
-def isValidBST(root):
-    def validate(node, low=float('-inf'), high=float('inf')):
-        if not node:
-            return True
+```cpp
+bool isValidBST(TreeNode* root) {
+    function<bool(TreeNode*, long, long)> validate = 
+        [&](TreeNode* node, long low, long high) {
+        if (!node) {
+            return true;
+        }
         
-        if node.val <= low or node.val >= high:
-            return False
+        if (node->val <= low || node->val >= high) {
+            return false;
+        }
         
-        return (validate(node.left, low, node.val) and
-                validate(node.right, node.val, high))
+        return validate(node->left, low, node->val) &&
+               validate(node->right, node->val, high);
+    };
     
-    return validate(root)
+    return validate(root, LONG_MIN, LONG_MAX);
+}
 ```
 
 ### Example: Insert Node
-```python
-def insertIntoBST(root, val):
-    if not root:
-        return TreeNode(val)
+```cpp
+TreeNode* insertIntoBST(TreeNode* root, int val) {
+    if (!root) {
+        return new TreeNode(val);
+    }
     
-    if val < root.val:
-        root.left = insertIntoBST(root.left, val)
-    else:
-        root.right = insertIntoBST(root.right, val)
+    if (val < root->val) {
+        root->left = insertIntoBST(root->left, val);
+    } else {
+        root->right = insertIntoBST(root->right, val);
+    }
     
-    return root
+    return root;
+}
 ```
 
 ### Use Cases
@@ -694,32 +773,34 @@ DFS explores as far as possible along each branch before backtracking. Can be im
 **Space Complexity:** O(h) where h is height
 
 ### Example: DFS on Graph
-```python
-def dfs(graph, start, visited=None):
-    if visited is None:
-        visited = set()
+```cpp
+void dfs(unordered_map<int, vector<int>>& graph, int start, 
+         unordered_set<int>& visited) {
+    visited.insert(start);
+    cout << start << endl;
     
-    visited.add(start)
-    print(start)
-    
-    for neighbor in graph[start]:
-        if neighbor not in visited:
-            dfs(graph, neighbor, visited)
-    
-    return visited
+    for (int neighbor : graph[start]) {
+        if (visited.find(neighbor) == visited.end()) {
+            dfs(graph, neighbor, visited);
+        }
+    }
+}
 ```
 
 ### Example: Path Sum
-```python
-def hasPathSum(root, targetSum):
-    if not root:
-        return False
+```cpp
+bool hasPathSum(TreeNode* root, int targetSum) {
+    if (!root) {
+        return false;
+    }
     
-    if not root.left and not root.right:
-        return root.val == targetSum
+    if (!root->left && !root->right) {
+        return root->val == targetSum;
+    }
     
-    return (hasPathSum(root.left, targetSum - root.val) or
-            hasPathSum(root.right, targetSum - root.val))
+    return hasPathSum(root->left, targetSum - root->val) ||
+           hasPathSum(root->right, targetSum - root->val);
+}
 ```
 
 ### Use Cases
@@ -740,50 +821,64 @@ BFS explores all neighbors at the present depth before moving to nodes at the ne
 **Space Complexity:** O(w) where w is maximum width
 
 ### Example: BFS on Graph
-```python
-from collections import deque
-
-def bfs(graph, start):
-    visited = set([start])
-    queue = deque([start])
+```cpp
+void bfs(unordered_map<int, vector<int>>& graph, int start) {
+    unordered_set<int> visited;
+    queue<int> q;
     
-    while queue:
-        vertex = queue.popleft()
-        print(vertex)
+    visited.insert(start);
+    q.push(start);
+    
+    while (!q.empty()) {
+        int vertex = q.front();
+        q.pop();
+        cout << vertex << endl;
         
-        for neighbor in graph[vertex]:
-            if neighbor not in visited:
-                visited.add(neighbor)
-                queue.append(neighbor)
-    
-    return visited
+        for (int neighbor : graph[vertex]) {
+            if (visited.find(neighbor) == visited.end()) {
+                visited.insert(neighbor);
+                q.push(neighbor);
+            }
+        }
+    }
+}
 ```
 
 ### Example: Shortest Path in Binary Matrix
-```python
-def shortestPathBinaryMatrix(grid):
-    if grid[0][0] == 1:
-        return -1
+```cpp
+int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
+    if (grid[0][0] == 1) {
+        return -1;
+    }
     
-    n = len(grid)
-    queue = deque([(0, 0, 1)])  # row, col, distance
-    grid[0][0] = 1
+    int n = grid.size();
+    queue<tuple<int, int, int>> q;  // row, col, distance
+    q.push({0, 0, 1});
+    grid[0][0] = 1;
     
-    directions = [(-1,-1),(-1,0),(-1,1),(0,-1),(0,1),(1,-1),(1,0),(1,1)]
+    vector<pair<int, int>> directions = {
+        {-1,-1},{-1,0},{-1,1},{0,-1},{0,1},{1,-1},{1,0},{1,1}
+    };
     
-    while queue:
-        row, col, dist = queue.popleft()
+    while (!q.empty()) {
+        auto [row, col, dist] = q.front();
+        q.pop();
         
-        if row == n-1 and col == n-1:
-            return dist
+        if (row == n-1 && col == n-1) {
+            return dist;
+        }
         
-        for dr, dc in directions:
-            r, c = row + dr, col + dc
-            if 0 <= r < n and 0 <= c < n and grid[r][c] == 0:
-                grid[r][c] = 1
-                queue.append((r, c, dist + 1))
+        for (auto [dr, dc] : directions) {
+            int r = row + dr, c = col + dc;
+            if (r >= 0 && r < n && c >= 0 && c < n && grid[r][c] == 0) {
+                grid[r][c] = 1;
+                q.push({r, c, dist + 1});
+            }
+        }
+    }
     
-    return -1
+    return -1;
+}
 ```
 
 ### Use Cases
@@ -809,43 +904,51 @@ A heap is a complete binary tree where each node satisfies the heap property:
 - Heapify: O(n)
 
 ### Example: Kth Largest Element
-```python
-import heapq
-
-def findKthLargest(nums, k):
-    # Use min heap of size k
-    heap = []
+```cpp
+int findKthLargest(vector<int>& nums, int k) {
+    // Use min heap of size k
+    priority_queue<int, vector<int>, greater<int>> heap;
     
-    for num in nums:
-        heapq.heappush(heap, num)
-        if len(heap) > k:
-            heapq.heappop(heap)
+    for (int num : nums) {
+        heap.push(num);
+        if (heap.size() > k) {
+            heap.pop();
+        }
+    }
     
-    return heap[0]
+    return heap.top();
+}
 ```
 
 ### Example: Merge K Sorted Lists
-```python
-def mergeKLists(lists):
-    heap = []
+```cpp
+ListNode* mergeKLists(vector<ListNode*>& lists) {
+    auto cmp = [](ListNode* a, ListNode* b) { return a->val > b->val; };
+    priority_queue<ListNode*, vector<ListNode*>, decltype(cmp)> heap(cmp);
     
-    # Add first element from each list
-    for i, lst in enumerate(lists):
-        if lst:
-            heapq.heappush(heap, (lst.val, i, lst))
+    // Add first element from each list
+    for (ListNode* lst : lists) {
+        if (lst) {
+            heap.push(lst);
+        }
+    }
     
-    dummy = ListNode(0)
-    current = dummy
+    ListNode* dummy = new ListNode(0);
+    ListNode* current = dummy;
     
-    while heap:
-        val, i, node = heapq.heappop(heap)
-        current.next = node
-        current = current.next
+    while (!heap.empty()) {
+        ListNode* node = heap.top();
+        heap.pop();
+        current->next = node;
+        current = current->next;
         
-        if node.next:
-            heapq.heappush(heap, (node.next.val, i, node.next))
+        if (node->next) {
+            heap.push(node->next);
+        }
+    }
     
-    return dummy.next
+    return dummy->next;
+}
 ```
 
 ### Use Cases
@@ -870,39 +973,57 @@ A trie (prefix tree) is a tree data structure used to store strings where each p
 **Space Complexity:** O(ALPHABET_SIZE * m * n)
 
 ### Example: Implement Trie
-```python
-class TrieNode:
-    def __init__(self):
-        self.children = {}
-        self.is_end = False
+```cpp
+class TrieNode {
+public:
+    unordered_map<char, TrieNode*> children;
+    bool is_end;
+    
+    TrieNode() : is_end(false) {}
+};
 
-class Trie:
-    def __init__(self):
-        self.root = TrieNode()
+class Trie {
+private:
+    TrieNode* root;
     
-    def insert(self, word):
-        node = self.root
-        for char in word:
-            if char not in node.children:
-                node.children[char] = TrieNode()
-            node = node.children[char]
-        node.is_end = True
+public:
+    Trie() {
+        root = new TrieNode();
+    }
     
-    def search(self, word):
-        node = self.root
-        for char in word:
-            if char not in node.children:
-                return False
-            node = node.children[char]
-        return node.is_end
+    void insert(string word) {
+        TrieNode* node = root;
+        for (char c : word) {
+            if (node->children.find(c) == node->children.end()) {
+                node->children[c] = new TrieNode();
+            }
+            node = node->children[c];
+        }
+        node->is_end = true;
+    }
     
-    def startsWith(self, prefix):
-        node = self.root
-        for char in prefix:
-            if char not in node.children:
-                return False
-            node = node.children[char]
-        return True
+    bool search(string word) {
+        TrieNode* node = root;
+        for (char c : word) {
+            if (node->children.find(c) == node->children.end()) {
+                return false;
+            }
+            node = node->children[c];
+        }
+        return node->is_end;
+    }
+    
+    bool startsWith(string prefix) {
+        TrieNode* node = root;
+        for (char c : prefix) {
+            if (node->children.find(c) == node->children.end()) {
+                return false;
+            }
+            node = node->children[c];
+        }
+        return true;
+    }
+};
 ```
 
 ### Use Cases
@@ -929,28 +1050,33 @@ Bit manipulation involves operations on individual bits. Common operations inclu
 **Time Complexity:** O(1) per operation
 
 ### Example: Single Number
-```python
-def singleNumber(nums):
-    result = 0
-    for num in nums:
-        result ^= num
-    return result
+```cpp
+int singleNumber(vector<int>& nums) {
+    int result = 0;
+    for (int num : nums) {
+        result ^= num;
+    }
+    return result;
+}
 ```
 
 ### Example: Count Set Bits
-```python
-def hammingWeight(n):
-    count = 0
-    while n:
-        n &= n - 1  # Remove rightmost set bit
-        count += 1
-    return count
+```cpp
+int hammingWeight(uint32_t n) {
+    int count = 0;
+    while (n) {
+        n &= n - 1;  // Remove rightmost set bit
+        count++;
+    }
+    return count;
+}
 ```
 
 ### Example: Power of Two
-```python
-def isPowerOfTwo(n):
-    return n > 0 and (n & (n - 1)) == 0
+```cpp
+bool isPowerOfTwo(int n) {
+    return n > 0 && (n & (n - 1)) == 0;
+}
 ```
 
 ### Use Cases
@@ -971,59 +1097,82 @@ Backtracking is an algorithmic technique for solving problems recursively by try
 **Space Complexity:** O(n) for recursion depth
 
 ### Example: Permutations
-```python
-def permute(nums):
-    result = []
+```cpp
+vector<vector<int>> permute(vector<int>& nums) {
+    vector<vector<int>> result;
     
-    def backtrack(path, remaining):
-        if not remaining:
-            result.append(path[:])
-            return
+    function<void(vector<int>&, vector<int>&)> backtrack = 
+        [&](vector<int>& path, vector<int>& remaining) {
+        if (remaining.empty()) {
+            result.push_back(path);
+            return;
+        }
         
-        for i in range(len(remaining)):
-            backtrack(path + [remaining[i]], 
-                     remaining[:i] + remaining[i+1:])
+        for (int i = 0; i < remaining.size(); i++) {
+            path.push_back(remaining[i]);
+            vector<int> newRemaining;
+            for (int j = 0; j < remaining.size(); j++) {
+                if (j != i) newRemaining.push_back(remaining[j]);
+            }
+            backtrack(path, newRemaining);
+            path.pop_back();
+        }
+    };
     
-    backtrack([], nums)
-    return result
+    vector<int> path;
+    backtrack(path, nums);
+    return result;
+}
 ```
 
 ### Example: N-Queens
-```python
-def solveNQueens(n):
-    result = []
-    board = [['.'] * n for _ in range(n)]
+```cpp
+vector<vector<string>> solveNQueens(int n) {
+    vector<vector<string>> result;
+    vector<string> board(n, string(n, '.'));
     
-    def is_valid(row, col):
-        # Check column
-        for i in range(row):
-            if board[i][col] == 'Q':
-                return False
+    function<bool(int, int)> is_valid = [&](int row, int col) {
+        // Check column
+        for (int i = 0; i < row; i++) {
+            if (board[i][col] == 'Q') {
+                return false;
+            }
+        }
         
-        # Check diagonals
-        for i, j in zip(range(row-1, -1, -1), range(col-1, -1, -1)):
-            if board[i][j] == 'Q':
-                return False
+        // Check diagonals
+        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
+            if (board[i][j] == 'Q') {
+                return false;
+            }
+        }
         
-        for i, j in zip(range(row-1, -1, -1), range(col+1, n)):
-            if board[i][j] == 'Q':
-                return False
+        for (int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++) {
+            if (board[i][j] == 'Q') {
+                return false;
+            }
+        }
         
-        return True
+        return true;
+    };
     
-    def backtrack(row):
-        if row == n:
-            result.append([''.join(row) for row in board])
-            return
+    function<void(int)> backtrack = [&](int row) {
+        if (row == n) {
+            result.push_back(board);
+            return;
+        }
         
-        for col in range(n):
-            if is_valid(row, col):
-                board[row][col] = 'Q'
-                backtrack(row + 1)
-                board[row][col] = '.'
+        for (int col = 0; col < n; col++) {
+            if (is_valid(row, col)) {
+                board[row][col] = 'Q';
+                backtrack(row + 1);
+                board[row][col] = '.';
+            }
+        }
+    };
     
-    backtrack(0)
-    return result
+    backtrack(0);
+    return result;
+}
 ```
 
 ### Use Cases
@@ -1052,49 +1201,57 @@ A graph is a non-linear data structure consisting of vertices (nodes) and edges 
 - Adjacency List: O(V + E) space
 
 ### Example: Graph Representation
-```python
-# Adjacency List
-graph = {
-    'A': ['B', 'C'],
-    'B': ['A', 'D', 'E'],
-    'C': ['A', 'F'],
-    'D': ['B'],
-    'E': ['B', 'F'],
-    'F': ['C', 'E']
-}
+```cpp
+// Adjacency List
+unordered_map<char, vector<char>> graph = {
+    {'A', {'B', 'C'}},
+    {'B', {'A', 'D', 'E'}},
+    {'C', {'A', 'F'}},
+    {'D', {'B'}},
+    {'E', {'B', 'F'}},
+    {'F', {'C', 'E'}}
+};
 
-# Adjacency Matrix
-n = 4
-matrix = [[0] * n for _ in range(n)]
-matrix[0][1] = 1  # Edge from 0 to 1
+// Adjacency Matrix
+int n = 4;
+vector<vector<int>> matrix(n, vector<int>(n, 0));
+matrix[0][1] = 1;  // Edge from 0 to 1
 ```
 
 ### Example: Number of Islands
-```python
-def numIslands(grid):
-    if not grid:
-        return 0
+```cpp
+int numIslands(vector<vector<char>>& grid) {
+    if (grid.empty()) {
+        return 0;
+    }
     
-    count = 0
+    int count = 0;
+    int rows = grid.size();
+    int cols = grid[0].size();
     
-    def dfs(i, j):
-        if (i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]) or
-            grid[i][j] == '0'):
-            return
+    function<void(int, int)> dfs = [&](int i, int j) {
+        if (i < 0 || i >= rows || j < 0 || j >= cols || grid[i][j] == '0') {
+            return;
+        }
         
-        grid[i][j] = '0'
-        dfs(i+1, j)
-        dfs(i-1, j)
-        dfs(i, j+1)
-        dfs(i, j-1)
+        grid[i][j] = '0';
+        dfs(i+1, j);
+        dfs(i-1, j);
+        dfs(i, j+1);
+        dfs(i, j-1);
+    };
     
-    for i in range(len(grid)):
-        for j in range(len(grid[0])):
-            if grid[i][j] == '1':
-                dfs(i, j)
-                count += 1
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            if (grid[i][j] == '1') {
+                dfs(i, j);
+                count++;
+            }
+        }
+    }
     
-    return count
+    return count;
+}
 ```
 
 ### Use Cases
@@ -1116,64 +1273,83 @@ Topological sorting is a linear ordering of vertices in a Directed Acyclic Graph
 **Space Complexity:** O(V)
 
 ### Example: Course Schedule (Kahn's Algorithm)
-```python
-from collections import deque, defaultdict
-
-def canFinish(numCourses, prerequisites):
-    graph = defaultdict(list)
-    indegree = [0] * numCourses
+```cpp
+bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+    unordered_map<int, vector<int>> graph;
+    vector<int> indegree(numCourses, 0);
     
-    # Build graph
-    for course, prereq in prerequisites:
-        graph[prereq].append(course)
-        indegree[course] += 1
+    // Build graph
+    for (auto& prereq : prerequisites) {
+        graph[prereq[1]].push_back(prereq[0]);
+        indegree[prereq[0]]++;
+    }
     
-    # Find all nodes with no incoming edges
-    queue = deque([i for i in range(numCourses) if indegree[i] == 0])
-    count = 0
+    // Find all nodes with no incoming edges
+    queue<int> q;
+    for (int i = 0; i < numCourses; i++) {
+        if (indegree[i] == 0) {
+            q.push(i);
+        }
+    }
     
-    while queue:
-        node = queue.popleft()
-        count += 1
+    int count = 0;
+    while (!q.empty()) {
+        int node = q.front();
+        q.pop();
+        count++;
         
-        for neighbor in graph[node]:
-            indegree[neighbor] -= 1
-            if indegree[neighbor] == 0:
-                queue.append(neighbor)
+        for (int neighbor : graph[node]) {
+            indegree[neighbor]--;
+            if (indegree[neighbor] == 0) {
+                q.push(neighbor);
+            }
+        }
+    }
     
-    return count == numCourses
+    return count == numCourses;
+}
 ```
 
 ### Example: Using DFS
-```python
-def findOrder(numCourses, prerequisites):
-    graph = defaultdict(list)
-    for course, prereq in prerequisites:
-        graph[prereq].append(course)
+```cpp
+vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
+    unordered_map<int, vector<int>> graph;
+    for (auto& prereq : prerequisites) {
+        graph[prereq[1]].push_back(prereq[0]);
+    }
     
-    visited = [0] * numCourses  # 0: unvisited, 1: visiting, 2: visited
-    result = []
+    vector<int> visited(numCourses, 0);  // 0: unvisited, 1: visiting, 2: visited
+    vector<int> result;
     
-    def dfs(node):
-        if visited[node] == 1:  # Cycle detected
-            return False
-        if visited[node] == 2:  # Already processed
-            return True
+    function<bool(int)> dfs = [&](int node) {
+        if (visited[node] == 1) {  // Cycle detected
+            return false;
+        }
+        if (visited[node] == 2) {  // Already processed
+            return true;
+        }
         
-        visited[node] = 1
-        for neighbor in graph[node]:
-            if not dfs(neighbor):
-                return False
+        visited[node] = 1;
+        for (int neighbor : graph[node]) {
+            if (!dfs(neighbor)) {
+                return false;
+            }
+        }
         
-        visited[node] = 2
-        result.append(node)
-        return True
+        visited[node] = 2;
+        result.push_back(node);
+        return true;
+    };
     
-    for i in range(numCourses):
-        if not dfs(i):
-            return []
+    for (int i = 0; i < numCourses; i++) {
+        if (!dfs(i)) {
+            return {};
+        }
+    }
     
-    return result[::-1]
+    reverse(result.begin(), result.end());
+    return result;
+}
 ```
 
 ### Use Cases
@@ -1199,48 +1375,69 @@ Union Find (Disjoint Set Union) is a data structure that keeps track of elements
 **Time Complexity:** Nearly O(1) with optimizations (α(n))
 
 ### Example: Union Find Implementation
-```python
-class UnionFind:
-    def __init__(self, n):
-        self.parent = list(range(n))
-        self.rank = [0] * n
+```cpp
+class UnionFind {
+private:
+    vector<int> parent;
+    vector<int> rank;
     
-    def find(self, x):
-        if self.parent[x] != x:
-            self.parent[x] = self.find(self.parent[x])  # Path compression
-        return self.parent[x]
+public:
+    UnionFind(int n) : parent(n), rank(n, 0) {
+        for (int i = 0; i < n; i++) {
+            parent[i] = i;
+        }
+    }
     
-    def union(self, x, y):
-        root_x = self.find(x)
-        root_y = self.find(y)
-        
-        if root_x == root_y:
-            return False
-        
-        # Union by rank
-        if self.rank[root_x] < self.rank[root_y]:
-            self.parent[root_x] = root_y
-        elif self.rank[root_x] > self.rank[root_y]:
-            self.parent[root_y] = root_x
-        else:
-            self.parent[root_y] = root_x
-            self.rank[root_x] += 1
-        
-        return True
+    int find(int x) {
+        if (parent[x] != x) {
+            parent[x] = find(parent[x]);  // Path compression
+        }
+        return parent[x];
+    }
     
-    def connected(self, x, y):
-        return self.find(x) == self.find(y)
+    bool unionSets(int x, int y) {
+        int root_x = find(x);
+        int root_y = find(y);
+        
+        if (root_x == root_y) {
+            return false;
+        }
+        
+        // Union by rank
+        if (rank[root_x] < rank[root_y]) {
+            parent[root_x] = root_y;
+        } else if (rank[root_x] > rank[root_y]) {
+            parent[root_y] = root_x;
+        } else {
+            parent[root_y] = root_x;
+            rank[root_x]++;
+        }
+        
+        return true;
+    }
+    
+    bool connected(int x, int y) {
+        return find(x) == find(y);
+    }
+};
 ```
 
 ### Example: Number of Connected Components
-```python
-def countComponents(n, edges):
-    uf = UnionFind(n)
+```cpp
+int countComponents(int n, vector<vector<int>>& edges) {
+    UnionFind uf(n);
     
-    for u, v in edges:
-        uf.union(u, v)
+    for (auto& edge : edges) {
+        uf.unionSets(edge[0], edge[1]);
+    }
     
-    return len(set(uf.find(i) for i in range(n)))
+    unordered_set<int> roots;
+    for (int i = 0; i < n; i++) {
+        roots.insert(uf.find(i));
+    }
+    
+    return roots.size();
+}
 ```
 
 ### Use Cases
@@ -1262,49 +1459,64 @@ Greedy algorithms make locally optimal choices at each step with the hope of fin
 **Time Complexity:** Varies by problem
 
 ### Example: Jump Game
-```python
-def canJump(nums):
-    max_reach = 0
+```cpp
+bool canJump(vector<int>& nums) {
+    int max_reach = 0;
     
-    for i in range(len(nums)):
-        if i > max_reach:
-            return False
-        max_reach = max(max_reach, i + nums[i])
+    for (int i = 0; i < nums.size(); i++) {
+        if (i > max_reach) {
+            return false;
+        }
+        max_reach = max(max_reach, i + nums[i]);
         
-        if max_reach >= len(nums) - 1:
-            return True
+        if (max_reach >= nums.size() - 1) {
+            return true;
+        }
+    }
     
-    return True
+    return true;
+}
 ```
 
 ### Example: Activity Selection
-```python
-def maxMeetings(start, end):
-    meetings = sorted(zip(start, end), key=lambda x: x[1])
-    count = 1
-    last_end = meetings[0][1]
+```cpp
+int maxMeetings(vector<int>& start, vector<int>& end) {
+    vector<pair<int, int>> meetings;
+    for (int i = 0; i < start.size(); i++) {
+        meetings.push_back({end[i], start[i]});
+    }
+    sort(meetings.begin(), meetings.end());
     
-    for s, e in meetings[1:]:
-        if s > last_end:
-            count += 1
-            last_end = e
+    int count = 1;
+    int last_end = meetings[0].first;
     
-    return count
+    for (int i = 1; i < meetings.size(); i++) {
+        if (meetings[i].second > last_end) {
+            count++;
+            last_end = meetings[i].first;
+        }
+    }
+    
+    return count;
+}
 ```
 
 ### Example: Minimum Coins
-```python
-def coinChange(coins, amount):
-    coins.sort(reverse=True)
-    count = 0
+```cpp
+int coinChange(vector<int>& coins, int amount) {
+    sort(coins.begin(), coins.end(), greater<int>());
+    int count = 0;
     
-    for coin in coins:
-        if amount == 0:
-            break
-        count += amount // coin
-        amount %= coin
+    for (int coin : coins) {
+        if (amount == 0) {
+            break;
+        }
+        count += amount / coin;
+        amount %= coin;
+    }
     
-    return count if amount == 0 else -1
+    return amount == 0 ? count : -1;
+}
 ```
 
 ### Use Cases
