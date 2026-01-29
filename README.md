@@ -120,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0920-uncommon-words-from-two-sentences](https://github.com/afoteas/leet-code/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0944-delete-columns-to-make-sorted](https://github.com/afoteas/leet-code/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/afoteas/leet-code/tree/master/0955-delete-columns-to-make-sorted-ii) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/afoteas/leet-code/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/afoteas/leet-code/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/afoteas/leet-code/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1666-make-the-string-great](https://github.com/afoteas/leet-code/tree/master/1666-make-the-string-great) |
@@ -191,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0932-monotonic-array](https://github.com/afoteas/leet-code/tree/master/0932-monotonic-array) |
 | [0944-delete-columns-to-make-sorted](https://github.com/afoteas/leet-code/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/afoteas/leet-code/tree/master/0955-delete-columns-to-make-sorted-ii) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/afoteas/leet-code/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/afoteas/leet-code/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/afoteas/leet-code/tree/master/1018-binary-prefix-divisible-by-5) |
@@ -380,6 +382,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0509-fibonacci-number](https://github.com/afoteas/leet-code/tree/master/0509-fibonacci-number) |
 | [0650-2-keys-keyboard](https://github.com/afoteas/leet-code/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/afoteas/leet-code/tree/master/0664-strange-printer) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/afoteas/leet-code/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/afoteas/leet-code/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Trie
