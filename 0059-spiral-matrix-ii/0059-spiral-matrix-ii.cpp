@@ -1,11 +1,8 @@
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
-        vector<vector<int>> m(n, std::vector<int>(n, 0));
-        pair<int,int> tl(0,0); //(y,x)
-        pair<int,int> tr(0,n-1);
-        pair<int,int> br(n-1,n-1);
-        pair<int,int> bl(n-1,0);
+        vector<vector<int>> m(n, vector<int>(n, 0));
+        pair<int,int> tl{0,0}, tr{0,n-1}, br{n-1,n-1}, bl{n-1,0};
         int max = n*n;
         int i = 0;
         while(true) {
