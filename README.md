@@ -103,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/afoteas/leet-code/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/afoteas/leet-code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/afoteas/leet-code/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0058-length-of-last-word](https://github.com/afoteas/leet-code/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/afoteas/leet-code/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/afoteas/leet-code/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/afoteas/leet-code/tree/master/0071-simplify-path) |
