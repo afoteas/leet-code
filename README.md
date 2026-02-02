@@ -151,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/afoteas/leet-code/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/afoteas/leet-code/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/afoteas/leet-code/tree/master/0057-insert-interval) |
+| [0059-spiral-matrix-ii](https://github.com/afoteas/leet-code/tree/master/0059-spiral-matrix-ii) |
 | [0066-plus-one](https://github.com/afoteas/leet-code/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/afoteas/leet-code/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/afoteas/leet-code/tree/master/0073-set-matrix-zeroes) |
@@ -592,6 +593,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/afoteas/leet-code/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/afoteas/leet-code/tree/master/0059-spiral-matrix-ii) |
 | [0067-add-binary](https://github.com/afoteas/leet-code/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/afoteas/leet-code/tree/master/0068-text-justification) |
 | [0906-walking-robot-simulation](https://github.com/afoteas/leet-code/tree/master/0906-walking-robot-simulation) |
@@ -620,6 +622,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0048-rotate-image](https://github.com/afoteas/leet-code/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/afoteas/leet-code/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/afoteas/leet-code/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/afoteas/leet-code/tree/master/0073-set-matrix-zeroes) |
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) |
