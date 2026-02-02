@@ -32,7 +32,6 @@ public:
             tl.first++;
             tl.second++;
             if(i==max) break;
-
         }
         return m;
     }
