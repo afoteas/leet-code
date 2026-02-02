@@ -10,12 +10,9 @@ public:
         int i = 0;
         while(true) {
             // move right
-            for(int j=top_left.second; j<top_right.second+1; j++) {
-                matrix[top_right.first][j] = ++i;
-            }
+            for(int j=top_left.second; j<top_right.second+1; j++) matrix[top_right.first][j] = ++i;
             top_right.first++;
             top_right.second--;
-
             if(i==max) break;
 
             //move down
