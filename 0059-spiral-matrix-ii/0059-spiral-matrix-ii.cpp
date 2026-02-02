@@ -16,9 +16,7 @@ public:
             if(i==max) break;
 
             //move down
-            for(int j=tr.first; j<br.first+1; j++) {
-                m[j][br.second] = ++i;
-            }
+            for(int j=tr.first; j<br.first+1; j++) m[j][br.second] = ++i;
             br.first--;
             br.second--;
             if(i==max) break;
