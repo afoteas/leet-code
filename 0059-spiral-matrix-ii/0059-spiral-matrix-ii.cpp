@@ -1,46 +1,45 @@
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
-        vector<vector<int>> matrix(n, std::vector<int>(n, 0));
-        pair<int,int> top_left(0,0); //(y,x)
-        pair<int,int> top_right(0,n-1);
-        pair<int,int> bottom_right(n-1,n-1);
-        pair<int,int> bottom_left(n-1,0);
+        vector<vector<int>> m(n, std::vector<int>(n, 0));
+        pair<int,int> tl(0,0); //(y,x)
+        pair<int,int> tr(0,n-1);
+        pair<int,int> br(n-1,n-1);
+        pair<int,int> bl(n-1,0);
         int max = n*n;
         int i = 0;
         while(true) {
             // move right
-            for(int j=top_left.second; j<top_right.second+1; j++) matrix[top_right.first][j] = ++i;
-            top_right.first++;
-            top_right.second--;
+            for(int j=tl.second; j<tr.second+1; j++) m[tr.first][j] = ++i;
+            tr.first++;
+            tr.second--;
             if(i==max) break;
 
             //move down
-            for(int j=top_right.first; j<bottom_right.first+1; j++) {
-                matrix[j][bottom_right.second] = ++i;
+            for(int j=tr.first; j<br.first+1; j++) {
+                m[j][br.second] = ++i;
             }
-            bottom_right.first--;
-            bottom_right.second--;
+            br.first--;
+            br.second--;
             if(i==max) break;
 
             // move left
-            for(int j=bottom_right.second; j>=bottom_left.second; j--) {
-                matrix[bottom_left.first][j] = ++i;
+            for(int j=br.second; j>=bl.second; j--) {
+                m[bl.first][j] = ++i;
             }
-            bottom_left.first--;
-            bottom_left.second++;
+            bl.first--;
+            bl.second++;
             if(i==max) break;
+
             // move up
-            for(int j=bottom_left.first; j>top_left.first; j--) {
-                matrix[j][top_left.second] = ++i;
+            for(int j=bl.first; j>tl.first; j--) {
+                m[j][tl.second] = ++i;
             }
-            top_left.first++;
-            top_left.second++;
+            tl.first++;
+            tl.second++;
             if(i==max) break;
 
         }
-        return matrix;
-
-        
+        return m;
     }
 };
