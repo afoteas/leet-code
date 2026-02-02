@@ -22,17 +22,13 @@ public:
             if(i==max) break;
 
             // move left
-            for(int j=br.second; j>=bl.second; j--) {
-                m[bl.first][j] = ++i;
-            }
+            for(int j=br.second; j>=bl.second; j--) m[bl.first][j] = ++i;
             bl.first--;
             bl.second++;
             if(i==max) break;
 
             // move up
-            for(int j=bl.first; j>tl.first; j--) {
-                m[j][tl.second] = ++i;
-            }
+            for(int j=bl.first; j>tl.first; j--) m[j][tl.second] = ++i;
             tl.first++;
             tl.second++;
             if(i==max) break;
