@@ -237,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/afoteas/leet-code/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/afoteas/leet-code/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3354-make-array-elements-equal-to-zero](https://github.com/afoteas/leet-code/tree/master/3354-make-array-elements-equal-to-zero) |
+| [3379-transformed-array](https://github.com/afoteas/leet-code/tree/master/3379-transformed-array) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/afoteas/leet-code/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3453-separate-squares-i](https://github.com/afoteas/leet-code/tree/master/3453-separate-squares-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/afoteas/leet-code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -614,6 +615,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/afoteas/leet-code/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3354-make-array-elements-equal-to-zero](https://github.com/afoteas/leet-code/tree/master/3354-make-array-elements-equal-to-zero) |
+| [3379-transformed-array](https://github.com/afoteas/leet-code/tree/master/3379-transformed-array) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/afoteas/leet-code/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Union Find
