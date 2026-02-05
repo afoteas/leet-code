@@ -3,6 +3,53 @@ public:
 
 
     vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
+        if(n==1){
+            return {0};
+        }
+        vector<vector<int>> tree(n,vector<int> ());
+        vector<int> deg(n,0);
+        for(int i=0;i<n-1;i++){
+            tree[edges[i][0]].push_back(edges[i][1]);
+            tree[edges[i][1]].push_back(edges[i][0]);
+            deg[edges[i][0]]++;
+            deg[edges[i][1]]++;
+        }
+
+        queue<int> q;
+        for(int i=0;i<n;i++){
+            if(deg[i]==1){
+                q.push(i);
+            }
+        }
+
+        int remaining = n;
+        while(remaining>2){
+            int leafCount = q.size();
+            remaining-=leafCount;
+
+            while(leafCount--){
+                int leaf = q.front();
+                q.pop();
+
+                for(auto child:tree[leaf]){
+                    deg[child]--;
+                    if(deg[child]==1){
+                        q.push(child);
+                    }
+                }
+            }
+        }
+
+        vector<int> ans;
+        while(q.size()){
+            ans.push_back(q.front());
+            q.pop();
+        }
+
+        return ans;
+    }
+
+    vector<int> findMinHeightTreesChat(int n, vector<vector<int>>& edges) {
         if (n == 1) return {0};
         unordered_map<int, unordered_set<int>> neighbours;
         for (auto& edge : edges) {
