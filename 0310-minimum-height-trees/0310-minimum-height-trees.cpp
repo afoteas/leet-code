@@ -82,19 +82,10 @@ public:
 
     vector<int> findMinHeightTreesN2(int n, vector<vector<int>>& edges) {
         unordered_map<int, unordered_set<int>> neighbours;
-        vector<int> ret = {};
         for (auto& edge: edges) {
             neighbours[edge[0]].insert(edge[1]);
             neighbours[edge[1]].insert(edge[0]);
         }
-        // cout<<"neighbours:"<<endl;
-        // for(auto& d:neighbours) {
-        //     cout<<d.first<<": ";
-        //     for(auto&c:d.second) {
-        //         cout<<c<<" ";
-        //     }
-        //     cout<<endl;
-        // }
         map<int,vector<int>> depthMap;
         for(int i = 0; i < n; i++) {
             int levelSize = 0;
@@ -119,14 +110,6 @@ public:
             }
             depthMap[level].push_back(i);
         }
-        // cout<<"DepthMap:"<<endl;
-        // for(auto& d:depthMap) {
-        //     cout<<d.first<<": ";
-        //     for(auto&c:d.second) {
-        //         cout<<c<<" ";
-        //     }
-        //     cout<<endl;
-        // }
         return depthMap.begin()->second;
     }
 };
