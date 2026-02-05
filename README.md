@@ -420,6 +420,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/afoteas/leet-code/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/afoteas/leet-code/tree/master/0226-invert-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/afoteas/leet-code/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/afoteas/leet-code/tree/master/0322-coin-change) |
 | [0404-sum-of-left-leaves](https://github.com/afoteas/leet-code/tree/master/0404-sum-of-left-leaves) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -511,6 +512,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/afoteas/leet-code/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/afoteas/leet-code/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0310-minimum-height-trees](https://github.com/afoteas/leet-code/tree/master/0310-minimum-height-trees) |
 | [0386-lexicographical-numbers](https://github.com/afoteas/leet-code/tree/master/0386-lexicographical-numbers) |
 | [0404-sum-of-left-leaves](https://github.com/afoteas/leet-code/tree/master/0404-sum-of-left-leaves) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -687,6 +689,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Topological Sort
 |  |
 | ------- |
+| [0310-minimum-height-trees](https://github.com/afoteas/leet-code/tree/master/0310-minimum-height-trees) |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) |
 ## String Matching
 |  |
@@ -788,6 +791,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/afoteas/leet-code/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+## Graph Theory
+|  |
+| ------- |
+| [0310-minimum-height-trees](https://github.com/afoteas/leet-code/tree/master/0310-minimum-height-trees) |
 <!---LeetCode Topics End-->
 
 ## Easy
