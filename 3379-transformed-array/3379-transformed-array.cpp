@@ -1,9 +1,9 @@
 class Solution {
 public:
     vector<int> constructTransformedArray(vector<int>& nums) {
-        int size = nums.size();
-        vector<int> ans(size);
-        for(int i=0; i< size; ++i) ans.at(i) = nums.at((size + nums.at(i)%size + i)%size);
+        int s = nums.size();
+        vector<int> ans(s);
+        for(int i=0; i< s; ++i) ans.at(i) = nums.at((s + nums.at(i)%s + i)%s);
         return ans;
     }
 };
