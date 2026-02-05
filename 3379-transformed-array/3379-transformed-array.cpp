@@ -15,7 +15,9 @@ public:
                 ans.at(i) = nums.at(p);
             } 
             else {
-                ans.at(i) = nums.at(i);
+                // ans.at(i) = nums.at(i);
+                int p = (size + nums.at(i)%size + i)%size;
+                ans.at(i) = nums.at(p);
             }
         }
         return ans;
