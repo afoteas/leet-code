@@ -11,6 +11,23 @@
  */
 class Solution {
 public:
+    vector<int> postorderTraversal(TreeNode* root) {
+        vector<int> ans;
+        if(!root) return ans;
+        stack<TreeNode*> st;
+        st.push(root);
+        while(!st.empty()) {
+            TreeNode* cur = st.top();
+            st.pop();
+            if(cur->left) st.push(cur->left);
+            if(cur->right) st.push(cur->right);
+            ans.push_back(cur->val);
+        }
+        reverse(ans.begin(), ans.end());
+        return ans;
+    }
+
+
     void postorderTraversalHelper(TreeNode* currentNode, vector<int>& result) {
         // Base case: if the node is null, return
         if (!currentNode) {
@@ -24,7 +41,7 @@ public:
         result.push_back(currentNode->val);
     }
 
-    vector<int> postorderTraversal(TreeNode* root) {
+    vector<int> postorderTraversal2(TreeNode* root) {
         vector<int> result;
         // Start traversal from root
         postorderTraversalHelper(root, result);
