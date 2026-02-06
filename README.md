@@ -352,6 +352,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/afoteas/leet-code/tree/master/0150-evaluate-reverse-polish-notation) **Medium** |
 | [0155-min-stack](https://github.com/afoteas/leet-code/tree/master/0155-min-stack) **Medium** |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) **Hard** |
+| [0232-implement-queue-using-stacks](https://github.com/afoteas/leet-code/tree/master/0232-implement-queue-using-stacks) |
 | [1666-make-the-string-great](https://github.com/afoteas/leet-code/tree/master/1666-make-the-string-great) **Easy** |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/afoteas/leet-code/tree/master/2800-minimum-string-length-after-removing-substrings) **Easy** |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/afoteas/leet-code/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) **Medium** |
@@ -611,6 +612,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0155-min-stack](https://github.com/afoteas/leet-code/tree/master/0155-min-stack) **Medium** |
 | [0208-implement-trie-prefix-tree](https://github.com/afoteas/leet-code/tree/master/0208-implement-trie-prefix-tree) **Medium** |
+| [0232-implement-queue-using-stacks](https://github.com/afoteas/leet-code/tree/master/0232-implement-queue-using-stacks) |
 | [0380-insert-delete-getrandom-o1](https://github.com/afoteas/leet-code/tree/master/0380-insert-delete-getrandom-o1) **Medium** |
 | [0729-my-calendar-i](https://github.com/afoteas/leet-code/tree/master/0729-my-calendar-i) **Medium** |
 | [0789-kth-largest-element-in-a-stream](https://github.com/afoteas/leet-code/tree/master/0789-kth-largest-element-in-a-stream) **Easy** |
@@ -772,6 +774,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/afoteas/leet-code/tree/master/0232-implement-queue-using-stacks) |
 | [0859-design-circular-deque](https://github.com/afoteas/leet-code/tree/master/0859-design-circular-deque) **Medium** |
 ## Monotonic Stack
 |  |
