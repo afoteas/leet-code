@@ -65,13 +65,34 @@ class DifficultyUpdater:
         # Return problems that don't have tags
         return all_problem_ids - problems_with_tags
     
-    def lookup_difficulty_from_leetcode(self, problem_id: str) -> Optional[str]:
+    
+    def get_difficulty_from_problem_readme(self, problem_id: str) -> Optional[str]:
         """
-        Try to look up difficulty from LeetCode API or local mapping.
-        This is a fallback method - you can enhance this with actual API calls.
+        Try to extract difficulty from the problem's own README.md file.
+        Looks for <h3>Easy|Medium|Hard</h3> or **Easy|Medium|Hard** patterns.
         """
-        # You can add a mapping here or integrate with LeetCode API
-        # For now, returning None means manual input required
+        problem_dir = self.workspace_root / problem_id
+        readme_path = problem_dir / "README.md"
+        
+        if not readme_path.exists():
+            return None
+        
+        try:
+            with open(readme_path, 'r') as f:
+                content = f.read()
+            
+            # Try to find difficulty in HTML header format: <h3>Difficulty</h3>
+            html_match = re.search(r'<h3>(Easy|Medium|Hard)</h3>', content)
+            if html_match:
+                return html_match.group(1)
+            
+            # Try to find difficulty in markdown format: **Difficulty**
+            md_match = re.search(r'\*\*(Easy|Medium|Hard)\*\*', content)
+            if md_match:
+                return md_match.group(1)
+        except Exception as e:
+            pass
+        
         return None
     
     def get_difficulty_for_problem(self, problem_id: str, existing_difficulties: Dict[str, str]) -> Optional[str]:
@@ -83,8 +104,8 @@ class DifficultyUpdater:
         if problem_id in existing_difficulties:
             return existing_difficulties[problem_id]
         
-        # Try LeetCode lookup (can be enhanced with API)
-        difficulty = self.lookup_difficulty_from_leetcode(problem_id)
+        # Try to extract from problem's own README.md
+        difficulty = self.get_difficulty_from_problem_readme(problem_id)
         if difficulty:
             return difficulty
         
