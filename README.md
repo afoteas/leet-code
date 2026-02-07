@@ -131,7 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/afoteas/leet-code/tree/master/0960-delete-columns-to-make-sorted-iii) **Hard** |
 | [1146-greatest-common-divisor-of-strings](https://github.com/afoteas/leet-code/tree/master/1146-greatest-common-divisor-of-strings) **Easy** |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/afoteas/leet-code/tree/master/1302-delete-characters-to-make-fancy-string) **Easy** |
-| [1653-minimum-deletions-to-make-string-balanced](https://github.com/afoteas/leet-code/tree/master/1653-minimum-deletions-to-make-string-balanced) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/afoteas/leet-code/tree/master/1653-minimum-deletions-to-make-string-balanced) **Medium** |
 | [1666-make-the-string-great](https://github.com/afoteas/leet-code/tree/master/1666-make-the-string-great) **Easy** |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/afoteas/leet-code/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) **Medium** |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) **Easy** |
@@ -354,7 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/afoteas/leet-code/tree/master/0155-min-stack) **Medium** |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) **Hard** |
 | [0232-implement-queue-using-stacks](https://github.com/afoteas/leet-code/tree/master/0232-implement-queue-using-stacks) **Easy** |
-| [1653-minimum-deletions-to-make-string-balanced](https://github.com/afoteas/leet-code/tree/master/1653-minimum-deletions-to-make-string-balanced) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/afoteas/leet-code/tree/master/1653-minimum-deletions-to-make-string-balanced) **Medium** |
 | [1666-make-the-string-great](https://github.com/afoteas/leet-code/tree/master/1666-make-the-string-great) **Easy** |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/afoteas/leet-code/tree/master/2800-minimum-string-length-after-removing-substrings) **Easy** |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/afoteas/leet-code/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) **Medium** |
@@ -398,7 +398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0664-strange-printer](https://github.com/afoteas/leet-code/tree/master/0664-strange-printer) **Hard** |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/afoteas/leet-code/tree/master/0960-delete-columns-to-make-sorted-iii) **Hard** |
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) **Medium** |
-| [1653-minimum-deletions-to-make-string-balanced](https://github.com/afoteas/leet-code/tree/master/1653-minimum-deletions-to-make-string-balanced) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/afoteas/leet-code/tree/master/1653-minimum-deletions-to-make-string-balanced) **Medium** |
 | [2067-maximum-number-of-points-with-cost](https://github.com/afoteas/leet-code/tree/master/2067-maximum-number-of-points-with-cost) **Medium** |
 ## Trie
 |  |
