@@ -2,6 +2,23 @@ class Solution {
 public:
 
 
+    int minimumDeletionsStack(string s) {
+        int count = 0;
+        int n = s.length();
+        stack <char> st;
+        for(int i=0; i<n; i++){
+            if(!st.empty() && s[i] == 'a' && st.top() == 'b'){
+                st.pop();
+                count += 1;
+            }
+            else{
+                st.push(s[i]);
+            }
+            
+        }
+        return count;
+    }
+
     int minimumDeletions(string s) {
         int potentialNumberOfDeletion = 0;
         int minimumDeletion = 0;
