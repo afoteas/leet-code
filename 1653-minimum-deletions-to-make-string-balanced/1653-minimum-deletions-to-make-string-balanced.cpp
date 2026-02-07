@@ -1,6 +1,26 @@
 class Solution {
 public:
+
+
     int minimumDeletions(string s) {
+        int potentialNumberOfDeletion = 0;
+        int minimumDeletion = 0;
+
+        for (int i = 0; i <= s.size() - 1; i++)
+            if (s[i] == 'b') {
+                potentialNumberOfDeletion++;
+            }
+            else {
+                if (potentialNumberOfDeletion > 0) {
+                    potentialNumberOfDeletion--;
+                    minimumDeletion++;
+                }
+            }
+        
+        return minimumDeletion;
+    }
+
+    int minimumDeletionsMine(string s) {
         vector<int> a(s.size()+1);
         vector<int> b(s.size()+1);
         int ret = s.size();
