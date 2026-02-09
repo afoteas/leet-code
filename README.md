@@ -374,6 +374,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0108-convert-sorted-array-to-binary-search-tree) **Easy** |
 | [0191-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/0191-number-of-1-bits) **Easy** |
 | [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) **Medium** |
+| [1382-balance-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/1382-balance-a-binary-search-tree) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -507,6 +508,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0774-maximum-depth-of-n-ary-tree) **Easy** |
 | [0789-kth-largest-element-in-a-stream](https://github.com/afoteas/leet-code/tree/master/0789-kth-largest-element-in-a-stream) **Easy** |
 | [0993-cousins-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0993-cousins-in-binary-tree) **Easy** |
+| [1382-balance-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/1382-balance-a-binary-search-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/afoteas/leet-code/tree/master/1492-time-needed-to-inform-all-employees) **Medium** |
 | [2641-cousins-in-binary-tree-ii](https://github.com/afoteas/leet-code/tree/master/2641-cousins-in-binary-tree-ii) **Medium** |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/afoteas/leet-code/tree/master/2646-kth-largest-sum-in-a-binary-tree) **Medium** |
@@ -540,6 +542,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-keys-and-rooms](https://github.com/afoteas/leet-code/tree/master/0871-keys-and-rooms) **Medium** |
 | [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) **Medium** |
 | [0993-cousins-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0993-cousins-in-binary-tree) **Easy** |
+| [1382-balance-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/1382-balance-a-binary-search-tree) |
 | [1396-count-servers-that-communicate](https://github.com/afoteas/leet-code/tree/master/1396-count-servers-that-communicate) **Medium** |
 | [1492-time-needed-to-inform-all-employees](https://github.com/afoteas/leet-code/tree/master/1492-time-needed-to-inform-all-employees) **Medium** |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/afoteas/leet-code/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) **Medium** |
@@ -569,6 +572,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) **Easy** |
 | [0789-kth-largest-element-in-a-stream](https://github.com/afoteas/leet-code/tree/master/0789-kth-largest-element-in-a-stream) **Easy** |
 | [0993-cousins-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0993-cousins-in-binary-tree) **Easy** |
+| [1382-balance-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/1382-balance-a-binary-search-tree) |
 | [2641-cousins-in-binary-tree-ii](https://github.com/afoteas/leet-code/tree/master/2641-cousins-in-binary-tree-ii) **Medium** |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/afoteas/leet-code/tree/master/2646-kth-largest-sum-in-a-binary-tree) **Medium** |
 ## Binary Search Tree
@@ -579,6 +583,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/afoteas/leet-code/tree/master/0230-kth-smallest-element-in-a-bst) **Medium** |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) **Easy** |
 | [0789-kth-largest-element-in-a-stream](https://github.com/afoteas/leet-code/tree/master/0789-kth-largest-element-in-a-stream) **Easy** |
+| [1382-balance-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/1382-balance-a-binary-search-tree) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -740,6 +745,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0624-maximum-distance-in-arrays](https://github.com/afoteas/leet-code/tree/master/0624-maximum-distance-in-arrays) **Medium** |
 | [0890-lemonade-change](https://github.com/afoteas/leet-code/tree/master/0890-lemonade-change) **Easy** |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/afoteas/leet-code/tree/master/0955-delete-columns-to-make-sorted-ii) **Medium** |
+| [1382-balance-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/1382-balance-a-binary-search-tree) |
 | [3074-apple-redistribution-into-boxes](https://github.com/afoteas/leet-code/tree/master/3074-apple-redistribution-into-boxes) **Easy** |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/afoteas/leet-code/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) **Medium** |
 ## Game Theory
