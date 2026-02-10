@@ -33,15 +33,12 @@ public:
                         };
                     }
                 } else {
-                    // add new element
                     int in = nums[i+subLen-1];
                     if (in % 2) {
                         odd[in]++;
                     } else {
                         even[in]++;
                     }
-
-                    // remove old element
                     int out = nums[i-1];
                     if (out % 2) {
                         if (--odd[out] == 0) odd.erase(out);
