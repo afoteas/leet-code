@@ -96,7 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3583-count-special-triplets](https://github.com/afoteas/leet-code/tree/master/3583-count-special-triplets) **Medium** |
 | [3606-coupon-code-validator](https://github.com/afoteas/leet-code/tree/master/3606-coupon-code-validator) **Easy** |
 | [3625-count-number-of-trapezoids-ii](https://github.com/afoteas/leet-code/tree/master/3625-count-number-of-trapezoids-ii) **Hard** |
-| [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) |
+| [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) **Medium** |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/afoteas/leet-code/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) **Medium** |
 | [3863-power-grid-maintenance](https://github.com/afoteas/leet-code/tree/master/3863-power-grid-maintenance) **Medium** |
 ## String
@@ -250,7 +250,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/afoteas/leet-code/tree/master/3612-adjacent-increasing-subarrays-detection-i) **Easy** |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/afoteas/leet-code/tree/master/3619-adjacent-increasing-subarrays-detection-ii) **Medium** |
 | [3625-count-number-of-trapezoids-ii](https://github.com/afoteas/leet-code/tree/master/3625-count-number-of-trapezoids-ii) **Hard** |
-| [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) |
+| [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) **Medium** |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/afoteas/leet-code/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) **Medium** |
 | [3863-power-grid-maintenance](https://github.com/afoteas/leet-code/tree/master/3863-power-grid-maintenance) **Medium** |
 ## Sliding Window
@@ -377,7 +377,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0191-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/0191-number-of-1-bits) **Easy** |
 | [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) **Medium** |
 | [1382-balance-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/1382-balance-a-binary-search-tree) **Medium** |
-| [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) |
+| [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) **Medium** |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -702,7 +702,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2625-increment-submatrices-by-one](https://github.com/afoteas/leet-code/tree/master/2625-increment-submatrices-by-one) **Medium** |
 | [3354-make-array-elements-equal-to-zero](https://github.com/afoteas/leet-code/tree/master/3354-make-array-elements-equal-to-zero) **Easy** |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/afoteas/leet-code/tree/master/3432-count-partitions-with-even-sum-difference) **Easy** |
-| [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) |
+| [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) **Medium** |
 ## Counting
 |  |
 | ------- |
@@ -780,7 +780,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0729-my-calendar-i](https://github.com/afoteas/leet-code/tree/master/0729-my-calendar-i) **Medium** |
-| [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) |
+| [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) **Medium** |
 ## Ordered Set
 |  |
 | ------- |
