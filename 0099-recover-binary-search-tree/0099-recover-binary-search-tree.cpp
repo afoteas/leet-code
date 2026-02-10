@@ -44,18 +44,14 @@ public:
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
-    TreeNode* prev = NULL;
-    TreeNode* first = NULL;
-    TreeNode* sec = NULL;
+    TreeNode* prev = nullptr;
+    TreeNode* first = nullptr;
+    TreeNode* sec = nullptr;
     void inorder(TreeNode* root) {
-        if (root == NULL) {
-            return;
-        }
+        if (!root) return;
         inorder(root->left);
-        if (prev != NULL && root->val < prev->val) {
-            if (first == NULL) {
-                first = prev;
-            }
+        if (prev && root->val < prev->val) {
+            if (!first) first = prev;
             sec = root;
         }
         prev = root;
