@@ -25,12 +25,8 @@ public:
             for(int i=0; i<=nums.size()-subLen; ++i) {
                 if(i == 0) {
                     for(int j=i; j<(i+subLen); ++j) {
-                        if (nums[j]%2) {
-                            odd[nums[j]]++;
-                        }
-                        else {
-                            even[nums[j]]++;
-                        };
+                        if (nums[j]%2) odd[nums[j]]++;
+                        else even[nums[j]]++;
                     }
                 } else {
                     int in = nums[i+subLen-1];
