@@ -17,6 +17,26 @@ public:
         return 0;
     }
 
+    int longestBalancedSimple(vector<int>& nums) {
+        int n=nums.size();
+        int res=0;
+        for(int i=0;i<n;i++) {
+            unordered_set<int>e,o;
+            for(int j=i;j<n;j++) {
+                if(nums[j]%2==0) {
+                    e.insert(nums[j]);
+                }
+                else {
+                    o.insert(nums[j]);
+                }
+                if(e.size()==o.size()){
+                    res=max(res,j-i+1);
+                }                
+            }
+        }
+        return res;
+    }
+
     int longestBalanced(vector<int>& nums) {
         int subLen = nums.size();
         while(subLen > 1) {
@@ -26,16 +46,13 @@ public:
                 if(i == 0) {
                     for(int j=i; j<(i+subLen); ++j) {
                         int num = nums[j];
-                        if (num%2) odd[num]++;
-                        else even[num]++;
+                        if (num%2)  odd[num]++;
+                        else        even[num]++;
                     }
                 } else {
                     int in = nums[i+subLen-1];
-                    if (in % 2) {
-                        odd[in]++;
-                    } else {
-                        even[in]++;
-                    }
+                    if (in % 2)     odd[in]++;
+                    else            even[in]++;
                     int out = nums[i-1];
                     if (out % 2) {
                         if (--odd[out] == 0) odd.erase(out);
