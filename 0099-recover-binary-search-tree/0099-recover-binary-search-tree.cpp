@@ -18,7 +18,7 @@ public:
         nodesArray.push_back(root);
         if(root->right) dfs(root->right, nodesArray);
     }
-    void recoverTree(TreeNode* root) {
+    void recoverTreeMine(TreeNode* root) {
         vector<TreeNode*> nodesArray;
         dfs(root, nodesArray);
 
@@ -39,11 +39,34 @@ public:
 
         int tmp = sw[0]-> val;
         sw[0]->val = sw[1]->val;
-        sw[1]->val = tmp;
+        sw[1]->val = tmp; 
+    }
 
-        // for (auto& node: nodesArray) {
-        //     cout << node->val << " ";
-        // }
-                
+
+////////////////////////////////////////////////////////////////////////////////////////
+    TreeNode* prev = NULL;
+    TreeNode* first = NULL;
+    TreeNode* sec = NULL;
+    void inorder(TreeNode* root) {
+        if (root == NULL) {
+            return;
+        }
+        inorder(root->left);
+        if (prev != NULL && root->val < prev->val) {
+            if (first == NULL) {
+                first = prev;
+            }
+            sec = root;
+        }
+        prev = root;
+        inorder(root->right);
+    }
+    void recoverTree(TreeNode* root) {
+        inorder(root);
+
+        // swapping the values
+        int temp = first->val;
+        first->val = sec->val;
+        sec->val = temp;
     }
 };
