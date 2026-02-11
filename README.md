@@ -324,6 +324,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0509-fibonacci-number](https://github.com/afoteas/leet-code/tree/master/0509-fibonacci-number) **Easy** |
 | [0650-2-keys-keyboard](https://github.com/afoteas/leet-code/tree/master/0650-2-keys-keyboard) **Medium** |
 | [0830-largest-triangle-area](https://github.com/afoteas/leet-code/tree/master/0830-largest-triangle-area) **Easy** |
+| [1025-divisor-game](https://github.com/afoteas/leet-code/tree/master/1025-divisor-game) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/afoteas/leet-code/tree/master/1146-greatest-common-divisor-of-strings) **Easy** |
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) **Medium** |
 | [1266-minimum-time-visiting-all-points](https://github.com/afoteas/leet-code/tree/master/1266-minimum-time-visiting-all-points) **Easy** |
@@ -401,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0650-2-keys-keyboard](https://github.com/afoteas/leet-code/tree/master/0650-2-keys-keyboard) **Medium** |
 | [0664-strange-printer](https://github.com/afoteas/leet-code/tree/master/0664-strange-printer) **Hard** |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/afoteas/leet-code/tree/master/0960-delete-columns-to-make-sorted-iii) **Hard** |
+| [1025-divisor-game](https://github.com/afoteas/leet-code/tree/master/1025-divisor-game) |
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) **Medium** |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/afoteas/leet-code/tree/master/1653-minimum-deletions-to-make-string-balanced) **Medium** |
 | [2067-maximum-number-of-points-with-cost](https://github.com/afoteas/leet-code/tree/master/2067-maximum-number-of-points-with-cost) **Medium** |
@@ -762,6 +764,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Game Theory
 |  |
 | ------- |
+| [1025-divisor-game](https://github.com/afoteas/leet-code/tree/master/1025-divisor-game) |
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) **Medium** |
 ## Data Stream
 |  |
@@ -828,6 +831,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Brainteaser
 |  |
 | ------- |
+| [1025-divisor-game](https://github.com/afoteas/leet-code/tree/master/1025-divisor-game) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/afoteas/leet-code/tree/master/3577-count-the-number-of-computer-unlocking-permutations) **Medium** |
 ## Doubly-Linked List
 |  |
