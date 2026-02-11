@@ -1,0 +1,217 @@
+# BFS/DFS (Breadth-First Search / Depth-First Search)
+
+## Overview
+Fundamental graph traversal algorithms used for exploring nodes and edges.
+
+## Depth-First Search (DFS)
+
+### When to Use
+- Exploring all paths
+- Backtracking problems
+- Cycle detection
+- Topological sorting
+- Connected components
+
+### Recursive DFS Template
+```cpp
+void dfs(int node, vector<vector<int>>& graph, vector<bool>& visited) {
+    visited[node] = true;
+    
+    // Process node
+    
+    for (int neighbor : graph[node]) {
+        if (!visited[neighbor]) {
+            dfs(neighbor, graph, visited);
+        }
+    }
+}
+```
+
+### Iterative DFS Template
+```cpp
+void dfs(int start, vector<vector<int>>& graph) {
+    stack<int> st;
+    vector<bool> visited(graph.size(), false);
+    
+    st.push(start);
+    
+    while (!st.empty()) {
+        int node = st.top();
+        st.pop();
+        
+        if (visited[node]) continue;
+        visited[node] = true;
+        
+        // Process node
+        
+        for (int neighbor : graph[node]) {
+            if (!visited[neighbor]) {
+                st.push(neighbor);
+            }
+        }
+    }
+}
+```
+
+## Breadth-First Search (BFS)
+
+### When to Use
+- Shortest path (unweighted)
+- Level-order traversal
+- Finding nearest/closest
+- Minimum steps/operations
+
+### BFS Template
+```cpp
+void bfs(int start, vector<vector<int>>& graph) {
+    queue<int> q;
+    vector<bool> visited(graph.size(), false);
+    
+    q.push(start);
+    visited[start] = true;
+    
+    while (!q.empty()) {
+        int node = q.front();
+        q.pop();
+        
+        // Process node
+        
+        for (int neighbor : graph[node]) {
+            if (!visited[neighbor]) {
+                visited[neighbor] = true;
+                q.push(neighbor);
+            }
+        }
+    }
+}
+```
+
+### BFS with Levels
+```cpp
+int bfsLevels(int start, vector<vector<int>>& graph) {
+    queue<int> q;
+    vector<bool> visited(graph.size(), false);
+    
+    q.push(start);
+    visited[start] = true;
+    int level = 0;
+    
+    while (!q.empty()) {
+        int size = q.size();
+        
+        for (int i = 0; i < size; i++) {
+            int node = q.front();
+            q.pop();
+            
+            // Process node at this level
+            
+            for (int neighbor : graph[node]) {
+                if (!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    q.push(neighbor);
+                }
+            }
+        }
+        
+        level++;
+    }
+    
+    return level;
+}
+```
+
+## Matrix/Grid Traversal
+
+### DFS on Grid
+```cpp
+void dfs(vector<vector<int>>& grid, int row, int col) {
+    int m = grid.size(), n = grid[0].size();
+    
+    if (row < 0 || row >= m || col < 0 || col >= n || grid[row][col] == 0) {
+        return;
+    }
+    
+    grid[row][col] = 0;  // Mark as visited
+    
+    // 4 directions
+    dfs(grid, row + 1, col);
+    dfs(grid, row - 1, col);
+    dfs(grid, row, col + 1);
+    dfs(grid, row, col - 1);
+}
+```
+
+### BFS on Grid
+```cpp
+int bfsGrid(vector<vector<int>>& grid, int startRow, int startCol) {
+    int m = grid.size(), n = grid[0].size();
+    queue<pair<int, int>> q;
+    vector<vector<bool>> visited(m, vector<bool>(n, false));
+    
+    q.push({startRow, startCol});
+    visited[startRow][startCol] = true;
+    
+    int directions[4][2] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    int steps = 0;
+    
+    while (!q.empty()) {
+        int size = q.size();
+        
+        for (int i = 0; i < size; i++) {
+            auto [row, col] = q.front();
+            q.pop();
+            
+            if (/* reached target */) {
+                return steps;
+            }
+            
+            for (auto& dir : directions) {
+                int newRow = row + dir[0];
+                int newCol = col + dir[1];
+                
+                if (newRow >= 0 && newRow < m && newCol >= 0 && newCol < n 
+                    && !visited[newRow][newCol] && grid[newRow][newCol] == 1) {
+                    visited[newRow][newCol] = true;
+                    q.push({newRow, newCol});
+                }
+            }
+        }
+        steps++;
+    }
+    
+    return -1;
+}
+```
+
+## Common Problems
+- Number of Islands (LeetCode #200)
+- Clone Graph (LeetCode #133)
+- Course Schedule (LeetCode #207)
+- Binary Tree Level Order Traversal (LeetCode #102)
+- Surrounded Regions (LeetCode #130)
+- Word Ladder (LeetCode #127)
+
+## Comparison
+
+| Feature | DFS | BFS |
+|---------|-----|-----|
+| Data Structure | Stack (or recursion) | Queue |
+| Memory | O(h) where h = height | O(w) where w = max width |
+| Shortest Path | ❌ No | ✅ Yes (unweighted) |
+| All Paths | ✅ Yes | ❌ Not practical |
+| Backtracking | ✅ Natural | ❌ Not suitable |
+
+## Time Complexity
+- **Time:** O(V + E) where V = vertices, E = edges
+- **Space:** 
+  - DFS: O(h) recursion depth
+  - BFS: O(w) queue width
+
+## Tips
+- Use BFS for shortest path in unweighted graphs
+- Use DFS for exploring all possibilities (backtracking)
+- For grids, mark cells as visited to avoid revisiting
+- Consider using directions array for cleaner code
+- Watch out for disconnected components
+
+[← Back to README](README.md)
