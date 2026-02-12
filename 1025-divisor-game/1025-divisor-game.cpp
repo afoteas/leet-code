@@ -11,7 +11,8 @@ public:
             for(int j=1;j<i;j++) {
                 if(i%j==0)dp[i] = dp[i] | !dp[i-j];
             }
-        }return dp[n];
+        }
+        return dp[n];
         
     }
 };
