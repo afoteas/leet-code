@@ -42,6 +42,7 @@
 31. [MST](31-mst.md) - Kruskal's, Prim's (rare)
 32. [Suffix Arrays/Trees](32-suffix-arrays-trees.md) - very rare
 33. [Network Flow](33-network-flow.md) - very rare
+34. [AVL and Red-Black Trees](34-avl-red-black-trees.md) - self-balancing BSTs (conceptual understanding)
 
 ## **Study Strategy**
 
