@@ -120,44 +120,49 @@ int maxMeetings(vector<pair<int,int>>& intervals) {
 **Time Complexity**: O(n log n) for sorting + O(n) for iteration = O(n log n)
 
 ### 2. Jump Game
+**Problem**: Given array where each element is max jump length, can you reach the last index?
+
+**Greedy Insight**: Track the maximum reachable position. If we ever encounter an index beyond what we can reach, return false.
+
 ```cpp
 bool canJump(vector<int>& nums) {
     int maxReach = 0;
-    
     for (int i = 0; i < nums.size(); i++) {
         if (i > maxReach) return false;
         maxReach = max(maxReach, i + nums[i]);
     }
-    
     return true;
 }
 ```
 
-### 3. Jump Game II (Minimum Jumps)
+### 3. Jump Game II
+**Problem**: Find minimum number of jumps to reach the last index.
+
+**Greedy Insight**: Track farthest reachable position. When reaching the end of current jump range, increment jumps and update range to farthest position found.
+
 ```cpp
 int jump(vector<int>& nums) {
-    int jumps = 0;
-    int currentEnd = 0;
-    int farthest = 0;
+    int jumps = 0, currentEnd = 0, farthest = 0;
     
     for (int i = 0; i < nums.size() - 1; i++) {
         farthest = max(farthest, i + nums[i]);
-        
         if (i == currentEnd) {
             jumps++;
             currentEnd = farthest;
         }
     }
-    
     return jumps;
 }
 ```
 
 ### 4. Gas Station
+**Problem**: Find starting gas station index to complete circular route, or return -1 if impossible.
+
+**Greedy Insight**: If tank becomes negative at position i, no starting position before i can work. Start fresh from i+1. First check if total gas >= total cost.
+
 ```cpp
 int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
-    int totalGas = 0, totalCost = 0;
-    int tank = 0, start = 0;
+    int totalGas = 0, totalCost = 0, tank = 0, start = 0;
     
     for (int i = 0; i < gas.size(); i++) {
         totalGas += gas[i];
@@ -169,31 +174,31 @@ int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
             tank = 0;
         }
     }
-    
     return (totalGas >= totalCost) ? start : -1;
 }
 ```
 
 ### 5. Partition Labels
+**Problem**: Partition string into max parts so each letter appears in at most one part.
+
+**Greedy Insight**: Track last occurrence of each character. Expand partition until current position equals the farthest last occurrence.
+
 ```cpp
 vector<int> partitionLabels(string s) {
     unordered_map<char, int> lastIndex;
-    for (int i = 0; i < s.length(); i++) {
+    for (int i = 0; i < s.length(); i++) 
         lastIndex[s[i]] = i;
-    }
     
     vector<int> result;
     int start = 0, end = 0;
     
     for (int i = 0; i < s.length(); i++) {
         end = max(end, lastIndex[s[i]]);
-        
         if (i == end) {
             result.push_back(end - start + 1);
             start = i + 1;
         }
     }
-    
     return result;
 }
 ```
@@ -248,44 +253,44 @@ int maxSubArray(vector<int>& nums) {
 **Space Complexity**: O(1)
 
 ### 7. Task Scheduler
+**Problem**: Minimize CPU intervals to complete all tasks with constraint of at least n intervals between same tasks.
+
+**Greedy Insight**: Schedule most frequent task first. Calculate idle slots = (max_frequency - 1) × n, then subtract other tasks that can fill those slots.
+
 ```cpp
 int leastInterval(vector<char>& tasks, int n) {
     vector<int> freq(26, 0);
-    for (char task : tasks) {
-        freq[task - 'A']++;
-    }
+    for (char task : tasks) freq[task - 'A']++;
     
     sort(freq.begin(), freq.end(), greater<int>());
-    
     int maxFreq = freq[0];
     int idleSlots = (maxFreq - 1) * n;
     
-    for (int i = 1; i < 26 && freq[i] > 0; i++) {
+    for (int i = 1; i < 26 && freq[i] > 0; i++)
         idleSlots -= min(maxFreq - 1, freq[i]);
-    }
     
-    idleSlots = max(0, idleSlots);
-    return tasks.size() + idleSlots;
+    return tasks.size() + max(0, idleSlots);
 }
 ```
 
 ### 8. Non-overlapping Intervals
+**Problem**: Minimum intervals to remove to make rest non-overlapping.
+
+**Greedy Insight**: Sort by end time. Keep intervals that end earliest, remove overlapping ones (similar to activity selection).
+
 ```cpp
 int eraseOverlapIntervals(vector<vector<int>>& intervals) {
     sort(intervals.begin(), intervals.end(), 
          [](auto& a, auto& b) { return a[1] < b[1]; });
     
-    int count = 0;
-    int lastEnd = intervals[0][1];
-    
+    int count = 0, lastEnd = intervals[0][1];
     for (int i = 1; i < intervals.size(); i++) {
         if (intervals[i][0] < lastEnd) {
-            count++;  // Overlapping, remove current
+            count++;
         } else {
             lastEnd = intervals[i][1];
         }
     }
-    
     return count;
 }
 ```
