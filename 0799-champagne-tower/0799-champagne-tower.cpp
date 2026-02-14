@@ -1,10 +1,15 @@
 class Solution {
 public:
+
+    // vector<vector<double>> t;
+    double t[101][101];
+
     double champagneTower(int poured, int query_row, int query_glass) {
-        vector<vector<double>> t(query_row+1);
-        for(int i=0; i<=query_row; ++i) {
-            t[i].resize(i+1,0.0);
-        }
+        // vector<vector<double>> t(query_row+1);
+        // for(int i=0; i<=query_row; ++i) {
+        //     t[i].resize(i+1,0.0);
+        // }
+        memset(t, 0, sizeof(t));
         t[0][0] = poured;
 
         for(int i=0; i<query_row; ++i) {
@@ -20,8 +25,7 @@ public:
     }
 
 
-    // vector<vector<double>> t;
-    double t[101][101]; 
+
     
     double solve(int poured, int row, int glass) {
         if(row < 0 || glass > row || glass < 0) {
