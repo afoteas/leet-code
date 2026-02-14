@@ -408,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0509-fibonacci-number](https://github.com/afoteas/leet-code/tree/master/0509-fibonacci-number) **Easy** |
 | [0650-2-keys-keyboard](https://github.com/afoteas/leet-code/tree/master/0650-2-keys-keyboard) **Medium** |
 | [0664-strange-printer](https://github.com/afoteas/leet-code/tree/master/0664-strange-printer) **Hard** |
+| [0799-champagne-tower](https://github.com/afoteas/leet-code/tree/master/0799-champagne-tower) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/afoteas/leet-code/tree/master/0960-delete-columns-to-make-sorted-iii) **Hard** |
 | [1025-divisor-game](https://github.com/afoteas/leet-code/tree/master/1025-divisor-game) **Easy** |
 | [1240-stone-game-ii](https://github.com/afoteas/leet-code/tree/master/1240-stone-game-ii) **Medium** |
