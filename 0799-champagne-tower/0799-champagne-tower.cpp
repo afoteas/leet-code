@@ -18,7 +18,5 @@ public:
             }
         }
         return min(1.0, tower[query_row][query_glass]);
-        // return 0.0;
-
     }
 };
