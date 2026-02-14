@@ -11,7 +11,6 @@ public:
             for(int j=0; j<=i; ++j) {
                 if(tower[i][j] > 1.0) {
                     double overflow = tower[i][j] - 1.0;
-                    // tower[i][j] = 1.0;
                     tower[i+1][j] += overflow/2.0;
                     tower[i+1][j+1] += overflow/2.0;
                 }
@@ -19,4 +18,5 @@ public:
         }
         return min(1.0, tower[query_row][query_glass]);
     }
+
 };
