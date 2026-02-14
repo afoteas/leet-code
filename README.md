@@ -193,7 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/afoteas/leet-code/tree/master/0300-longest-increasing-subsequence) **Medium** |
 | [0322-coin-change](https://github.com/afoteas/leet-code/tree/master/0322-coin-change) **Medium** |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/afoteas/leet-code/tree/master/0373-find-k-pairs-with-smallest-sums) **Medium** |
-| [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) |
+| [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) **Easy** |
 | [0605-can-place-flowers](https://github.com/afoteas/leet-code/tree/master/0605-can-place-flowers) **Easy** |
 | [0624-maximum-distance-in-arrays](https://github.com/afoteas/leet-code/tree/master/0624-maximum-distance-in-arrays) **Medium** |
 | [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) **Medium** |
@@ -279,7 +279,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/afoteas/leet-code/tree/master/0151-reverse-words-in-a-string) **Medium** |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) **Medium** |
 | [0283-move-zeroes](https://github.com/afoteas/leet-code/tree/master/0283-move-zeroes) **Easy** |
-| [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) |
+| [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) **Easy** |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) **Easy** |
 ## Sorting
 |  |
@@ -296,7 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0274-h-index](https://github.com/afoteas/leet-code/tree/master/0274-h-index) **Medium** |
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) **Easy** |
 | [0392-is-subsequence](https://github.com/afoteas/leet-code/tree/master/0392-is-subsequence) **Easy** |
-| [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) |
+| [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) **Easy** |
 | [1200-minimum-absolute-difference](https://github.com/afoteas/leet-code/tree/master/1200-minimum-absolute-difference) **Easy** |
 | [1256-rank-transform-of-an-array](https://github.com/afoteas/leet-code/tree/master/1256-rank-transform-of-an-array) **Easy** |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/afoteas/leet-code/tree/master/1626-can-make-arithmetic-progression-from-sequence) **Easy** |
@@ -760,7 +760,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/afoteas/leet-code/tree/master/0134-gas-station) **Medium** |
 | [0135-candy](https://github.com/afoteas/leet-code/tree/master/0135-candy) **Hard** |
 | [0409-longest-palindrome](https://github.com/afoteas/leet-code/tree/master/0409-longest-palindrome) **Easy** |
-| [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) |
+| [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) **Easy** |
 | [0605-can-place-flowers](https://github.com/afoteas/leet-code/tree/master/0605-can-place-flowers) **Easy** |
 | [0624-maximum-distance-in-arrays](https://github.com/afoteas/leet-code/tree/master/0624-maximum-distance-in-arrays) **Medium** |
 | [0890-lemonade-change](https://github.com/afoteas/leet-code/tree/master/0890-lemonade-change) **Easy** |
