@@ -155,7 +155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/afoteas/leet-code/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) **Medium** |
 | [0035-search-insert-position](https://github.com/afoteas/leet-code/tree/master/0035-search-insert-position) **Easy** |
 | [0042-trapping-rain-water](https://github.com/afoteas/leet-code/tree/master/0042-trapping-rain-water) **Hard** |
-| [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) |
+| [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) **Medium** |
 | [0048-rotate-image](https://github.com/afoteas/leet-code/tree/master/0048-rotate-image) **Medium** |
 | [0051-n-queens](https://github.com/afoteas/leet-code/tree/master/0051-n-queens) **Hard** |
 | [0053-maximum-subarray](https://github.com/afoteas/leet-code/tree/master/0053-maximum-subarray) **Medium** |
@@ -390,7 +390,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0022-generate-parentheses](https://github.com/afoteas/leet-code/tree/master/0022-generate-parentheses) **Medium** |
 | [0042-trapping-rain-water](https://github.com/afoteas/leet-code/tree/master/0042-trapping-rain-water) **Hard** |
-| [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) |
+| [0045-jump-game-ii](https://github.com/afoteas/leet-code/tree/master/0045-jump-game-ii) **Medium** |
 | [0053-maximum-subarray](https://github.com/afoteas/leet-code/tree/master/0053-maximum-subarray) **Medium** |
 | [0055-jump-game](https://github.com/afoteas/leet-code/tree/master/0055-jump-game) **Medium** |
 | [0062-unique-paths](https://github.com/afoteas/leet-code/tree/master/0062-unique-paths) **Medium** |
