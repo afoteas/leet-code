@@ -9,7 +9,7 @@ public:
         // for(int i=0; i<=query_row; ++i) {
         //     t[i].resize(i+1,0.0);
         // }
-        memset(t, 0, sizeof(t));
+        // memset(t, 0, sizeof(t));
         t[0][0] = poured;
 
         for(int i=0; i<query_row; ++i) {
