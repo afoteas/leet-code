@@ -20,7 +20,8 @@ public:
     }
 
 
-    vector<vector<double>> t;
+    // vector<vector<double>> t;
+    double t[101][101]; 
     
     double solve(int poured, int row, int glass) {
         if(row < 0 || glass > row || glass < 0) {
@@ -45,7 +46,8 @@ public:
     }
     
     double champagneTower(int poured, int query_row, int query_glass) {
-        t.assign(query_row + 1, vector<double>(query_row + 1, -1.0));
+        // t.assign(query_row + 1, vector<double>(query_row + 1, -1.0));
+        memset(t, -1, sizeof(t));
         return min(1.00, solve(poured, query_row, query_glass));
     }
 };
