@@ -2,7 +2,7 @@ class Solution {
 public:
 
     // vector<vector<double>> t;
-    double t[101][101];
+    double t[101][101] = {};
 
     double champagneTower(int poured, int query_row, int query_glass) {
         // vector<vector<double>> t(query_row+1);
