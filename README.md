@@ -2,7 +2,6 @@
 Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 
 ## Table of Contents
-- [LeetCode Topics](#leetcode-topics)
 - [Hash Table](#hash-table)
 - [String](#string)
 - [Array](#array)
@@ -446,7 +445,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) **Medium** |
 | [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) **Easy** |
 | [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) **Medium** |
-| [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) |
+| [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) **Medium** |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0774-maximum-depth-of-n-ary-tree) **Easy** |
 | [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) **Medium** |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) **Medium** |
@@ -457,7 +456,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1396-count-servers-that-communicate](https://github.com/afoteas/leet-code/tree/master/1396-count-servers-that-communicate) **Medium** |
 | [1492-time-needed-to-inform-all-employees](https://github.com/afoteas/leet-code/tree/master/1492-time-needed-to-inform-all-employees) **Medium** |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/afoteas/leet-code/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) **Medium** |
-| [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) |
+| [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) **Easy** |
 | [2641-cousins-in-binary-tree-ii](https://github.com/afoteas/leet-code/tree/master/2641-cousins-in-binary-tree-ii) **Medium** |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/afoteas/leet-code/tree/master/2646-kth-largest-sum-in-a-binary-tree) **Medium** |
 | [3863-power-grid-maintenance](https://github.com/afoteas/leet-code/tree/master/3863-power-grid-maintenance) **Medium** |
@@ -554,7 +553,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) **Medium** |
 | [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) **Easy** |
 | [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) **Medium** |
-| [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) |
+| [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) **Medium** |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0774-maximum-depth-of-n-ary-tree) **Easy** |
 | [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) **Medium** |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) **Medium** |
@@ -565,7 +564,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1396-count-servers-that-communicate](https://github.com/afoteas/leet-code/tree/master/1396-count-servers-that-communicate) **Medium** |
 | [1492-time-needed-to-inform-all-employees](https://github.com/afoteas/leet-code/tree/master/1492-time-needed-to-inform-all-employees) **Medium** |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/afoteas/leet-code/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) **Medium** |
-| [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) |
+| [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) **Easy** |
 | [2641-cousins-in-binary-tree-ii](https://github.com/afoteas/leet-code/tree/master/2641-cousins-in-binary-tree-ii) **Medium** |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/afoteas/leet-code/tree/master/2872-maximum-number-of-k-divisible-components) **Hard** |
 | [3863-power-grid-maintenance](https://github.com/afoteas/leet-code/tree/master/3863-power-grid-maintenance) **Medium** |
@@ -614,7 +613,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) **Medium** |
 | [0264-ugly-number-ii](https://github.com/afoteas/leet-code/tree/master/0264-ugly-number-ii) **Medium** |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/afoteas/leet-code/tree/master/0373-find-k-pairs-with-smallest-sums) **Medium** |
-| [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) |
+| [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) **Medium** |
 | [0789-kth-largest-element-in-a-stream](https://github.com/afoteas/leet-code/tree/master/0789-kth-largest-element-in-a-stream) **Easy** |
 | [1325-path-with-maximum-probability](https://github.com/afoteas/leet-code/tree/master/1325-path-with-maximum-probability) **Medium** |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/afoteas/leet-code/tree/master/3507-minimum-pair-removal-to-sort-array-i) **Easy** |
@@ -673,7 +672,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3379-transformed-array](https://github.com/afoteas/leet-code/tree/master/3379-transformed-array) **Easy** |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/afoteas/leet-code/tree/master/3507-minimum-pair-removal-to-sort-array-i) **Easy** |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) **Easy** |
-## Union Find
+## Union-Find
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/afoteas/leet-code/tree/master/0128-longest-consecutive-sequence) **Medium** |
@@ -681,6 +680,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) **Medium** |
 | [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) **Medium** |
 | [1396-count-servers-that-communicate](https://github.com/afoteas/leet-code/tree/master/1396-count-servers-that-communicate) **Medium** |
+| [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) **Easy** |
 | [3863-power-grid-maintenance](https://github.com/afoteas/leet-code/tree/master/3863-power-grid-maintenance) **Medium** |
 ## Matrix
 |  |
@@ -788,7 +788,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Shortest Path
 |  |
 | ------- |
-| [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) |
+| [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) **Medium** |
 | [1325-path-with-maximum-probability](https://github.com/afoteas/leet-code/tree/master/1325-path-with-maximum-probability) **Medium** |
 ## Number Theory
 |  |
@@ -857,10 +857,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0310-minimum-height-trees](https://github.com/afoteas/leet-code/tree/master/0310-minimum-height-trees) **Medium** |
-| [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) |
-| [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) |
-## Union-Find
-|  |
-| ------- |
-| [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) |
+| [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) **Medium** |
+| [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) **Easy** |
 <!---LeetCode Topics End-->
