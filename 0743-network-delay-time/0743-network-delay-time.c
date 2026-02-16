@@ -19,7 +19,7 @@ int networkDelayTime(int** times, int timesSize, int* timesColSize, int n, int k
             }
         }
         
-        if (u == -1 || dist[u] == INT_MAX) break;
+        if (u == -1 || dist[u] == INT_MAX) return -1;
         visited[u] = true;
         
         // Relax all edges from u
