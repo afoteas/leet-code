@@ -27,19 +27,14 @@ public:
         }
     }
 
-
-    vector<string> combine(int count) {
+    vector<string> readBinaryWatch(int turnedOn) {
         vector<string> result;
         vector<int> nums = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512};
         vector<int> path;
         
-        combineHelper(0, count, nums, path, result);
-        
-        return result;
-    }
+        combineHelper(0, turnedOn, nums, path, result);
 
-    vector<string> readBinaryWatch(int turnedOn) {
-        return combine(turnedOn);
+        return result;
         
     }
 };
