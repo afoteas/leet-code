@@ -183,6 +183,123 @@ int bfsGrid(vector<vector<int>>& grid, int startRow, int startCol) {
 }
 ```
 
+## Backtracking
+
+Backtracking is a DFS-based technique for exploring all possible solutions by building them incrementally and abandoning (backtracking) when constraints are violated.
+
+### Core Concept
+1. **Choose:** Make a choice (add element to current solution)
+2. **Explore:** Recursively explore with that choice
+3. **Unchoose:** Undo the choice (backtrack) and try another
+
+### General Backtracking Template
+```cpp
+void backtrack(int index, vector<int>& path, vector<vector<int>>& result) {
+    // Base case: found a solution
+    if (index == nums.size()) {
+        result.push_back(path);
+        return;
+    }
+    
+    // Try all possibilities
+    for (int i = index; i < nums.size(); i++) {
+        // Choose
+        path.push_back(nums[i]);
+        
+        // Explore
+        backtrack(i + 1, path, result);
+        
+        // Unchoose (backtrack)
+        path.pop_back();
+    }
+}
+```
+
+### Permutations Template
+```cpp
+void permuteHelper(vector<int>& nums, vector<bool>& used, 
+                   vector<int>& path, vector<vector<int>>& result) {
+    if (path.size() == nums.size()) {
+        result.push_back(path);
+        return;
+    }
+    
+    for (int i = 0; i < nums.size(); i++) {
+        if (!used[i]) {
+            // Choose
+            path.push_back(nums[i]);
+            used[i] = true;
+            
+            // Explore
+            permuteHelper(nums, used, path, result);
+            
+            // Unchoose
+            path.pop_back();
+            used[i] = false;
+        }
+    }
+}
+```
+
+### Combinations Template
+```cpp
+void combineHelper(int start, int k, vector<int>& path, 
+                   vector<vector<int>>& result) {
+    if (path.size() == k) {
+        result.push_back(path);
+        return;
+    }
+    
+    for (int i = start; i <= n; i++) {
+        // Choose
+        path.push_back(i);
+        
+        // Explore
+        combineHelper(i + 1, k, path, result);
+        
+        // Unchoose
+        path.pop_back();
+    }
+}
+```
+
+### Subsets Template
+```cpp
+void subsetsHelper(int index, vector<int>& nums, vector<int>& path, 
+                   vector<vector<int>>& result) {
+    result.push_back(path);  // Add current subset
+    
+    for (int i = index; i < nums.size(); i++) {
+        // Choose
+        path.push_back(nums[i]);
+        
+        // Explore
+        subsetsHelper(i + 1, nums, path, result);
+        
+        // Unchoose
+        path.pop_back();
+    }
+}
+```
+
+### Classic Problems
+- Permutations (LeetCode #46)
+- Combinations (LeetCode #77)
+- Subsets (LeetCode #78)
+- N-Queens (LeetCode #51)
+- Sudoku Solver (LeetCode #37)
+- Word Search (LeetCode #79)
+- Generate Parentheses (LeetCode #22)
+- Palindrome Partitioning (LeetCode #131)
+
+### Key Tips
+- Use `path` vector to track current solution
+- Backtrack by removing last element: `path.pop_back()`
+- Use `used` array for permutations to avoid duplicates
+- Use `start` index for combinations to avoid duplicates
+- Prune early when constraints are violated
+- Watch time complexity: can be O(n!) for permutations
+
 ## Common Problems
 - Number of Islands (LeetCode #200)
 - Clone Graph (LeetCode #133)
