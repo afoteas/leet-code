@@ -216,24 +216,32 @@ void backtrack(int index, vector<int>& nums, vector<int>& path, vector<vector<in
 ```
 
 ### Permutations Template
+**Goal:** Generate all distinct orderings of elements (order matters)
+
+**Key idea:** Use `used[]` array to track which elements are already in current path. Since permutations care about order, we explore ALL positions, not just forward positions.
+
+**Example:** `[1,2,3]` → `[1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], [3,2,1]`
+
 ```cpp
 void permuteHelper(vector<int>& nums, vector<bool>& used, 
                    vector<int>& path, vector<vector<int>>& result) {
+    // Base case: all elements used, solution complete
     if (path.size() == nums.size()) {
         result.push_back(path);
         return;
     }
     
+    // Try each element we haven't used yet
     for (int i = 0; i < nums.size(); i++) {
         if (!used[i]) {
-            // Choose
+            // Choose: add element to current permutation
             path.push_back(nums[i]);
             used[i] = true;
             
-            // Explore
+            // Explore: recursively build rest of permutation
             permuteHelper(nums, used, path, result);
             
-            // Unchoose
+            // Unchoose: remove element and mark as unused
             path.pop_back();
             used[i] = false;
         }
@@ -241,46 +249,71 @@ void permuteHelper(vector<int>& nums, vector<bool>& used,
 }
 ```
 
+**Time:** O(n! × n) - n! permutations, each takes O(n) to copy  
+**Space:** O(n) for recursion depth + used array
+
 ### Combinations Template
+**Goal:** Generate all ways to choose k elements from n elements (order doesn't matter)
+
+**Key idea:** Use `start` index to only explore forward. This prevents duplicates since `[1,2]` and `[2,1]` are the same combination. Only build combinations in increasing order.
+
+**Example:** Choose 2 from `[1,2,3]` → `[1,2], [1,3], [2,3]`
+
 ```cpp
 void combineHelper(int start, int k, vector<int>& path, 
                    vector<vector<int>>& result) {
+    // Base case: selected k elements
     if (path.size() == k) {
         result.push_back(path);
         return;
     }
     
+    // Try elements starting from 'start' to avoid duplicates
     for (int i = start; i <= n; i++) {
-        // Choose
+        // Choose: add element to current combination
         path.push_back(i);
         
-        // Explore
+        // Explore: choose remaining elements from i+1 onwards
         combineHelper(i + 1, k, path, result);
         
-        // Unchoose
+        // Unchoose: remove element and try next
         path.pop_back();
     }
 }
 ```
 
+**Time:** O(C(n,k) × k) - C(n,k) combinations, each takes O(k) to copy  
+**Space:** O(k) for recursion depth
+
 ### Subsets Template
+**Goal:** Generate all possible subsets (power set) - every combination of any length
+
+**Key idea:** Add current path as a solution BEFORE exploring. This naturally generates subsets of all sizes: empty set, singles, pairs, etc. Use `index` to build subsets in increasing order and avoid duplicates.
+
+**Example:** `[1,2]` → `[], [1], [2], [1,2]`
+
 ```cpp
 void subsetsHelper(int index, vector<int>& nums, vector<int>& path, 
                    vector<vector<int>>& result) {
-    result.push_back(path);  // Add current subset
+    // Add current subset (even if empty) as a valid solution
+    result.push_back(path);
     
+    // Try adding each remaining element and explore
     for (int i = index; i < nums.size(); i++) {
-        // Choose
+        // Choose: include nums[i] in current subset
         path.push_back(nums[i]);
         
-        // Explore
+        // Explore: extend subset with remaining elements
         subsetsHelper(i + 1, nums, path, result);
         
-        // Unchoose
+        // Unchoose: exclude nums[i] and try next element
         path.pop_back();
     }
 }
 ```
+
+**Time:** O(2^n × n) - 2^n subsets, each takes O(n) to copy  
+**Space:** O(n) for recursion depth
 
 ### Iterative Backtracking with Stack
 ```cpp
