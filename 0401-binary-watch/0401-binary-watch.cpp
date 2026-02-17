@@ -39,8 +39,6 @@ public:
     }
 
     vector<string> readBinaryWatch(int turnedOn) {
-        if (turnedOn == 0) return {"0:00"};
-        if (turnedOn > 8) return {};
         return combine(turnedOn);
         
     }
