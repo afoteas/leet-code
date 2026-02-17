@@ -194,7 +194,7 @@ Backtracking is a DFS-based technique for exploring all possible solutions by bu
 
 ### General Backtracking Template
 ```cpp
-void backtrack(int index, vector<int>& path, vector<vector<int>>& result) {
+void backtrack(int index, vector<int>& nums, vector<int>& path, vector<vector<int>>& result) {
     // Base case: found a solution
     if (index == nums.size()) {
         result.push_back(path);
@@ -207,7 +207,7 @@ void backtrack(int index, vector<int>& path, vector<vector<int>>& result) {
         path.push_back(nums[i]);
         
         // Explore
-        backtrack(i + 1, path, result);
+        backtrack(i + 1, nums, path, result);
         
         // Unchoose (backtrack)
         path.pop_back();
@@ -281,6 +281,46 @@ void subsetsHelper(int index, vector<int>& nums, vector<int>& path,
     }
 }
 ```
+
+### Iterative Backtracking with Stack
+```cpp
+void backtrackIterative(vector<int>& nums, vector<vector<int>>& result) {
+    struct State {
+        int index;
+        vector<int> path;
+    };
+    
+    stack<State> st;
+    st.push({0, {}});
+    
+    while (!st.empty()) {
+        State current = st.top();
+        st.pop();
+        
+        // Base case: found a solution
+        if (current.index == nums.size()) {
+            result.push_back(current.path);
+            continue;
+        }
+        
+        // Try all possibilities (push in reverse order for correct order)
+        for (int i = nums.size() - 1; i >= current.index; i--) {
+            State next = current;
+            next.path.push_back(nums[i]);
+            next.index = i + 1;
+            st.push(next);
+        }
+    }
+}
+```
+
+### When to Use Iterative Backtracking
+- **Recursion depth limits** on large inputs
+- **Explicit state control** needed
+- **Debugging** complex recursive logic
+- **Memory constraints** (iterative may be more efficient)
+
+> **Note:** Recursive backtracking is usually preferred for its clarity and simplicity.
 
 ### Classic Problems
 - Permutations (LeetCode #46)
