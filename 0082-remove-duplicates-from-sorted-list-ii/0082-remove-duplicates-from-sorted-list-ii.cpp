@@ -22,13 +22,14 @@ public:
             cout<<"last_val1:"<<last_val<<"can_add:"<<can_add<<endl;
             if(head) {
                 if(can_add) {
-                    if(last_val != head->val) {
-                        // last_val = head->val;
-                    } else {
-                        cout<<"last_val:"<<last_val<<",head->val:"<<head->val<<endl;
-                        can_add = false;
-                        // last_val = head->val;
-                    }
+                    // if(last_val != head->val) {
+                    //     // last_val = head->val;
+                    // } else {
+                    //     cout<<"last_val:"<<last_val<<",head->val:"<<head->val<<endl;
+                    //     can_add = false;
+                    //     // last_val = head->val;
+                    // }
+                    can_add = (last_val != head->val);
                 }
             }
             else {
