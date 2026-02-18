@@ -636,6 +636,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) **Easy** |
 | [0401-binary-watch](https://github.com/afoteas/leet-code/tree/master/0401-binary-watch) **Easy** |
 | [0476-number-complement](https://github.com/afoteas/leet-code/tree/master/0476-number-complement) **Easy** |
+| [0693-binary-number-with-alternating-bits](https://github.com/afoteas/leet-code/tree/master/0693-binary-number-with-alternating-bits) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/afoteas/leet-code/tree/master/1018-binary-prefix-divisible-by-5) **Easy** |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) **Easy** |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/afoteas/leet-code/tree/master/2323-minimum-bit-flips-to-convert-number) **Easy** |
