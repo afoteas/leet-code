@@ -26,7 +26,6 @@ public:
         }
         cout << l.size() << endl;
         for(int i = 0; i<l.size()-1; ++i) {
-            cout << l[i]->val << ",";
             l[i]->left = nullptr;
             l[i]->right = l[i+1];
         }
