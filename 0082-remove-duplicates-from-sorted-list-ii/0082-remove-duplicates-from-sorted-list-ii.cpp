@@ -23,11 +23,15 @@ public:
                 if(can_add) can_add = (last_val != head->val);
             }
             else {
-                if(ans) {
-                    if(can_add) last->next = cur;
-                }
-                else {
-                    if(can_add) ans = cur;
+                // if(ans) {
+                //     if(can_add) last->next = cur;
+                // }
+                // else {
+                //     if(can_add) ans = cur;
+                // }
+                if(can_add) {
+                    if(ans) last->next = cur;
+                    else ans = cur;
                 }
                 break;
             }
@@ -44,15 +48,6 @@ public:
                     last->next = nullptr;
                 } 
             }
-            // if(last_val != head->val) {
-            //     cout<<"if:last_val:"<<last_val<<endl;
-            //     cout<<"can_add:"<<can_add<<endl;
-            //     can_add = true;
-            // } else {
-            //     cout<<"else:last_val:"<<last_val<<endl;
-            //     cout<<"head->val:"<<head->val<<endl;
-            //     can_add = false;
-            // }
             can_add = (last_val != head->val);
             last_val = head->val;
 
