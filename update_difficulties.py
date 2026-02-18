@@ -60,7 +60,13 @@ class DifficultyUpdater:
         all_problem_ids = set(re.findall(r'\[(\d{4}-[^\]]+)\]\(', content))
         
         # Find problem IDs that have difficulty tags
-        problems_with_tags = set(re.findall(r'\[(\d{4}-[^\]]+)\]\([^)]+\)\s+\*\*(Easy|Medium|Hard)\*\*', content))
+        problems_with_tags = {
+            match[0]
+            for match in re.findall(
+                r'\[(\d{4}-[^\]]+)\]\([^)]+\)\s+\*\*(Easy|Medium|Hard)\*\*',
+                content,
+            )
+        }
         
         # Return problems that don't have tags
         return all_problem_ids - problems_with_tags
@@ -158,10 +164,10 @@ class DifficultyUpdater:
                 content = new_content
                 updated_count += count
                 print(f"✅ Updated {problem_id}: {count} occurrence(s) - **{difficulty}**")
-            # else:
-            #     # Check if it already has difficulty tag
-            #     if re.search(rf'\[{re.escape(problem_id)}\]\([^)]+\) \*\*', content):
-            #         print(f"ℹ️  {problem_id} already has difficulty tag")
+            else:
+                # Check if it already has difficulty tag
+                if re.search(rf'\[{re.escape(problem_id)}\]\([^)]+\) \*\*', content):
+                    print(f"ℹ️  {problem_id} already has difficulty tag")
         
         if content != original_content:
             with open(self.readme_path, 'w') as f:
