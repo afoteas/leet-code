@@ -24,7 +24,6 @@ public:
             if(cur->left) st.push(cur->left);
 
         }
-        cout << l.size() << endl;
         for(int i = 0; i<l.size()-1; ++i) {
             l[i]->left = nullptr;
             l[i]->right = l[i+1];
