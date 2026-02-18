@@ -24,7 +24,6 @@ public:
                 seen[head->val]++;
             }
             else {
-                // last->next = cur;
                 if(ans) {
                     if(seen[cur->val] == 1) last->next = cur;
                 }
@@ -33,30 +32,20 @@ public:
                 }
                 break;
             }
-            cout<< "seen["<<cur->val<<"]:"<<seen[cur->val]<<endl;
-
             if(!ans) {
                 if (seen[cur->val]==1) {
-                    cout<<"entered1"<<endl;
                     ans = cur;
                     last = cur;
                     last->next = nullptr;
                 }
             } else {
                 if (seen[cur->val]==1) {
-                    cout<<"entered2"<<endl;
                     last->next=cur;
                     last = last->next;
                     last->next = nullptr;
-                } else {
-                    cout<<"entered3"<<endl;
-                }
+                } 
             }
 
-        }
-        cout << "seen:"<<endl;
-        for(auto&s:seen) {
-            cout<<s.first<<":"<<s.second<<endl;
         }
         return ans;
     }
