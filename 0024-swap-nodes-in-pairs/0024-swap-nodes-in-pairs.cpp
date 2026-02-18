@@ -26,8 +26,17 @@ public:
             second->next = first;
             tmp->next = second;
             cur=first->next;
-
         }
         return ret;
+    }
+
+    ListNode* swapPairsRec(ListNode* head) {
+        if (!head || !head->next) return head;
+        
+        ListNode* newHead = head->next;
+        head->next = swapPairs(newHead->next);
+        newHead->next = head;
+        
+        return newHead;
     }
 };
