@@ -199,7 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) **Medium** |
 | [0717-1-bit-and-2-bit-characters](https://github.com/afoteas/leet-code/tree/master/0717-1-bit-and-2-bit-characters) **Easy** |
 | [0729-my-calendar-i](https://github.com/afoteas/leet-code/tree/master/0729-my-calendar-i) **Medium** |
-| [0744-find-smallest-letter-greater-than-target](https://github.com/afoteas/leet-code/tree/master/0744-find-smallest-letter-greater-than-target) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/afoteas/leet-code/tree/master/0744-find-smallest-letter-greater-than-target) **Easy** |
 | [0830-largest-triangle-area](https://github.com/afoteas/leet-code/tree/master/0830-largest-triangle-area) **Easy** |
 | [0859-design-circular-deque](https://github.com/afoteas/leet-code/tree/master/0859-design-circular-deque) **Medium** |
 | [0890-lemonade-change](https://github.com/afoteas/leet-code/tree/master/0890-lemonade-change) **Easy** |
@@ -372,7 +372,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/afoteas/leet-code/tree/master/0002-add-two-numbers) **Medium** |
 | [0021-merge-two-sorted-lists](https://github.com/afoteas/leet-code/tree/master/0021-merge-two-sorted-lists) **Easy** |
-| [0024-swap-nodes-in-pairs](https://github.com/afoteas/leet-code/tree/master/0024-swap-nodes-in-pairs) |
+| [0024-swap-nodes-in-pairs](https://github.com/afoteas/leet-code/tree/master/0024-swap-nodes-in-pairs) **Medium** |
 | [0050-powx-n](https://github.com/afoteas/leet-code/tree/master/0050-powx-n) **Medium** |
 | [0206-reverse-linked-list](https://github.com/afoteas/leet-code/tree/master/0206-reverse-linked-list) **Easy** |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) **Hard** |
@@ -476,7 +476,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/afoteas/leet-code/tree/master/0300-longest-increasing-subsequence) **Medium** |
 | [0367-valid-perfect-square](https://github.com/afoteas/leet-code/tree/master/0367-valid-perfect-square) **Easy** |
 | [0729-my-calendar-i](https://github.com/afoteas/leet-code/tree/master/0729-my-calendar-i) **Medium** |
-| [0744-find-smallest-letter-greater-than-target](https://github.com/afoteas/leet-code/tree/master/0744-find-smallest-letter-greater-than-target) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/afoteas/leet-code/tree/master/0744-find-smallest-letter-greater-than-target) **Easy** |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/afoteas/leet-code/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) **Easy** |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/afoteas/leet-code/tree/master/2006-find-the-student-that-will-replace-the-chalk) **Medium** |
 | [3453-separate-squares-i](https://github.com/afoteas/leet-code/tree/master/3453-separate-squares-i) **Medium** |
@@ -487,7 +487,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/afoteas/leet-code/tree/master/0002-add-two-numbers) **Medium** |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/afoteas/leet-code/tree/master/0019-remove-nth-node-from-end-of-list) **Medium** |
 | [0021-merge-two-sorted-lists](https://github.com/afoteas/leet-code/tree/master/0021-merge-two-sorted-lists) **Easy** |
-| [0024-swap-nodes-in-pairs](https://github.com/afoteas/leet-code/tree/master/0024-swap-nodes-in-pairs) |
+| [0024-swap-nodes-in-pairs](https://github.com/afoteas/leet-code/tree/master/0024-swap-nodes-in-pairs) **Medium** |
 | [0061-rotate-list](https://github.com/afoteas/leet-code/tree/master/0061-rotate-list) **Medium** |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/afoteas/leet-code/tree/master/0082-remove-duplicates-from-sorted-list-ii) **Medium** |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/afoteas/leet-code/tree/master/0083-remove-duplicates-from-sorted-list) **Easy** |
@@ -640,7 +640,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) **Easy** |
 | [0401-binary-watch](https://github.com/afoteas/leet-code/tree/master/0401-binary-watch) **Easy** |
 | [0476-number-complement](https://github.com/afoteas/leet-code/tree/master/0476-number-complement) **Easy** |
-| [0693-binary-number-with-alternating-bits](https://github.com/afoteas/leet-code/tree/master/0693-binary-number-with-alternating-bits) |
+| [0693-binary-number-with-alternating-bits](https://github.com/afoteas/leet-code/tree/master/0693-binary-number-with-alternating-bits) **Easy** |
 | [1018-binary-prefix-divisible-by-5](https://github.com/afoteas/leet-code/tree/master/1018-binary-prefix-divisible-by-5) **Easy** |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) **Easy** |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/afoteas/leet-code/tree/master/2323-minimum-bit-flips-to-convert-number) **Easy** |
