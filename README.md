@@ -372,6 +372,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/afoteas/leet-code/tree/master/0002-add-two-numbers) **Medium** |
 | [0021-merge-two-sorted-lists](https://github.com/afoteas/leet-code/tree/master/0021-merge-two-sorted-lists) **Easy** |
+| [0024-swap-nodes-in-pairs](https://github.com/afoteas/leet-code/tree/master/0024-swap-nodes-in-pairs) |
 | [0050-powx-n](https://github.com/afoteas/leet-code/tree/master/0050-powx-n) **Medium** |
 | [0206-reverse-linked-list](https://github.com/afoteas/leet-code/tree/master/0206-reverse-linked-list) **Easy** |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) **Hard** |
@@ -486,6 +487,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/afoteas/leet-code/tree/master/0002-add-two-numbers) **Medium** |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/afoteas/leet-code/tree/master/0019-remove-nth-node-from-end-of-list) **Medium** |
 | [0021-merge-two-sorted-lists](https://github.com/afoteas/leet-code/tree/master/0021-merge-two-sorted-lists) **Easy** |
+| [0024-swap-nodes-in-pairs](https://github.com/afoteas/leet-code/tree/master/0024-swap-nodes-in-pairs) |
 | [0061-rotate-list](https://github.com/afoteas/leet-code/tree/master/0061-rotate-list) **Medium** |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/afoteas/leet-code/tree/master/0082-remove-duplicates-from-sorted-list-ii) **Medium** |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/afoteas/leet-code/tree/master/0083-remove-duplicates-from-sorted-list) **Easy** |
