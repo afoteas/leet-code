@@ -23,12 +23,6 @@ public:
                 if(can_add) can_add = (last_val != head->val);
             }
             else {
-                // if(ans) {
-                //     if(can_add) last->next = cur;
-                // }
-                // else {
-                //     if(can_add) ans = cur;
-                // }
                 if(can_add) {
                     if(ans) last->next = cur;
                     else ans = cur;
