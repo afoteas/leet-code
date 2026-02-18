@@ -634,7 +634,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/afoteas/leet-code/tree/master/0222-count-complete-tree-nodes) **Easy** |
 | [0338-counting-bits](https://github.com/afoteas/leet-code/tree/master/0338-counting-bits) **Easy** |
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) **Easy** |
-| [0401-binary-watch](https://github.com/afoteas/leet-code/tree/master/0401-binary-watch) |
+| [0401-binary-watch](https://github.com/afoteas/leet-code/tree/master/0401-binary-watch) **Easy** |
 | [0476-number-complement](https://github.com/afoteas/leet-code/tree/master/0476-number-complement) **Easy** |
 | [1018-binary-prefix-divisible-by-5](https://github.com/afoteas/leet-code/tree/master/1018-binary-prefix-divisible-by-5) **Easy** |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) **Easy** |
@@ -705,7 +705,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/afoteas/leet-code/tree/master/0022-generate-parentheses) **Medium** |
 | [0051-n-queens](https://github.com/afoteas/leet-code/tree/master/0051-n-queens) **Hard** |
 | [0077-combinations](https://github.com/afoteas/leet-code/tree/master/0077-combinations) **Medium** |
-| [0401-binary-watch](https://github.com/afoteas/leet-code/tree/master/0401-binary-watch) |
+| [0401-binary-watch](https://github.com/afoteas/leet-code/tree/master/0401-binary-watch) **Easy** |
 | [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) **Medium** |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/afoteas/leet-code/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) **Medium** |
 ## Prefix Sum
