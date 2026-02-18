@@ -29,18 +29,16 @@ public:
                 }
                 break;
             }
-            if(!ans) {
-                if (can_add) {
+            if (can_add) {
+                if(!ans) {
                     ans = cur;
                     last = cur;
                     last->next = nullptr;
-                }
-            } else {
-                if (can_add) {
+                } else {
                     last->next=cur;
                     last = last->next;
                     last->next = nullptr;
-                } 
+                }
             }
             can_add = (last_val != head->val);
             last_val = head->val;
