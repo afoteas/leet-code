@@ -33,12 +33,11 @@ public:
                 if(!ans) {
                     ans = cur;
                     last = cur;
-                    last->next = nullptr;
                 } else {
                     last->next=cur;
                     last = last->next;
-                    last->next = nullptr;
                 }
+                last->next = nullptr;
             }
             can_add = (last_val != head->val);
             last_val = head->val;
