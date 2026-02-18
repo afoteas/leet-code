@@ -8,8 +8,8 @@ public:
             int minutes = 0;
             int hours = 0;
             for(int p: path) {
-                if (p<64) minutes += p;
-                else hours+=(p>>6);
+                if (p>0) minutes += p;
+                else hours-=p;
 
             }
             if (hours < 12 && minutes < 60) {
@@ -29,7 +29,7 @@ public:
 
     vector<string> readBinaryWatch(int turnedOn) {
         vector<string> result;
-        vector<int> nums = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512};
+        vector<int> nums = {1, 2, 4, 8, 16, 32, -1, -2, -4, -8};
         vector<int> path;
         
         combineHelper(0, turnedOn, nums, path, result);
