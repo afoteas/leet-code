@@ -11,6 +11,24 @@
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
+        if(!head || !head->next) return nullptr;
+        ListNode* slow=nullptr;
+        ListNode* fast=head;
+        bool inc = false;
+        while(fast) {
+            if(inc) {
+                if(slow) slow=slow->next;
+                else slow = head;
+            }
+            inc^=true;
+            fast=fast->next;
+        }
+        slow->next = slow->next->next;
+        return head;
+        
+    }
+
+    ListNode* deleteMiddleSlo(ListNode* head) {
         if(!head) return nullptr;
         vector<ListNode*> l;
         while(head) {
