@@ -282,7 +282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0283-move-zeroes](https://github.com/afoteas/leet-code/tree/master/0283-move-zeroes) **Easy** |
 | [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) **Easy** |
 | [0876-middle-of-the-linked-list](https://github.com/afoteas/leet-code/tree/master/0876-middle-of-the-linked-list) **Easy** |
-| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/afoteas/leet-code/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/afoteas/leet-code/tree/master/2095-delete-the-middle-node-of-a-linked-list) **Medium** |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) **Easy** |
 ## Sorting
 |  |
@@ -506,8 +506,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0859-design-circular-deque](https://github.com/afoteas/leet-code/tree/master/0859-design-circular-deque) **Medium** |
 | [0876-middle-of-the-linked-list](https://github.com/afoteas/leet-code/tree/master/0876-middle-of-the-linked-list) **Easy** |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/afoteas/leet-code/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) **Easy** |
-| [1367-linked-list-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/1367-linked-list-in-binary-tree) |
-| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/afoteas/leet-code/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [1367-linked-list-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/1367-linked-list-in-binary-tree) **Medium** |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/afoteas/leet-code/tree/master/2095-delete-the-middle-node-of-a-linked-list) **Medium** |
 | [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) **Medium** |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/afoteas/leet-code/tree/master/2903-insert-greatest-common-divisors-in-linked-list) **Medium** |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/afoteas/leet-code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) **Medium** |
@@ -541,7 +541,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0774-maximum-depth-of-n-ary-tree) **Easy** |
 | [0789-kth-largest-element-in-a-stream](https://github.com/afoteas/leet-code/tree/master/0789-kth-largest-element-in-a-stream) **Easy** |
 | [0993-cousins-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0993-cousins-in-binary-tree) **Easy** |
-| [1367-linked-list-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/1367-linked-list-in-binary-tree) |
+| [1367-linked-list-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/1367-linked-list-in-binary-tree) **Medium** |
 | [1382-balance-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/1382-balance-a-binary-search-tree) **Medium** |
 | [1492-time-needed-to-inform-all-employees](https://github.com/afoteas/leet-code/tree/master/1492-time-needed-to-inform-all-employees) **Medium** |
 | [2641-cousins-in-binary-tree-ii](https://github.com/afoteas/leet-code/tree/master/2641-cousins-in-binary-tree-ii) **Medium** |
@@ -579,7 +579,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-keys-and-rooms](https://github.com/afoteas/leet-code/tree/master/0871-keys-and-rooms) **Medium** |
 | [0971-shortest-bridge](https://github.com/afoteas/leet-code/tree/master/0971-shortest-bridge) **Medium** |
 | [0993-cousins-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0993-cousins-in-binary-tree) **Easy** |
-| [1367-linked-list-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/1367-linked-list-in-binary-tree) |
+| [1367-linked-list-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/1367-linked-list-in-binary-tree) **Medium** |
 | [1382-balance-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/1382-balance-a-binary-search-tree) **Medium** |
 | [1396-count-servers-that-communicate](https://github.com/afoteas/leet-code/tree/master/1396-count-servers-that-communicate) **Medium** |
 | [1492-time-needed-to-inform-all-employees](https://github.com/afoteas/leet-code/tree/master/1492-time-needed-to-inform-all-employees) **Medium** |
@@ -615,7 +615,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0700-search-in-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0700-search-in-a-binary-search-tree) **Easy** |
 | [0789-kth-largest-element-in-a-stream](https://github.com/afoteas/leet-code/tree/master/0789-kth-largest-element-in-a-stream) **Easy** |
 | [0993-cousins-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0993-cousins-in-binary-tree) **Easy** |
-| [1367-linked-list-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/1367-linked-list-in-binary-tree) |
+| [1367-linked-list-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/1367-linked-list-in-binary-tree) **Medium** |
 | [1382-balance-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/1382-balance-a-binary-search-tree) **Medium** |
 | [2641-cousins-in-binary-tree-ii](https://github.com/afoteas/leet-code/tree/master/2641-cousins-in-binary-tree-ii) **Medium** |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/afoteas/leet-code/tree/master/2646-kth-largest-sum-in-a-binary-tree) **Medium** |
