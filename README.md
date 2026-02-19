@@ -255,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/afoteas/leet-code/tree/master/3612-adjacent-increasing-subarrays-detection-i) **Easy** |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/afoteas/leet-code/tree/master/3619-adjacent-increasing-subarrays-detection-ii) **Medium** |
 | [3625-count-number-of-trapezoids-ii](https://github.com/afoteas/leet-code/tree/master/3625-count-number-of-trapezoids-ii) **Hard** |
+| [3637-trionic-array-i](https://github.com/afoteas/leet-code/tree/master/3637-trionic-array-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) **Medium** |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/afoteas/leet-code/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) **Medium** |
 | [3863-power-grid-maintenance](https://github.com/afoteas/leet-code/tree/master/3863-power-grid-maintenance) **Medium** |
