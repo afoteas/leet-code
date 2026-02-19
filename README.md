@@ -125,7 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) **Easy** |
 | [0409-longest-palindrome](https://github.com/afoteas/leet-code/tree/master/0409-longest-palindrome) **Easy** |
 | [0459-repeated-substring-pattern](https://github.com/afoteas/leet-code/tree/master/0459-repeated-substring-pattern) **Easy** |
-| [0557-reverse-words-in-a-string-iii](https://github.com/afoteas/leet-code/tree/master/0557-reverse-words-in-a-string-iii) |
+| [0557-reverse-words-in-a-string-iii](https://github.com/afoteas/leet-code/tree/master/0557-reverse-words-in-a-string-iii) **Easy** |
 | [0664-strange-printer](https://github.com/afoteas/leet-code/tree/master/0664-strange-printer) **Hard** |
 | [0696-count-binary-substrings](https://github.com/afoteas/leet-code/tree/master/0696-count-binary-substrings) **Easy** |
 | [0742-to-lower-case](https://github.com/afoteas/leet-code/tree/master/0742-to-lower-case) **Easy** |
@@ -284,7 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) **Medium** |
 | [0283-move-zeroes](https://github.com/afoteas/leet-code/tree/master/0283-move-zeroes) **Easy** |
 | [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) **Easy** |
-| [0557-reverse-words-in-a-string-iii](https://github.com/afoteas/leet-code/tree/master/0557-reverse-words-in-a-string-iii) |
+| [0557-reverse-words-in-a-string-iii](https://github.com/afoteas/leet-code/tree/master/0557-reverse-words-in-a-string-iii) **Easy** |
 | [0696-count-binary-substrings](https://github.com/afoteas/leet-code/tree/master/0696-count-binary-substrings) **Easy** |
 | [0876-middle-of-the-linked-list](https://github.com/afoteas/leet-code/tree/master/0876-middle-of-the-linked-list) **Easy** |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/afoteas/leet-code/tree/master/2095-delete-the-middle-node-of-a-linked-list) **Medium** |
