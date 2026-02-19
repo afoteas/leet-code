@@ -4,7 +4,7 @@ public:
         int ans = 0, previous = 0, current = 1;
         for(int i = 1 ; i < s.size() ; i++){
             if(s[i] == s[i-1]) current++;
-            else{
+            else {
                 previous = current;
                 current = 1;
             }
