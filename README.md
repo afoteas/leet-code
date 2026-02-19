@@ -126,7 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0409-longest-palindrome](https://github.com/afoteas/leet-code/tree/master/0409-longest-palindrome) **Easy** |
 | [0459-repeated-substring-pattern](https://github.com/afoteas/leet-code/tree/master/0459-repeated-substring-pattern) **Easy** |
 | [0664-strange-printer](https://github.com/afoteas/leet-code/tree/master/0664-strange-printer) **Hard** |
-| [0696-count-binary-substrings](https://github.com/afoteas/leet-code/tree/master/0696-count-binary-substrings) |
+| [0696-count-binary-substrings](https://github.com/afoteas/leet-code/tree/master/0696-count-binary-substrings) **Easy** |
 | [0742-to-lower-case](https://github.com/afoteas/leet-code/tree/master/0742-to-lower-case) **Easy** |
 | [0920-uncommon-words-from-two-sentences](https://github.com/afoteas/leet-code/tree/master/0920-uncommon-words-from-two-sentences) **Easy** |
 | [0944-delete-columns-to-make-sorted](https://github.com/afoteas/leet-code/tree/master/0944-delete-columns-to-make-sorted) **Easy** |
@@ -255,7 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/afoteas/leet-code/tree/master/3612-adjacent-increasing-subarrays-detection-i) **Easy** |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/afoteas/leet-code/tree/master/3619-adjacent-increasing-subarrays-detection-ii) **Medium** |
 | [3625-count-number-of-trapezoids-ii](https://github.com/afoteas/leet-code/tree/master/3625-count-number-of-trapezoids-ii) **Hard** |
-| [3637-trionic-array-i](https://github.com/afoteas/leet-code/tree/master/3637-trionic-array-i) |
+| [3637-trionic-array-i](https://github.com/afoteas/leet-code/tree/master/3637-trionic-array-i) **Easy** |
 | [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) **Medium** |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/afoteas/leet-code/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) **Medium** |
 | [3863-power-grid-maintenance](https://github.com/afoteas/leet-code/tree/master/3863-power-grid-maintenance) **Medium** |
@@ -283,7 +283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/afoteas/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) **Medium** |
 | [0283-move-zeroes](https://github.com/afoteas/leet-code/tree/master/0283-move-zeroes) **Easy** |
 | [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) **Easy** |
-| [0696-count-binary-substrings](https://github.com/afoteas/leet-code/tree/master/0696-count-binary-substrings) |
+| [0696-count-binary-substrings](https://github.com/afoteas/leet-code/tree/master/0696-count-binary-substrings) **Easy** |
 | [0876-middle-of-the-linked-list](https://github.com/afoteas/leet-code/tree/master/0876-middle-of-the-linked-list) **Easy** |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/afoteas/leet-code/tree/master/2095-delete-the-middle-node-of-a-linked-list) **Medium** |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) **Easy** |
