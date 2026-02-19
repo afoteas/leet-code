@@ -282,6 +282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0283-move-zeroes](https://github.com/afoteas/leet-code/tree/master/0283-move-zeroes) **Easy** |
 | [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) **Easy** |
 | [0876-middle-of-the-linked-list](https://github.com/afoteas/leet-code/tree/master/0876-middle-of-the-linked-list) **Easy** |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/afoteas/leet-code/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) **Easy** |
 ## Sorting
 |  |
@@ -506,6 +507,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-middle-of-the-linked-list](https://github.com/afoteas/leet-code/tree/master/0876-middle-of-the-linked-list) **Easy** |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/afoteas/leet-code/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) **Easy** |
 | [1367-linked-list-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/1367-linked-list-in-binary-tree) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/afoteas/leet-code/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2411-spiral-matrix-iv](https://github.com/afoteas/leet-code/tree/master/2411-spiral-matrix-iv) **Medium** |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/afoteas/leet-code/tree/master/2903-insert-greatest-common-divisors-in-linked-list) **Medium** |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/afoteas/leet-code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) **Medium** |
