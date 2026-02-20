@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0664-strange-printer](https://github.com/afoteas/leet-code/tree/master/0664-strange-printer) **Hard** |
 | [0696-count-binary-substrings](https://github.com/afoteas/leet-code/tree/master/0696-count-binary-substrings) **Easy** |
 | [0742-to-lower-case](https://github.com/afoteas/leet-code/tree/master/0742-to-lower-case) **Easy** |
+| [0761-special-binary-string](https://github.com/afoteas/leet-code/tree/master/0761-special-binary-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/afoteas/leet-code/tree/master/0920-uncommon-words-from-two-sentences) **Easy** |
 | [0944-delete-columns-to-make-sorted](https://github.com/afoteas/leet-code/tree/master/0944-delete-columns-to-make-sorted) **Easy** |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/afoteas/leet-code/tree/master/0955-delete-columns-to-make-sorted-ii) **Medium** |
@@ -305,6 +306,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) **Easy** |
 | [0392-is-subsequence](https://github.com/afoteas/leet-code/tree/master/0392-is-subsequence) **Easy** |
 | [0455-assign-cookies](https://github.com/afoteas/leet-code/tree/master/0455-assign-cookies) **Easy** |
+| [0761-special-binary-string](https://github.com/afoteas/leet-code/tree/master/0761-special-binary-string) |
 | [1200-minimum-absolute-difference](https://github.com/afoteas/leet-code/tree/master/1200-minimum-absolute-difference) **Easy** |
 | [1256-rank-transform-of-an-array](https://github.com/afoteas/leet-code/tree/master/1256-rank-transform-of-an-array) **Easy** |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/afoteas/leet-code/tree/master/1626-can-make-arithmetic-progression-from-sequence) **Easy** |
@@ -394,6 +396,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0109-convert-sorted-list-to-binary-search-tree) **Medium** |
 | [0191-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/0191-number-of-1-bits) **Easy** |
 | [0215-kth-largest-element-in-an-array](https://github.com/afoteas/leet-code/tree/master/0215-kth-largest-element-in-an-array) **Medium** |
+| [0761-special-binary-string](https://github.com/afoteas/leet-code/tree/master/0761-special-binary-string) |
 | [1382-balance-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/1382-balance-a-binary-search-tree) **Medium** |
 | [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) **Medium** |
 ## Dynamic Programming
