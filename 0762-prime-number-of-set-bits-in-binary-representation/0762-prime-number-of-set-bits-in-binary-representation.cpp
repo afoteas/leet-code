@@ -9,7 +9,7 @@ public:
         return ret;
     }
 
-    int countPrimeSetBits(int left, int right) {
+    int countPrimeSetBitsMine(int left, int right) {
         array<int, 8> primes {2, 3, 5, 7, 11, 13, 17, 19};
         int ret = 0;
 
@@ -21,5 +21,16 @@ public:
 
         }
         return ret;
+    }
+
+    int countPrimeSetBits(int L, int R) {
+        int count =0,hash[20] = {0,0,1,1,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1};
+        for(int i = L;i <= R;i++)
+        {
+            bitset<20> b(i);
+            if(hash[b.count()])
+                count++;
+        }
+        return count;
     }
 };
