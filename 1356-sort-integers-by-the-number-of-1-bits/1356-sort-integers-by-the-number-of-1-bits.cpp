@@ -4,7 +4,7 @@ public:
         vector<int> ret;
         map<int,vector<int>> mapa;
         for(auto&a:arr) {
-            bitset<16> b(a);
+            bitset<14> b(a);
             mapa[b.count()].push_back(a);
         }
         for(auto&[count,list]:mapa) {
