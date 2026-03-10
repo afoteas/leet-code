@@ -676,7 +676,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0476-number-complement](https://github.com/afoteas/leet-code/tree/master/0476-number-complement) **Easy** |
 | [0693-binary-number-with-alternating-bits](https://github.com/afoteas/leet-code/tree/master/0693-binary-number-with-alternating-bits) **Easy** |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/afoteas/leet-code/tree/master/0762-prime-number-of-set-bits-in-binary-representation) **Easy** |
-| [0868-binary-gap](https://github.com/afoteas/leet-code/tree/master/0868-binary-gap) |
+| [0868-binary-gap](https://github.com/afoteas/leet-code/tree/master/0868-binary-gap) **Easy** |
 | [1018-binary-prefix-divisible-by-5](https://github.com/afoteas/leet-code/tree/master/1018-binary-prefix-divisible-by-5) **Easy** |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/1356-sort-integers-by-the-number-of-1-bits) **Easy** |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) **Easy** |
