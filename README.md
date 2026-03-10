@@ -223,7 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1266-minimum-time-visiting-all-points](https://github.com/afoteas/leet-code/tree/master/1266-minimum-time-visiting-all-points) **Easy** |
 | [1325-path-with-maximum-probability](https://github.com/afoteas/leet-code/tree/master/1325-path-with-maximum-probability) **Medium** |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/afoteas/leet-code/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) **Easy** |
-| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/1356-sort-integers-by-the-number-of-1-bits) **Easy** |
 | [1390-four-divisors](https://github.com/afoteas/leet-code/tree/master/1390-four-divisors) **Medium** |
 | [1396-count-servers-that-communicate](https://github.com/afoteas/leet-code/tree/master/1396-count-servers-that-communicate) **Medium** |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/afoteas/leet-code/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) **Easy** |
@@ -313,7 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0761-special-binary-string](https://github.com/afoteas/leet-code/tree/master/0761-special-binary-string) **Hard** |
 | [1200-minimum-absolute-difference](https://github.com/afoteas/leet-code/tree/master/1200-minimum-absolute-difference) **Easy** |
 | [1256-rank-transform-of-an-array](https://github.com/afoteas/leet-code/tree/master/1256-rank-transform-of-an-array) **Easy** |
-| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/1356-sort-integers-by-the-number-of-1-bits) **Easy** |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/afoteas/leet-code/tree/master/1626-can-make-arithmetic-progression-from-sequence) **Easy** |
 | [1894-merge-strings-alternately](https://github.com/afoteas/leet-code/tree/master/1894-merge-strings-alternately) **Easy** |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/afoteas/leet-code/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) **Easy** |
@@ -677,7 +677,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0693-binary-number-with-alternating-bits](https://github.com/afoteas/leet-code/tree/master/0693-binary-number-with-alternating-bits) **Easy** |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/afoteas/leet-code/tree/master/0762-prime-number-of-set-bits-in-binary-representation) **Easy** |
 | [1018-binary-prefix-divisible-by-5](https://github.com/afoteas/leet-code/tree/master/1018-binary-prefix-divisible-by-5) **Easy** |
-| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/1356-sort-integers-by-the-number-of-1-bits) **Easy** |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) **Easy** |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/afoteas/leet-code/tree/master/2323-minimum-bit-flips-to-convert-number) **Easy** |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/afoteas/leet-code/tree/master/3314-construct-the-minimum-bitwise-array-i) **Easy** |
@@ -767,7 +767,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) **Easy** |
 | [0920-uncommon-words-from-two-sentences](https://github.com/afoteas/leet-code/tree/master/0920-uncommon-words-from-two-sentences) **Easy** |
-| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/1356-sort-integers-by-the-number-of-1-bits) **Easy** |
 | [1396-count-servers-that-communicate](https://github.com/afoteas/leet-code/tree/master/1396-count-servers-that-communicate) **Medium** |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) **Easy** |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) **Hard** |
