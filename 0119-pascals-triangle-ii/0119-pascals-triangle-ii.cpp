@@ -9,7 +9,5 @@ public:
             ret[i] = pre[i-1] + pre[i];
         } 
         return ret;
-        
-        
     }
 };
