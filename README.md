@@ -174,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/afoteas/leet-code/tree/master/0088-merge-sorted-array) **Easy** |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0108-convert-sorted-array-to-binary-search-tree) **Easy** |
 | [0118-pascals-triangle](https://github.com/afoteas/leet-code/tree/master/0118-pascals-triangle) **Easy** |
+| [0119-pascals-triangle-ii](https://github.com/afoteas/leet-code/tree/master/0119-pascals-triangle-ii) |
 | [0120-triangle](https://github.com/afoteas/leet-code/tree/master/0120-triangle) **Medium** |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/afoteas/leet-code/tree/master/0121-best-time-to-buy-and-sell-stock) **Easy** |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/afoteas/leet-code/tree/master/0122-best-time-to-buy-and-sell-stock-ii) **Medium** |
@@ -417,6 +418,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/afoteas/leet-code/tree/master/0062-unique-paths) **Medium** |
 | [0070-climbing-stairs](https://github.com/afoteas/leet-code/tree/master/0070-climbing-stairs) **Easy** |
 | [0118-pascals-triangle](https://github.com/afoteas/leet-code/tree/master/0118-pascals-triangle) **Easy** |
+| [0119-pascals-triangle-ii](https://github.com/afoteas/leet-code/tree/master/0119-pascals-triangle-ii) |
 | [0120-triangle](https://github.com/afoteas/leet-code/tree/master/0120-triangle) **Medium** |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/afoteas/leet-code/tree/master/0121-best-time-to-buy-and-sell-stock) **Easy** |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/afoteas/leet-code/tree/master/0122-best-time-to-buy-and-sell-stock-ii) **Medium** |
