@@ -121,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/afoteas/leet-code/tree/master/0208-implement-trie-prefix-tree) **Medium** |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) **Hard** |
 | [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) **Easy** |
+| [0257-binary-tree-paths](https://github.com/afoteas/leet-code/tree/master/0257-binary-tree-paths) |
 | [0290-word-pattern](https://github.com/afoteas/leet-code/tree/master/0290-word-pattern) **Easy** |
 | [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) **Easy** |
 | [0389-find-the-difference](https://github.com/afoteas/leet-code/tree/master/0389-find-the-difference) **Easy** |
@@ -551,6 +552,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/afoteas/leet-code/tree/master/0222-count-complete-tree-nodes) **Easy** |
 | [0226-invert-binary-tree](https://github.com/afoteas/leet-code/tree/master/0226-invert-binary-tree) **Easy** |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/afoteas/leet-code/tree/master/0230-kth-smallest-element-in-a-bst) **Medium** |
+| [0257-binary-tree-paths](https://github.com/afoteas/leet-code/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/afoteas/leet-code/tree/master/0404-sum-of-left-leaves) **Easy** |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) **Easy** |
 | [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) **Easy** |
@@ -582,6 +584,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/afoteas/leet-code/tree/master/0200-number-of-islands) **Medium** |
 | [0226-invert-binary-tree](https://github.com/afoteas/leet-code/tree/master/0226-invert-binary-tree) **Easy** |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/afoteas/leet-code/tree/master/0230-kth-smallest-element-in-a-bst) **Medium** |
+| [0257-binary-tree-paths](https://github.com/afoteas/leet-code/tree/master/0257-binary-tree-paths) |
 | [0310-minimum-height-trees](https://github.com/afoteas/leet-code/tree/master/0310-minimum-height-trees) **Medium** |
 | [0386-lexicographical-numbers](https://github.com/afoteas/leet-code/tree/master/0386-lexicographical-numbers) **Medium** |
 | [0404-sum-of-left-leaves](https://github.com/afoteas/leet-code/tree/master/0404-sum-of-left-leaves) **Easy** |
@@ -626,6 +629,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/afoteas/leet-code/tree/master/0222-count-complete-tree-nodes) **Easy** |
 | [0226-invert-binary-tree](https://github.com/afoteas/leet-code/tree/master/0226-invert-binary-tree) **Easy** |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/afoteas/leet-code/tree/master/0230-kth-smallest-element-in-a-bst) **Medium** |
+| [0257-binary-tree-paths](https://github.com/afoteas/leet-code/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/afoteas/leet-code/tree/master/0404-sum-of-left-leaves) **Easy** |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) **Easy** |
 | [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) **Easy** |
@@ -751,6 +755,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/afoteas/leet-code/tree/master/0022-generate-parentheses) **Medium** |
 | [0051-n-queens](https://github.com/afoteas/leet-code/tree/master/0051-n-queens) **Hard** |
 | [0077-combinations](https://github.com/afoteas/leet-code/tree/master/0077-combinations) **Medium** |
+| [0257-binary-tree-paths](https://github.com/afoteas/leet-code/tree/master/0257-binary-tree-paths) |
 | [0401-binary-watch](https://github.com/afoteas/leet-code/tree/master/0401-binary-watch) **Easy** |
 | [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) **Medium** |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/afoteas/leet-code/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) **Medium** |
