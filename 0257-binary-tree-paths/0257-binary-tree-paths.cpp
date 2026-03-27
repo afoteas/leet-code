@@ -18,7 +18,8 @@ public:
         {
             if (root->left) dfs(root->left, parents, paths);
             if (root->right) dfs(root->right, parents, paths);
-        } else
+        }
+        else
         {
             string path = to_string(parents[0]);
             for (int i=1; i<parents.size(); ++i) {
