@@ -42,10 +42,28 @@ public:
 
     }
 
+    void dfs3(TreeNode*root, string parents, vector<string>&paths) {
+        if(parents.size()) parents+="->"+to_string(root->val);
+        else parents=to_string(root->val);
+    
+        if (root->left || root->right)
+        {
+            if (root->left) dfs3(root->left, parents, paths);
+            if (root->right) dfs3(root->right, parents, paths);
+        }
+        else
+        {
+            paths.push_back(parents);
+        }
+
+    }
+
+
     vector<string> binaryTreePaths(TreeNode* root) {
         vector<string> paths = {};
         // dfs1(root,{},paths);
-        dfs2(root,to_string(root->val),paths);
+        // dfs2(root,to_string(root->val),paths);
+        dfs3(root,"",paths);
         return paths;
         
     }
