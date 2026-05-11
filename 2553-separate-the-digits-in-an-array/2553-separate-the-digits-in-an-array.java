@@ -1,5 +1,5 @@
 class Solution {
-    public int[] separateDigitslong(int[] nums) {
+    public int[] separateDigits(int[] nums) {
         int totalDigits = 0;
         for (int num : nums) {
             if (num == 0) {
@@ -44,7 +44,7 @@ class Solution {
         return ans;
     }
 
-    public int[] separateDigits(int[] nums) {
+    public int[] separateDigitsSize(int[] nums) {
         List<Integer> list = new ArrayList<>();
         for (int num : nums) {
             if (num < 10) {
