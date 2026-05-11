@@ -17,8 +17,8 @@ class Solution {
         int idx = 0;
 
         for (int num : nums) {
-            if (num == 0) {
-                ans[idx++] = 0;
+            if (num < 10) {
+                ans[idx++] = num;
                 continue;
             }
 
