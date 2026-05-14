@@ -89,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2154-keep-multiplying-found-values-by-two](https://github.com/afoteas/leet-code/tree/master/2154-keep-multiplying-found-values-by-two) **Easy** |
 | [2641-cousins-in-binary-tree-ii](https://github.com/afoteas/leet-code/tree/master/2641-cousins-in-binary-tree-ii) **Medium** |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) **Easy** |
+| [2784-check-if-array-is-good](https://github.com/afoteas/leet-code/tree/master/2784-check-if-array-is-good) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/afoteas/leet-code/tree/master/3005-count-elements-with-maximum-frequency) **Easy** |
 | [3227-find-missing-and-repeated-values](https://github.com/afoteas/leet-code/tree/master/3227-find-missing-and-repeated-values) **Easy** |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/afoteas/leet-code/tree/master/3289-the-two-sneaky-numbers-of-digitville) **Easy** |
@@ -246,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2553-separate-the-digits-in-an-array](https://github.com/afoteas/leet-code/tree/master/2553-separate-the-digits-in-an-array) |
 | [2625-increment-submatrices-by-one](https://github.com/afoteas/leet-code/tree/master/2625-increment-submatrices-by-one) **Medium** |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) **Easy** |
+| [2784-check-if-array-is-good](https://github.com/afoteas/leet-code/tree/master/2784-check-if-array-is-good) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/afoteas/leet-code/tree/master/3005-count-elements-with-maximum-frequency) **Easy** |
 | [3074-apple-redistribution-into-boxes](https://github.com/afoteas/leet-code/tree/master/3074-apple-redistribution-into-boxes) **Easy** |
 | [3227-find-missing-and-repeated-values](https://github.com/afoteas/leet-code/tree/master/3227-find-missing-and-repeated-values) **Easy** |
@@ -323,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/afoteas/leet-code/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) **Easy** |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/afoteas/leet-code/tree/master/2154-keep-multiplying-found-values-by-two) **Easy** |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/afoteas/leet-code/tree/master/2646-kth-largest-sum-in-a-binary-tree) **Medium** |
+| [2784-check-if-array-is-good](https://github.com/afoteas/leet-code/tree/master/2784-check-if-array-is-good) |
 | [3074-apple-redistribution-into-boxes](https://github.com/afoteas/leet-code/tree/master/3074-apple-redistribution-into-boxes) **Easy** |
 | [3606-coupon-code-validator](https://github.com/afoteas/leet-code/tree/master/3606-coupon-code-validator) **Easy** |
 ## Math
