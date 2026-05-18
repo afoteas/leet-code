@@ -475,11 +475,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0404-sum-of-left-leaves](https://github.com/afoteas/leet-code/tree/master/0404-sum-of-left-leaves) **Easy** |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) **Easy** |
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) **Medium** |
-| [0559-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0559-maximum-depth-of-n-ary-tree) |
+| [0559-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0559-maximum-depth-of-n-ary-tree) **Easy** |
 | [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) **Easy** |
 | [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) **Medium** |
 | [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) **Medium** |
-| [0774-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0774-maximum-depth-of-n-ary-tree) **Easy** |
 | [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) **Medium** |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) **Medium** |
 | [0871-keys-and-rooms](https://github.com/afoteas/leet-code/tree/master/0871-keys-and-rooms) **Medium** |
@@ -563,10 +562,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0257-binary-tree-paths](https://github.com/afoteas/leet-code/tree/master/0257-binary-tree-paths) **Easy** |
 | [0404-sum-of-left-leaves](https://github.com/afoteas/leet-code/tree/master/0404-sum-of-left-leaves) **Easy** |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) **Easy** |
-| [0559-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0559-maximum-depth-of-n-ary-tree) |
+| [0559-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0559-maximum-depth-of-n-ary-tree) **Easy** |
 | [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) **Easy** |
 | [0700-search-in-a-binary-search-tree](https://github.com/afoteas/leet-code/tree/master/0700-search-in-a-binary-search-tree) **Easy** |
-| [0774-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0774-maximum-depth-of-n-ary-tree) **Easy** |
 | [0789-kth-largest-element-in-a-stream](https://github.com/afoteas/leet-code/tree/master/0789-kth-largest-element-in-a-stream) **Easy** |
 | [0993-cousins-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0993-cousins-in-binary-tree) **Easy** |
 | [1367-linked-list-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/1367-linked-list-in-binary-tree) **Medium** |
@@ -599,11 +597,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0404-sum-of-left-leaves](https://github.com/afoteas/leet-code/tree/master/0404-sum-of-left-leaves) **Easy** |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/afoteas/leet-code/tree/master/0530-minimum-absolute-difference-in-bst) **Easy** |
 | [0547-number-of-provinces](https://github.com/afoteas/leet-code/tree/master/0547-number-of-provinces) **Medium** |
-| [0559-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0559-maximum-depth-of-n-ary-tree) |
+| [0559-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0559-maximum-depth-of-n-ary-tree) **Easy** |
 | [0637-average-of-levels-in-binary-tree](https://github.com/afoteas/leet-code/tree/master/0637-average-of-levels-in-binary-tree) **Easy** |
 | [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) **Medium** |
 | [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) **Medium** |
-| [0774-maximum-depth-of-n-ary-tree](https://github.com/afoteas/leet-code/tree/master/0774-maximum-depth-of-n-ary-tree) **Easy** |
 | [0813-all-paths-from-source-to-target](https://github.com/afoteas/leet-code/tree/master/0813-all-paths-from-source-to-target) **Medium** |
 | [0820-find-eventual-safe-states](https://github.com/afoteas/leet-code/tree/master/0820-find-eventual-safe-states) **Medium** |
 | [0871-keys-and-rooms](https://github.com/afoteas/leet-code/tree/master/0871-keys-and-rooms) **Medium** |
