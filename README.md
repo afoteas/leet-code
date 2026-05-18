@@ -133,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0696-count-binary-substrings](https://github.com/afoteas/leet-code/tree/master/0696-count-binary-substrings) **Easy** |
 | [0742-to-lower-case](https://github.com/afoteas/leet-code/tree/master/0742-to-lower-case) **Easy** |
 | [0761-special-binary-string](https://github.com/afoteas/leet-code/tree/master/0761-special-binary-string) **Hard** |
+| [0796-rotate-string](https://github.com/afoteas/leet-code/tree/master/0796-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/afoteas/leet-code/tree/master/0920-uncommon-words-from-two-sentences) **Easy** |
 | [0944-delete-columns-to-make-sorted](https://github.com/afoteas/leet-code/tree/master/0944-delete-columns-to-make-sorted) **Easy** |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/afoteas/leet-code/tree/master/0955-delete-columns-to-make-sorted-ii) **Medium** |
@@ -817,6 +818,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) **Easy** |
 | [0392-is-subsequence](https://github.com/afoteas/leet-code/tree/master/0392-is-subsequence) **Easy** |
 | [0459-repeated-substring-pattern](https://github.com/afoteas/leet-code/tree/master/0459-repeated-substring-pattern) **Easy** |
+| [0796-rotate-string](https://github.com/afoteas/leet-code/tree/master/0796-rotate-string) |
 | [1894-merge-strings-alternately](https://github.com/afoteas/leet-code/tree/master/1894-merge-strings-alternately) **Easy** |
 ## Greedy
 |  |
