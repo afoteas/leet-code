@@ -5,7 +5,7 @@ public:
         int leftSum = 0;
         int rightSum = accumulate(nums.begin(), nums.end(), 0);
         for(auto& num: nums) {
-            rightSum-= num;
+            rightSum -= num;
             ret.push_back(abs(leftSum - rightSum));
             leftSum += num;
         }
