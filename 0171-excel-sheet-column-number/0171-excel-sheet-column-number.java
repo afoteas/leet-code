@@ -8,6 +8,5 @@ class Solution {
             ret += (p+1)*Math.pow(26,l-i-1);
         }
         return ret;
-        
     }
 }
