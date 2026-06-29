@@ -5,8 +5,6 @@ class Solution {
         for (int i = l - 1; i >= 0; i--) {
             char c = columnTitle.charAt(i);
             int p = (int) (c - 'A');
-            System.out.println("p: " + p);
-            System.out.println("i: " + i);
             ret += (p+1)*Math.pow(26,l-i-1);
         }
         return ret;
