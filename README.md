@@ -144,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1666-make-the-string-great](https://github.com/afoteas/leet-code/tree/master/1666-make-the-string-great) **Easy** |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/afoteas/leet-code/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) **Medium** |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) **Easy** |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/afoteas/leet-code/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1980-find-unique-binary-string](https://github.com/afoteas/leet-code/tree/master/1980-find-unique-binary-string) **Medium** |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/afoteas/leet-code/tree/master/2076-sum-of-digits-of-string-after-convert) **Easy** |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/afoteas/leet-code/tree/master/2137-final-value-of-variable-after-performing-operations) **Easy** |
@@ -237,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) **Easy** |
 | [1803-average-waiting-time](https://github.com/afoteas/leet-code/tree/master/1803-average-waiting-time) **Medium** |
 | [1950-sign-of-the-product-of-an-array](https://github.com/afoteas/leet-code/tree/master/1950-sign-of-the-product-of-an-array) **Easy** |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/afoteas/leet-code/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1980-find-unique-binary-string](https://github.com/afoteas/leet-code/tree/master/1980-find-unique-binary-string) **Medium** |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/afoteas/leet-code/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) **Easy** |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/afoteas/leet-code/tree/master/2006-find-the-student-that-will-replace-the-chalk) **Medium** |
