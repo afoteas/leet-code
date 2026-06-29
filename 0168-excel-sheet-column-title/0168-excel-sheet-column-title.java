@@ -10,7 +10,6 @@ class Solution {
                 sb.append((char)('A' + tmp - 1) );
                 columnNumber = (columnNumber-tmp)/26;
             }
-            System.out.println("tmp:" + tmp + ", columnNumber:" + columnNumber);
         }
 
         return sb.reverse().toString(); 
