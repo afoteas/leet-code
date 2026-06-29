@@ -121,7 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/afoteas/leet-code/tree/master/0139-word-break) **Medium** |
 | [0151-reverse-words-in-a-string](https://github.com/afoteas/leet-code/tree/master/0151-reverse-words-in-a-string) **Medium** |
 | [0168-excel-sheet-column-title](https://github.com/afoteas/leet-code/tree/master/0168-excel-sheet-column-title) **Easy** |
-| [0171-excel-sheet-column-number](https://github.com/afoteas/leet-code/tree/master/0171-excel-sheet-column-number) |
+| [0171-excel-sheet-column-number](https://github.com/afoteas/leet-code/tree/master/0171-excel-sheet-column-number) **Easy** |
 | [0208-implement-trie-prefix-tree](https://github.com/afoteas/leet-code/tree/master/0208-implement-trie-prefix-tree) **Medium** |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) **Hard** |
 | [0242-valid-anagram](https://github.com/afoteas/leet-code/tree/master/0242-valid-anagram) **Easy** |
@@ -353,7 +353,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/afoteas/leet-code/tree/master/0070-climbing-stairs) **Easy** |
 | [0150-evaluate-reverse-polish-notation](https://github.com/afoteas/leet-code/tree/master/0150-evaluate-reverse-polish-notation) **Medium** |
 | [0168-excel-sheet-column-title](https://github.com/afoteas/leet-code/tree/master/0168-excel-sheet-column-title) **Easy** |
-| [0171-excel-sheet-column-number](https://github.com/afoteas/leet-code/tree/master/0171-excel-sheet-column-number) |
+| [0171-excel-sheet-column-number](https://github.com/afoteas/leet-code/tree/master/0171-excel-sheet-column-number) **Easy** |
 | [0172-factorial-trailing-zeroes](https://github.com/afoteas/leet-code/tree/master/0172-factorial-trailing-zeroes) **Medium** |
 | [0224-basic-calculator](https://github.com/afoteas/leet-code/tree/master/0224-basic-calculator) **Hard** |
 | [0264-ugly-number-ii](https://github.com/afoteas/leet-code/tree/master/0264-ugly-number-ii) **Medium** |
