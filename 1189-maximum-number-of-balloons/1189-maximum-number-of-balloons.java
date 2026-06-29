@@ -1,5 +1,5 @@
 class Solution {
-    public int maxNumberOfBalloonsMine(String text) {
+    public int maxNumberOfBalloons(String text) {
         int b = 0;
         int a = 0;
         int l = 0;
@@ -53,7 +53,7 @@ class Solution {
         return ret;
     }
 
-    public int maxNumberOfBalloons(String text) {
+    public int maxNumberOfBalloonsCompact(String text) {
         int[] cnt = new int[26];
         for (char c : text.toCharArray()) cnt[c - 'a']++;
         return Math.min(
