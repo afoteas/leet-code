@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0920-uncommon-words-from-two-sentences](https://github.com/afoteas/leet-code/tree/master/0920-uncommon-words-from-two-sentences) **Easy** |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/afoteas/leet-code/tree/master/0961-n-repeated-element-in-size-2n-array) **Easy** |
 | [1039-find-the-town-judge](https://github.com/afoteas/leet-code/tree/master/1039-find-the-town-judge) **Easy** |
+| [1189-maximum-number-of-balloons](https://github.com/afoteas/leet-code/tree/master/1189-maximum-number-of-balloons) |
 | [1256-rank-transform-of-an-array](https://github.com/afoteas/leet-code/tree/master/1256-rank-transform-of-an-array) **Easy** |
 | [1694-make-sum-divisible-by-p](https://github.com/afoteas/leet-code/tree/master/1694-make-sum-divisible-by-p) **Medium** |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/afoteas/leet-code/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) **Medium** |
@@ -139,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/afoteas/leet-code/tree/master/0955-delete-columns-to-make-sorted-ii) **Medium** |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/afoteas/leet-code/tree/master/0960-delete-columns-to-make-sorted-iii) **Hard** |
 | [1146-greatest-common-divisor-of-strings](https://github.com/afoteas/leet-code/tree/master/1146-greatest-common-divisor-of-strings) **Easy** |
+| [1189-maximum-number-of-balloons](https://github.com/afoteas/leet-code/tree/master/1189-maximum-number-of-balloons) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/afoteas/leet-code/tree/master/1302-delete-characters-to-make-fancy-string) **Easy** |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/afoteas/leet-code/tree/master/1653-minimum-deletions-to-make-string-balanced) **Medium** |
 | [1666-make-the-string-great](https://github.com/afoteas/leet-code/tree/master/1666-make-the-string-great) **Easy** |
@@ -787,6 +789,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0383-ransom-note](https://github.com/afoteas/leet-code/tree/master/0383-ransom-note) **Easy** |
 | [0920-uncommon-words-from-two-sentences](https://github.com/afoteas/leet-code/tree/master/0920-uncommon-words-from-two-sentences) **Easy** |
+| [1189-maximum-number-of-balloons](https://github.com/afoteas/leet-code/tree/master/1189-maximum-number-of-balloons) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/afoteas/leet-code/tree/master/1356-sort-integers-by-the-number-of-1-bits) **Easy** |
 | [1396-count-servers-that-communicate](https://github.com/afoteas/leet-code/tree/master/1396-count-servers-that-communicate) **Medium** |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) **Easy** |
