@@ -26,7 +26,12 @@ class Solution {
 
     private void backtrack(int[] nums, int start, List<List<Integer>> result) {
         if (start == nums.length) {
-            result.add(Arrays.stream(nums).boxed().toList());
+            // result.add(Arrays.stream(nums).boxed().toList());
+            List<Integer> permutation = new ArrayList<>(nums.length);
+            for (int num : nums) {
+                permutation.add(num); // Autoboxing here is much faster than standard stream boxing
+            }
+            result.add(permutation);
             return;
         }
         for(int i = start; i < nums.length; i++) {
