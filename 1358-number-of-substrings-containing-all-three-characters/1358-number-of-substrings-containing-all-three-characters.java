@@ -1,0 +1,32 @@
+class Solution {
+    public int numberOfSubstrings(String s) {
+        int aCnt = 0;
+        int bCnt = 0;
+        int cCnt = 0;
+        int start = 0;
+        int end = 0;
+        int ret = 0;
+        int ss = s.length();
+        while (end<=ss && start<ss) {
+            // cout << "start:" << start << ", end:" << end << endl;
+            // cout << "aCnt:" << aCnt << ", bCnt:" << bCnt << ", cCnt:" << cCnt << endl;
+            if(aCnt>0 && bCnt>0 && cCnt>0) {
+                ret+=ss-end+1;
+                if(s.charAt(start) == 'a') aCnt--;
+                else if (s.charAt(start) == 'b') bCnt--;
+                else cCnt--;
+                start++;
+            } else {
+                // cout << "entered" <<  endl;
+                if(end<ss) {
+                    if(s.charAt(end) == 'a') aCnt++;
+                    else if (s.charAt(end) == 'b') bCnt++;
+                    else cCnt++;
+                }
+                end++;
+            }
+            // cout << "ret:" << ret << endl;
+        }
+        return ret;     
+    }
+}
