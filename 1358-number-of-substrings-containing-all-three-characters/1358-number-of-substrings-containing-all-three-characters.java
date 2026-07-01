@@ -19,6 +19,8 @@ class Solution {
                     if(s.charAt(end) == 'a') aCnt++;
                     else if (s.charAt(end) == 'b') bCnt++;
                     else cCnt++;
+                } else {
+                    break;
                 }
                 end++;
             }
