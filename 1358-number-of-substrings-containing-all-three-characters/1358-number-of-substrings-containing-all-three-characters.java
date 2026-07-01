@@ -8,8 +8,6 @@ class Solution {
         int ret = 0;
         int ss = s.length();
         while (end<=ss && start<ss) {
-            // cout << "start:" << start << ", end:" << end << endl;
-            // cout << "aCnt:" << aCnt << ", bCnt:" << bCnt << ", cCnt:" << cCnt << endl;
             if(aCnt>0 && bCnt>0 && cCnt>0) {
                 ret+=ss-end+1;
                 if(s.charAt(start) == 'a') aCnt--;
@@ -17,7 +15,6 @@ class Solution {
                 else cCnt--;
                 start++;
             } else {
-                // cout << "entered" <<  endl;
                 if(end<ss) {
                     if(s.charAt(end) == 'a') aCnt++;
                     else if (s.charAt(end) == 'b') bCnt++;
@@ -25,7 +22,6 @@ class Solution {
                 }
                 end++;
             }
-            // cout << "ret:" << ret << endl;
         }
         return ret;     
     }
