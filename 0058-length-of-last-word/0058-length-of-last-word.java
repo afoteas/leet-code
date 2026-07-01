@@ -1,10 +1,10 @@
 class Solution {
-    public int lengthOfLastWordOld(String s) {
+    public int lengthOfLastWord(String s) {
         String[] ret = s.split(" ");
         return ret[ret.length-1].length();
     }
 
-    public int lengthOfLastWord(String s) {
+    public int lengthOfLastWord2(String s) {
         boolean seenChar = false;
         int ret = 0;
         for(int i = s.length()-1; i>=0; i--){
