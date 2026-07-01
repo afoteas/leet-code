@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1039-find-the-town-judge](https://github.com/afoteas/leet-code/tree/master/1039-find-the-town-judge) **Easy** |
 | [1189-maximum-number-of-balloons](https://github.com/afoteas/leet-code/tree/master/1189-maximum-number-of-balloons) **Easy** |
 | [1256-rank-transform-of-an-array](https://github.com/afoteas/leet-code/tree/master/1256-rank-transform-of-an-array) **Easy** |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/afoteas/leet-code/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1694-make-sum-divisible-by-p](https://github.com/afoteas/leet-code/tree/master/1694-make-sum-divisible-by-p) **Medium** |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/afoteas/leet-code/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) **Medium** |
 | [1786-count-the-number-of-consistent-strings](https://github.com/afoteas/leet-code/tree/master/1786-count-the-number-of-consistent-strings) **Easy** |
@@ -144,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1146-greatest-common-divisor-of-strings](https://github.com/afoteas/leet-code/tree/master/1146-greatest-common-divisor-of-strings) **Easy** |
 | [1189-maximum-number-of-balloons](https://github.com/afoteas/leet-code/tree/master/1189-maximum-number-of-balloons) **Easy** |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/afoteas/leet-code/tree/master/1302-delete-characters-to-make-fancy-string) **Easy** |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/afoteas/leet-code/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/afoteas/leet-code/tree/master/1653-minimum-deletions-to-make-string-balanced) **Medium** |
 | [1666-make-the-string-great](https://github.com/afoteas/leet-code/tree/master/1666-make-the-string-great) **Easy** |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/afoteas/leet-code/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) **Medium** |
@@ -288,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/afoteas/leet-code/tree/master/0076-minimum-window-substring) **Hard** |
 | [0209-minimum-size-subarray-sum](https://github.com/afoteas/leet-code/tree/master/0209-minimum-size-subarray-sum) **Medium** |
 | [0219-contains-duplicate-ii](https://github.com/afoteas/leet-code/tree/master/0219-contains-duplicate-ii) **Easy** |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/afoteas/leet-code/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/afoteas/leet-code/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) **Easy** |
 ## Two Pointers
 |  |
