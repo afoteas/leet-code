@@ -7,7 +7,7 @@ class Solution {
         int end = 0;
         int ret = 0;
         int ss = s.length();
-        while (end<=ss && start<ss) {
+        while (end<=ss && start<ss-1) {
             if(aCnt>0 && bCnt>0 && cCnt>0) {
                 ret+=ss-end+1;
                 if(s.charAt(start) == 'a') aCnt--;
