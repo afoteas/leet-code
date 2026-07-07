@@ -6,7 +6,7 @@ class Solution:
         while n>0:
             m = n%10
             if m > 0:
-                x+= (m)*(10**i)
+                x+= m*10**i
                 i+=1
                 s+= m
             n//=10
