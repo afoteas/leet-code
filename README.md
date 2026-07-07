@@ -386,6 +386,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/afoteas/leet-code/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) **Easy** |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/afoteas/leet-code/tree/master/3577-count-the-number-of-computer-unlocking-permutations) **Medium** |
 | [3625-count-number-of-trapezoids-ii](https://github.com/afoteas/leet-code/tree/master/3625-count-number-of-trapezoids-ii) **Hard** |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/afoteas/leet-code/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) **Easy** |
 ## Stack
 |  |
