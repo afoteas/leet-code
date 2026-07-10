@@ -157,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) **Hard** |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/afoteas/leet-code/tree/master/2800-minimum-string-length-after-removing-substrings) **Easy** |
 | [3606-coupon-code-validator](https://github.com/afoteas/leet-code/tree/master/3606-coupon-code-validator) **Easy** |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/afoteas/leet-code/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) **Easy** |
 ## Array
 |  |
@@ -387,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/afoteas/leet-code/tree/master/3577-count-the-number-of-computer-unlocking-permutations) **Medium** |
 | [3625-count-number-of-trapezoids-ii](https://github.com/afoteas/leet-code/tree/master/3625-count-number-of-trapezoids-ii) **Hard** |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/afoteas/leet-code/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/afoteas/leet-code/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) **Easy** |
 ## Stack
 |  |
@@ -797,6 +799,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3354-make-array-elements-equal-to-zero](https://github.com/afoteas/leet-code/tree/master/3354-make-array-elements-equal-to-zero) **Easy** |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/afoteas/leet-code/tree/master/3432-count-partitions-with-even-sum-difference) **Easy** |
 | [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) **Medium** |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/afoteas/leet-code/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Counting
 |  |
 | ------- |
