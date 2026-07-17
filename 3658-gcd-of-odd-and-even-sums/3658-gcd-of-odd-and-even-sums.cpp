@@ -2,7 +2,8 @@ class Solution {
 public:
     int gcd(int x, int y) { 
         return y == 0 ? x : gcd(y, x % y); 
-        }
+    }
+
     int gcdOfOddEvenSums(int n) {
         int odd=0;
         int even=0;
