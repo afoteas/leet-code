@@ -157,7 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) **Hard** |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/afoteas/leet-code/tree/master/2800-minimum-string-length-after-removing-substrings) **Easy** |
 | [3606-coupon-code-validator](https://github.com/afoteas/leet-code/tree/master/3606-coupon-code-validator) **Easy** |
-| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/afoteas/leet-code/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/afoteas/leet-code/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) **Medium** |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) **Easy** |
 ## Array
 |  |
@@ -387,9 +387,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/afoteas/leet-code/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) **Easy** |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/afoteas/leet-code/tree/master/3577-count-the-number-of-computer-unlocking-permutations) **Medium** |
 | [3625-count-number-of-trapezoids-ii](https://github.com/afoteas/leet-code/tree/master/3625-count-number-of-trapezoids-ii) **Hard** |
-| [3658-gcd-of-odd-and-even-sums](https://github.com/afoteas/leet-code/tree/master/3658-gcd-of-odd-and-even-sums) |
-| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/afoteas/leet-code/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
-| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/afoteas/leet-code/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/afoteas/leet-code/tree/master/3658-gcd-of-odd-and-even-sums) **Easy** |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/afoteas/leet-code/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) **Easy** |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/afoteas/leet-code/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) **Medium** |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) **Easy** |
 ## Stack
 |  |
@@ -504,7 +504,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1492-time-needed-to-inform-all-employees](https://github.com/afoteas/leet-code/tree/master/1492-time-needed-to-inform-all-employees) **Medium** |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/afoteas/leet-code/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) **Medium** |
 | [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) **Easy** |
-| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/afoteas/leet-code/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/afoteas/leet-code/tree/master/2492-minimum-score-of-a-path-between-two-cities) **Medium** |
 | [2641-cousins-in-binary-tree-ii](https://github.com/afoteas/leet-code/tree/master/2641-cousins-in-binary-tree-ii) **Medium** |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/afoteas/leet-code/tree/master/2646-kth-largest-sum-in-a-binary-tree) **Medium** |
 | [3863-power-grid-maintenance](https://github.com/afoteas/leet-code/tree/master/3863-power-grid-maintenance) **Medium** |
@@ -628,7 +628,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1492-time-needed-to-inform-all-employees](https://github.com/afoteas/leet-code/tree/master/1492-time-needed-to-inform-all-employees) **Medium** |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/afoteas/leet-code/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) **Medium** |
 | [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) **Easy** |
-| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/afoteas/leet-code/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/afoteas/leet-code/tree/master/2492-minimum-score-of-a-path-between-two-cities) **Medium** |
 | [2641-cousins-in-binary-tree-ii](https://github.com/afoteas/leet-code/tree/master/2641-cousins-in-binary-tree-ii) **Medium** |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/afoteas/leet-code/tree/master/2872-maximum-number-of-k-divisible-components) **Hard** |
 | [3863-power-grid-maintenance](https://github.com/afoteas/leet-code/tree/master/3863-power-grid-maintenance) **Medium** |
@@ -756,7 +756,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/afoteas/leet-code/tree/master/0695-max-area-of-island) **Medium** |
 | [1396-count-servers-that-communicate](https://github.com/afoteas/leet-code/tree/master/1396-count-servers-that-communicate) **Medium** |
 | [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) **Easy** |
-| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/afoteas/leet-code/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/afoteas/leet-code/tree/master/2492-minimum-score-of-a-path-between-two-cities) **Medium** |
 | [3863-power-grid-maintenance](https://github.com/afoteas/leet-code/tree/master/3863-power-grid-maintenance) **Medium** |
 ## Matrix
 |  |
@@ -800,7 +800,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3354-make-array-elements-equal-to-zero](https://github.com/afoteas/leet-code/tree/master/3354-make-array-elements-equal-to-zero) **Easy** |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/afoteas/leet-code/tree/master/3432-count-partitions-with-even-sum-difference) **Easy** |
 | [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) **Medium** |
-| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/afoteas/leet-code/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/afoteas/leet-code/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) **Medium** |
 ## Counting
 |  |
 | ------- |
@@ -880,7 +880,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/afoteas/leet-code/tree/master/2903-insert-greatest-common-divisors-in-linked-list) **Medium** |
-| [3658-gcd-of-odd-and-even-sums](https://github.com/afoteas/leet-code/tree/master/3658-gcd-of-odd-and-even-sums) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/afoteas/leet-code/tree/master/3658-gcd-of-odd-and-even-sums) **Easy** |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) **Easy** |
 ## Segment Tree
 |  |
@@ -946,5 +946,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0310-minimum-height-trees](https://github.com/afoteas/leet-code/tree/master/0310-minimum-height-trees) **Medium** |
 | [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) **Medium** |
 | [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) **Easy** |
-| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/afoteas/leet-code/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/afoteas/leet-code/tree/master/2492-minimum-score-of-a-path-between-two-cities) **Medium** |
 <!---LeetCode Topics End-->
