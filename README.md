@@ -283,7 +283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3719-longest-balanced-subarray-i](https://github.com/afoteas/leet-code/tree/master/3719-longest-balanced-subarray-i) **Medium** |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/afoteas/leet-code/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) **Medium** |
 | [3863-power-grid-maintenance](https://github.com/afoteas/leet-code/tree/master/3863-power-grid-maintenance) **Medium** |
-| [3867-sum-of-gcd-of-formed-pairs](https://github.com/afoteas/leet-code/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/afoteas/leet-code/tree/master/3867-sum-of-gcd-of-formed-pairs) **Medium** |
 ## Sliding Window
 |  |
 | ------- |
@@ -314,7 +314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-middle-of-the-linked-list](https://github.com/afoteas/leet-code/tree/master/0876-middle-of-the-linked-list) **Easy** |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/afoteas/leet-code/tree/master/2095-delete-the-middle-node-of-a-linked-list) **Medium** |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/afoteas/leet-code/tree/master/2707-merge-two-2d-arrays-by-summing-values) **Easy** |
-| [3867-sum-of-gcd-of-formed-pairs](https://github.com/afoteas/leet-code/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/afoteas/leet-code/tree/master/3867-sum-of-gcd-of-formed-pairs) **Medium** |
 ## Sorting
 |  |
 | ------- |
@@ -343,7 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2784-check-if-array-is-good](https://github.com/afoteas/leet-code/tree/master/2784-check-if-array-is-good) **Easy** |
 | [3074-apple-redistribution-into-boxes](https://github.com/afoteas/leet-code/tree/master/3074-apple-redistribution-into-boxes) **Easy** |
 | [3606-coupon-code-validator](https://github.com/afoteas/leet-code/tree/master/3606-coupon-code-validator) **Easy** |
-| [3867-sum-of-gcd-of-formed-pairs](https://github.com/afoteas/leet-code/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/afoteas/leet-code/tree/master/3867-sum-of-gcd-of-formed-pairs) **Medium** |
 ## Math
 |  |
 | ------- |
@@ -394,7 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/afoteas/leet-code/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) **Easy** |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/afoteas/leet-code/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) **Medium** |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) **Easy** |
-| [3867-sum-of-gcd-of-formed-pairs](https://github.com/afoteas/leet-code/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/afoteas/leet-code/tree/master/3867-sum-of-gcd-of-formed-pairs) **Medium** |
 ## Stack
 |  |
 | ------- |
@@ -751,7 +751,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3379-transformed-array](https://github.com/afoteas/leet-code/tree/master/3379-transformed-array) **Easy** |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/afoteas/leet-code/tree/master/3507-minimum-pair-removal-to-sort-array-i) **Easy** |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) **Easy** |
-| [3867-sum-of-gcd-of-formed-pairs](https://github.com/afoteas/leet-code/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/afoteas/leet-code/tree/master/3867-sum-of-gcd-of-formed-pairs) **Medium** |
 ## Union-Find
 |  |
 | ------- |
@@ -887,7 +887,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/afoteas/leet-code/tree/master/2903-insert-greatest-common-divisors-in-linked-list) **Medium** |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/afoteas/leet-code/tree/master/3658-gcd-of-odd-and-even-sums) **Easy** |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) **Easy** |
-| [3867-sum-of-gcd-of-formed-pairs](https://github.com/afoteas/leet-code/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/afoteas/leet-code/tree/master/3867-sum-of-gcd-of-formed-pairs) **Medium** |
 ## Segment Tree
 |  |
 | ------- |
