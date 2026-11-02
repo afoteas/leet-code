@@ -154,7 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1980-find-unique-binary-string](https://github.com/afoteas/leet-code/tree/master/1980-find-unique-binary-string) **Medium** |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/afoteas/leet-code/tree/master/2076-sum-of-digits-of-string-after-convert) **Easy** |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/afoteas/leet-code/tree/master/2137-final-value-of-variable-after-performing-operations) **Easy** |
-| [2409-count-days-spent-together](https://github.com/afoteas/leet-code/tree/master/2409-count-days-spent-together) |
+| [2409-count-days-spent-together](https://github.com/afoteas/leet-code/tree/master/2409-count-days-spent-together) **Easy** |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/afoteas/leet-code/tree/master/2494-sum-of-prefix-scores-of-strings) **Hard** |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/afoteas/leet-code/tree/master/2800-minimum-string-length-after-removing-substrings) **Easy** |
 | [3606-coupon-code-validator](https://github.com/afoteas/leet-code/tree/master/3606-coupon-code-validator) **Easy** |
@@ -383,7 +383,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1950-sign-of-the-product-of-an-array](https://github.com/afoteas/leet-code/tree/master/1950-sign-of-the-product-of-an-array) **Easy** |
 | [2288-count-operations-to-obtain-zero](https://github.com/afoteas/leet-code/tree/master/2288-count-operations-to-obtain-zero) **Easy** |
 | [2383-add-two-integers](https://github.com/afoteas/leet-code/tree/master/2383-add-two-integers) **Easy** |
-| [2409-count-days-spent-together](https://github.com/afoteas/leet-code/tree/master/2409-count-days-spent-together) |
+| [2409-count-days-spent-together](https://github.com/afoteas/leet-code/tree/master/2409-count-days-spent-together) **Easy** |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/afoteas/leet-code/tree/master/2903-insert-greatest-common-divisors-in-linked-list) **Medium** |
 | [3227-find-missing-and-repeated-values](https://github.com/afoteas/leet-code/tree/master/3227-find-missing-and-repeated-values) **Easy** |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/afoteas/leet-code/tree/master/3289-the-two-sneaky-numbers-of-digitville) **Easy** |
