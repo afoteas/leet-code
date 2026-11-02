@@ -1,4 +1,4 @@
-# Senior C++ Engineer Interview Study Guide
+# Senior C++ / Java Engineer Interview Study Guide
 
 ## **Tier 1: Must-Know (Core Fundamentals)**
 1. [Arrays, Strings, Hash Tables](01-arrays-strings-hashtables.md) - bread and butter
@@ -30,6 +30,14 @@
 23. [Const Correctness](23-const-correctness.md) - const methods, const&
 24. [Modern C++](24-modern-cpp.md) - lambdas, auto, ranges, concepts
 
+## **Tier 3b: Java Specific (Critical for Java roles)**
+36. [Java Collections Framework](36-java-collections.md) - `ArrayList`, `HashMap`, `TreeMap`, `PriorityQueue`, equals/hashCode
+37. [JVM Memory & Garbage Collection](37-java-memory-gc.md) - heap vs stack, GC generations, memory leaks
+38. [Java Concurrency](38-java-concurrency.md) - `synchronized`, `volatile`, JMM happens-before, `java.util.concurrent`
+39. [Java Generics](39-java-generics.md) - bounded types, wildcards, PECS, type erasure
+40. [Modern Java](40-modern-java.md) - lambdas, streams, `Optional`, records, pattern matching
+41. [Java OOP & Language Essentials](41-java-essentials.md) - interfaces vs abstract classes, exceptions, Strings, SOLID
+
 ## **Tier 4: Senior-Level Expectations**
 25. [System Design](25-system-design.md) - scalability, architecture, trade-offs
 26. [OOP Principles](26-oop-principles.md) - SOLID, design patterns
@@ -49,7 +57,7 @@
 
 ### Timeline
 - **Weeks 1-4:** Tier 1 (80% of interview problems)
-- **Weeks 5-6:** Tier 2 + Tier 3 (C++ specific)
+- **Weeks 5-6:** Tier 2 + Tier 3 (C++ specific) or Tier 3b (Java specific)
 - **Weeks 7-8:** Tier 4 (senior expectations) + practice real interviews
 - **Ongoing:** Solve 2-3 problems daily, mix easy/medium/hard
 
@@ -60,6 +68,13 @@ For C++ senior roles, expect more emphasis on:
 - System design and architecture
 - Code quality and maintainability
 
+### Focus Areas for Java Senior Roles
+For Java senior roles, expect more emphasis on:
+- Java language features and the Collections Framework
+- JVM internals: memory model, garbage collection, JIT basics
+- Concurrency: Java Memory Model, `java.util.concurrent`, thread pools
+- Modern Java idioms: streams, lambdas, generics, immutability
+
 ### Daily Practice Goals
 - **Easy problems:** Warm-up, testing edge cases
 - **Medium problems:** Core interview difficulty
@@ -68,7 +83,7 @@ For C++ senior roles, expect more emphasis on:
 ### Interview Preparation Checklist
 - [ ] Master Tier 1 topics
 - [ ] Complete Tier 2 topics
-- [ ] Deep dive into C++ specifics (Tier 3)
+- [ ] Deep dive into C++ specifics (Tier 3) and/or Java specifics (Tier 3b)
 - [ ] Practice system design questions
 - [ ] Mock interviews (at least 5)
 - [ ] Review C++ best practices and idioms
