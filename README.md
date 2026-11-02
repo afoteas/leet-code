@@ -248,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1803-average-waiting-time](https://github.com/afoteas/leet-code/tree/master/1803-average-waiting-time) **Medium** |
 | [1950-sign-of-the-product-of-an-array](https://github.com/afoteas/leet-code/tree/master/1950-sign-of-the-product-of-an-array) **Easy** |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/afoteas/leet-code/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) **Easy** |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/afoteas/leet-code/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [1980-find-unique-binary-string](https://github.com/afoteas/leet-code/tree/master/1980-find-unique-binary-string) **Medium** |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/afoteas/leet-code/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) **Easy** |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/afoteas/leet-code/tree/master/2006-find-the-student-that-will-replace-the-chalk) **Medium** |
@@ -381,6 +382,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1817-calculate-money-in-leetcode-bank](https://github.com/afoteas/leet-code/tree/master/1817-calculate-money-in-leetcode-bank) **Easy** |
 | [1925-count-square-sum-triples](https://github.com/afoteas/leet-code/tree/master/1925-count-square-sum-triples) **Easy** |
 | [1950-sign-of-the-product-of-an-array](https://github.com/afoteas/leet-code/tree/master/1950-sign-of-the-product-of-an-array) **Easy** |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/afoteas/leet-code/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2288-count-operations-to-obtain-zero](https://github.com/afoteas/leet-code/tree/master/2288-count-operations-to-obtain-zero) **Easy** |
 | [2383-add-two-integers](https://github.com/afoteas/leet-code/tree/master/2383-add-two-integers) **Easy** |
 | [2409-count-days-spent-together](https://github.com/afoteas/leet-code/tree/master/2409-count-days-spent-together) **Easy** |
@@ -886,6 +888,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Number Theory
 |  |
 | ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/afoteas/leet-code/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/afoteas/leet-code/tree/master/2903-insert-greatest-common-divisors-in-linked-list) **Medium** |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/afoteas/leet-code/tree/master/3658-gcd-of-odd-and-even-sums) **Easy** |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/afoteas/leet-code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) **Easy** |
@@ -955,4 +958,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0743-network-delay-time](https://github.com/afoteas/leet-code/tree/master/0743-network-delay-time) **Medium** |
 | [1971-find-if-path-exists-in-graph](https://github.com/afoteas/leet-code/tree/master/1971-find-if-path-exists-in-graph) **Easy** |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/afoteas/leet-code/tree/master/2492-minimum-score-of-a-path-between-two-cities) **Medium** |
+## Euclidean Algorithm
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/afoteas/leet-code/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Greatest Common Divisor
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/afoteas/leet-code/tree/master/1979-find-greatest-common-divisor-of-array) |
 <!---LeetCode Topics End-->
